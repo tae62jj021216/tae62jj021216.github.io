@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 830 360" width="830" height="360" role="img" aria-label="event_2025와 event_2026의 UNION(5행), INTERSECT(홍길동 1행), EXCEPT(이몽룡·심청 2행)를 색칠한 벤 다이어그램">
+<title>event_2025와 event_2026의 UNION(5행), INTERSECT(홍길동 1행), EXCEPT(이몽룡·심청 2행)를 색칠한 벤 다이어그램</title>
+<rect width="830" height="360" rx="12" fill="#ffffff"/>
+<text x="140" y="34" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="16" font-weight="700" fill="#2f5d8a" text-anchor="middle">UNION</text>
+<text x="140" y="54" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="400" fill="#616e7c" text-anchor="middle">합집합</text>
+<clipPath id="ca0"><circle cx="102.0" cy="150" r="66"/></clipPath>
+<clipPath id="cb0"><circle cx="178.0" cy="150" r="66"/></clipPath>
+<circle cx="102.0" cy="150" r="66" fill="#d3e2f1"/>
+<circle cx="178.0" cy="150" r="66" fill="#d3e2f1"/>
+<circle cx="102.0" cy="150" r="66" fill="none" stroke="#2f5d8a" stroke-width="1.6"/>
+<circle cx="178.0" cy="150" r="66" fill="none" stroke="#2f5d8a" stroke-width="1.6"/>
+<text x="84.0" y="74" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12" font-weight="400" fill="#616e7c" text-anchor="middle">event_2025</text>
+<text x="196.0" y="74" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12" font-weight="400" fill="#616e7c" text-anchor="middle">event_2026</text>
+<text x="74.0" y="134.0" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="700" fill="#1f2933" text-anchor="middle">이몽룡</text>
+<text x="74.0" y="149.0" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="11" font-weight="400" fill="#616e7c" text-anchor="middle">103</text>
+<text x="74.0" y="168.0" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="700" fill="#1f2933" text-anchor="middle">심청</text>
+<text x="74.0" y="183.0" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="11" font-weight="400" fill="#616e7c" text-anchor="middle">104</text>
+<text x="140" y="151.0" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="700" fill="#1f2933" text-anchor="middle">홍길동</text>
+<text x="140" y="166.0" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="11" font-weight="400" fill="#616e7c" text-anchor="middle">101</text>
+<text x="206.0" y="134.0" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="700" fill="#1f2933" text-anchor="middle">흥부</text>
+<text x="206.0" y="149.0" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="11" font-weight="400" fill="#616e7c" text-anchor="middle">105</text>
+<text x="206.0" y="168.0" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="700" fill="#1f2933" text-anchor="middle">콩쥐</text>
+<text x="206.0" y="183.0" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="11" font-weight="400" fill="#616e7c" text-anchor="middle">107</text>
+<rect x="15" y="246" width="250" height="34" rx="6" fill="#f7f9fb" stroke="#9aa5b1" stroke-width="1"/>
+<text x="140" y="268" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="700" fill="#1f2933" text-anchor="middle">101, 103, 104, 105, 107 (5행)</text>
+<text x="415" y="34" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="16" font-weight="700" fill="#2f5d8a" text-anchor="middle">INTERSECT</text>
+<text x="415" y="54" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="400" fill="#616e7c" text-anchor="middle">교집합</text>
+<clipPath id="ca1"><circle cx="377.0" cy="150" r="66"/></clipPath>
+<clipPath id="cb1"><circle cx="453.0" cy="150" r="66"/></clipPath>
+<circle cx="453.0" cy="150" r="66" fill="#d3e2f1" clip-path="url(#ca1)"/>
+<circle cx="377.0" cy="150" r="66" fill="none" stroke="#2f5d8a" stroke-width="1.6"/>
+<circle cx="453.0" cy="150" r="66" fill="none" stroke="#2f5d8a" stroke-width="1.6"/>
+<text x="359.0" y="74" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12" font-weight="400" fill="#616e7c" text-anchor="middle">event_2025</text>
+<text x="471.0" y="74" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12" font-weight="400" fill="#616e7c" text-anchor="middle">event_2026</text>
+<text x="349.0" y="134.0" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="400" fill="#cbd2d9" text-anchor="middle">이몽룡</text>
+<text x="349.0" y="149.0" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="11" font-weight="400" fill="#cbd2d9" text-anchor="middle">103</text>
+<text x="349.0" y="168.0" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="400" fill="#cbd2d9" text-anchor="middle">심청</text>
+<text x="349.0" y="183.0" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="11" font-weight="400" fill="#cbd2d9" text-anchor="middle">104</text>
+<text x="415" y="151.0" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="700" fill="#1f2933" text-anchor="middle">홍길동</text>
+<text x="415" y="166.0" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="11" font-weight="400" fill="#616e7c" text-anchor="middle">101</text>
+<text x="481.0" y="134.0" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="400" fill="#cbd2d9" text-anchor="middle">흥부</text>
+<text x="481.0" y="149.0" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="11" font-weight="400" fill="#cbd2d9" text-anchor="middle">105</text>
+<text x="481.0" y="168.0" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="400" fill="#cbd2d9" text-anchor="middle">콩쥐</text>
+<text x="481.0" y="183.0" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="11" font-weight="400" fill="#cbd2d9" text-anchor="middle">107</text>
+<rect x="290" y="246" width="250" height="34" rx="6" fill="#f7f9fb" stroke="#9aa5b1" stroke-width="1"/>
+<text x="415" y="268" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="700" fill="#1f2933" text-anchor="middle">101 홍길동 (1행)</text>
+<text x="690" y="34" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="16" font-weight="700" fill="#2f5d8a" text-anchor="middle">EXCEPT</text>
+<text x="690" y="54" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="400" fill="#616e7c" text-anchor="middle">차집합 (2025 − 2026)</text>
+<clipPath id="ca2"><circle cx="652.0" cy="150" r="66"/></clipPath>
+<clipPath id="cb2"><circle cx="728.0" cy="150" r="66"/></clipPath>
+<circle cx="652.0" cy="150" r="66" fill="#d3e2f1"/>
+<circle cx="728.0" cy="150" r="66" fill="#ffffff" clip-path="url(#ca2)"/>
+<circle cx="652.0" cy="150" r="66" fill="none" stroke="#2f5d8a" stroke-width="1.6"/>
+<circle cx="728.0" cy="150" r="66" fill="none" stroke="#2f5d8a" stroke-width="1.6"/>
+<text x="634.0" y="74" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12" font-weight="400" fill="#616e7c" text-anchor="middle">event_2025</text>
+<text x="746.0" y="74" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12" font-weight="400" fill="#616e7c" text-anchor="middle">event_2026</text>
+<text x="624.0" y="134.0" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="700" fill="#1f2933" text-anchor="middle">이몽룡</text>
+<text x="624.0" y="149.0" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="11" font-weight="400" fill="#616e7c" text-anchor="middle">103</text>
+<text x="624.0" y="168.0" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="700" fill="#1f2933" text-anchor="middle">심청</text>
+<text x="624.0" y="183.0" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="11" font-weight="400" fill="#616e7c" text-anchor="middle">104</text>
+<text x="690" y="151.0" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="400" fill="#cbd2d9" text-anchor="middle">홍길동</text>
+<text x="690" y="166.0" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="11" font-weight="400" fill="#cbd2d9" text-anchor="middle">101</text>
+<text x="756.0" y="134.0" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="400" fill="#cbd2d9" text-anchor="middle">흥부</text>
+<text x="756.0" y="149.0" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="11" font-weight="400" fill="#cbd2d9" text-anchor="middle">105</text>
+<text x="756.0" y="168.0" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="400" fill="#cbd2d9" text-anchor="middle">콩쥐</text>
+<text x="756.0" y="183.0" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="11" font-weight="400" fill="#cbd2d9" text-anchor="middle">107</text>
+<rect x="565" y="246" width="250" height="34" rx="6" fill="#f7f9fb" stroke="#9aa5b1" stroke-width="1"/>
+<text x="690" y="268" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="700" fill="#1f2933" text-anchor="middle">103 이몽룡, 104 심청 (2행)</text>
+<text x="140" y="306" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="400" fill="#c05621" text-anchor="middle">UNION ALL은 홍길동을 두 번 남긴다 (6행)</text>
+<text x="30" y="340" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="400" fill="#616e7c" text-anchor="start">색칠한 영역이 결과다. 홍길동(101)만 두 해 모두 참가했다.</text>
+</svg>

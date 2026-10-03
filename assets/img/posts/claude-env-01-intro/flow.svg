@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 430" width="860" height="430" role="img" aria-label="세션 흐름: 세션 시작, 작업, 대화 80%, /handoff, /clear를 거쳐 새 세션으로 돌아가고, 각 시점에 인수인계 붙이기, 도구 실행 직전 검사, 파일 수정 뒤 동기화, 압축 직전 백업 hook이 끼어들며 위키 볼트에 쓰고 읽는다">
+<title>세션 흐름: 세션 시작, 작업, 대화 80%, /handoff, /clear를 거쳐 새 세션으로 돌아가고, 각 시점에 인수인계 붙이기, 도구 실행 직전 검사, 파일 수정 뒤 동기화, 압축 직전 백업 hook이 끼어들며 위키 볼트에 쓰고 읽는다</title>
+<rect width="860" height="430" rx="12" fill="#ffffff"/>
+<text x="20" y="28" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="14" font-weight="700" fill="#1f2933" text-anchor="start">한 세션의 흐름과 hook이 끼어드는 시점</text>
+<rect x="30" y="70" width="140" height="44" rx="8" fill="#e8f0f8" stroke="#2f5d8a" stroke-width="1.5"/>
+<text x="100.0" y="97.0" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13.5" font-weight="700" fill="#1f2933" text-anchor="middle">세션 시작</text>
+<line x1="170" y1="92" x2="184.4" y2="92.0" stroke="#52606d" stroke-width="1.5"/>
+<path d="M190.0,92.0 L183.0,95.5 L183.0,88.5 z" fill="#52606d"/>
+<rect x="190" y="70" width="180" height="44" rx="8" fill="#e8f0f8" stroke="#2f5d8a" stroke-width="1.5"/>
+<text x="280.0" y="97.0" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13.5" font-weight="700" fill="#1f2933" text-anchor="middle">작업</text>
+<line x1="370" y1="92" x2="384.4" y2="92.0" stroke="#52606d" stroke-width="1.5"/>
+<path d="M390.0,92.0 L383.0,95.5 L383.0,88.5 z" fill="#52606d"/>
+<rect x="390" y="70" width="140" height="44" rx="8" fill="#e3f3ea" stroke="#2f855a" stroke-width="1.5"/>
+<text x="460.0" y="97.0" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13.5" font-weight="700" fill="#1f2933" text-anchor="middle">대화 80%</text>
+<line x1="530" y1="92" x2="534.4" y2="92.0" stroke="#52606d" stroke-width="1.5"/>
+<path d="M540.0,92.0 L533.0,95.5 L533.0,88.5 z" fill="#52606d"/>
+<rect x="540" y="70" width="140" height="44" rx="8" fill="#e8f0f8" stroke="#2f5d8a" stroke-width="1.5"/>
+<text x="610.0" y="97.0" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13.5" font-weight="700" fill="#1f2933" text-anchor="middle">/handoff</text>
+<line x1="680" y1="92" x2="674.4" y2="92.0" stroke="#52606d" stroke-width="1.5"/>
+<path d="M680.0,92.0 L673.0,95.5 L673.0,88.5 z" fill="#52606d"/>
+<rect x="680" y="70" width="140" height="44" rx="8" fill="#e8f0f8" stroke="#2f5d8a" stroke-width="1.5"/>
+<text x="750.0" y="97.0" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13.5" font-weight="700" fill="#1f2933" text-anchor="middle">/clear</text>
+<path d="M820,92 v60 H100 v-38" stroke="#2f5d8a" stroke-width="1.6" fill="none" stroke-dasharray="6 4"/>
+<line x1="100" y1="118" x2="100.0" y2="120.4" stroke="#2f5d8a" stroke-width="1.6"/>
+<path d="M100.0,114.0 L104.0,122.0 L96.0,122.0 z" fill="#2f5d8a"/>
+<text x="110" y="170" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11.5" font-weight="700" fill="#2f5d8a" text-anchor="start">새 세션으로 돌아감</text>
+<text x="110" y="186" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11" font-weight="400" fill="#2f5d8a" text-anchor="start">(/clear도 startup으로 온다)</text>
+<text x="30" y="204" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="700" fill="#c05621" text-anchor="start">hook (자동 실행)</text>
+<rect x="30" y="214" width="140" height="56" rx="8" fill="#fde8dd" stroke="#c05621" stroke-width="1.5"/>
+<text x="100.0" y="236" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="700" fill="#c05621" text-anchor="middle">인수인계 붙이기</text>
+<text x="100.0" y="256" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11.5" font-weight="400" fill="#616e7c" text-anchor="middle">같은 폴더·48시간·1건</text>
+<rect x="190" y="214" width="180" height="56" rx="8" fill="#fde8dd" stroke="#c05621" stroke-width="1.5"/>
+<text x="280.0" y="236" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="700" fill="#c05621" text-anchor="middle">도구 실행 직전</text>
+<text x="280.0" y="256" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11.5" font-weight="400" fill="#616e7c" text-anchor="middle">원본 보호 · git 확인</text>
+<rect x="190" y="280" width="180" height="56" rx="8" fill="#fde8dd" stroke="#c05621" stroke-width="1.5"/>
+<text x="280.0" y="302" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="700" fill="#c05621" text-anchor="middle">파일 수정 뒤</text>
+<text x="280.0" y="322" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11.5" font-weight="400" fill="#616e7c" text-anchor="middle">설정 파일만 커밋·push</text>
+<rect x="390" y="214" width="180" height="56" rx="8" fill="#fde8dd" stroke="#c05621" stroke-width="1.5"/>
+<text x="480.0" y="236" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="700" fill="#c05621" text-anchor="middle">압축 직전</text>
+<text x="480.0" y="256" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11.5" font-weight="400" fill="#616e7c" text-anchor="middle">비우지 않고 계속 쓰면 백업</text>
+<line x1="100" y1="114" x2="100" y2="214" stroke="#c05621" stroke-width="1.2" stroke-dasharray="3 3"/>
+<line x1="280" y1="114" x2="280" y2="214" stroke="#c05621" stroke-width="1.2" stroke-dasharray="3 3"/>
+<line x1="460" y1="114" x2="460" y2="214" stroke="#c05621" stroke-width="1.2" stroke-dasharray="3 3"/>
+<rect x="20" y="350" width="820" height="56" rx="8" fill="#eef1f4" stroke="#52606d" stroke-width="1.4"/>
+<text x="36" y="374" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13.5" font-weight="700" fill="#1f2933" text-anchor="start">위키 볼트</text>
+<text x="36" y="393" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11.5" font-weight="400" fill="#616e7c" text-anchor="start">커밋마다 비공개 저장소로 push</text>
+<text x="250" y="383" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="700" fill="#1f2933" text-anchor="start">결정 · 교훈 (save)</text>
+<text x="470" y="383" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="700" fill="#1f2933" text-anchor="start">자동백업/</text>
+<text x="620" y="383" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="700" fill="#1f2933" text-anchor="start">인수인계/ (handoff)</text>
+<line x1="610" y1="114" x2="678.4075562943782" y2="344.6311897924749" stroke="#2f5d8a" stroke-width="1.4"/>
+<path d="M680.0,350.0 L674.7,344.3 L681.4,342.3 z" fill="#2f5d8a"/>
+<line x1="460" y1="270" x2="497.4956038652002" y2="344.99120773040045" stroke="#c05621" stroke-width="1.4"/>
+<path d="M500.0,350.0 L493.7,345.3 L500.0,342.2 z" fill="#c05621"/>
+<line x1="120" y1="350" x2="101.35819950020347" y2="275.4327980008139" stroke="#2f5d8a" stroke-width="1.4"/>
+<path d="M100.0,270.0 L105.1,275.9 L98.3,277.6 z" fill="#2f5d8a"/>
+<text x="118" y="342" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11.5" font-weight="400" fill="#2f5d8a" text-anchor="start">읽기</text>
+</svg>

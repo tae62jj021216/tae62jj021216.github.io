@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 400" width="820" height="400" role="img" aria-label="한 SELECT 문의 SELECT 절(스칼라 서브쿼리), FROM 절(인라인 뷰), WHERE 절(중첩 서브쿼리)에 서브쿼리가 들어간 모습">
+<title>한 SELECT 문의 SELECT 절(스칼라 서브쿼리), FROM 절(인라인 뷰), WHERE 절(중첩 서브쿼리)에 서브쿼리가 들어간 모습</title>
+<rect width="820" height="400" rx="12" fill="#ffffff"/>
+<rect x="24" y="22" width="772" height="190" rx="8" fill="#f7f9fb" stroke="#9aa5b1" stroke-width="1"/>
+<rect x="93.39999999999999" y="76" width="303.2" height="28" rx="5" fill="#e8f0f8" stroke="#2f5d8a" stroke-width="1.6"/>
+<circle cx="93.39999999999999" cy="76" r="10" fill="#2f5d8a" stroke="#2f5d8a" stroke-width="1.5"/>
+<text x="93.39999999999999" y="80.5" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">①</text>
+<rect x="93.39999999999999" y="116" width="352.4" height="28" rx="5" fill="#e3f3ea" stroke="#2f855a" stroke-width="1.6"/>
+<circle cx="93.39999999999999" cy="116" r="10" fill="#2f855a" stroke="#2f855a" stroke-width="1.5"/>
+<text x="93.39999999999999" y="120.5" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">②</text>
+<rect x="159.0" y="156" width="426.2" height="28" rx="5" fill="#fde8dd" stroke="#c05621" stroke-width="1.6"/>
+<circle cx="159.0" cy="156" r="10" fill="#c05621" stroke="#c05621" stroke-width="1.5"/>
+<text x="159.0" y="160.5" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">③</text>
+<text x="40" y="56" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="14" font-weight="700" fill="#6b46c1" textLength="49.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve">SELECT</text>
+<text x="89.19999999999999" y="56" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="14" font-weight="400" fill="#1f2933" textLength="106.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> name, price,</text>
+<text x="40.0" y="96" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="14" font-weight="400" fill="#1f2933" textLength="442.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">       (SELECT ROUND(AVG(price)) FROM menu) AS avg_all</text>
+<text x="40" y="136" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="14" font-weight="700" fill="#6b46c1" textLength="32.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">FROM</text>
+<text x="72.8" y="136" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="14" font-weight="400" fill="#1f2933" textLength="451.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">   (SELECT * FROM menu WHERE category_id = 4) AS coffee</text>
+<text x="40" y="176" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="14" font-weight="700" fill="#6b46c1" textLength="41.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">WHERE</text>
+<text x="81.0" y="176" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="14" font-weight="400" fill="#1f2933" textLength="508.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">  price &gt; (SELECT MIN(price) FROM menu WHERE category_id = 4);</text>
+<text x="60" y="230" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="700" fill="#616e7c" text-anchor="start"></text>
+<text x="100" y="230" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="700" fill="#616e7c" text-anchor="start">위치</text>
+<text x="210" y="230" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="700" fill="#616e7c" text-anchor="start">이름</text>
+<text x="360" y="230" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="700" fill="#616e7c" text-anchor="start">하는 일</text>
+<text x="560" y="230" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="700" fill="#616e7c" text-anchor="start">이 예제에서</text>
+<circle cx="70" cy="257" r="10" fill="#2f5d8a" stroke="#2f5d8a" stroke-width="1.5"/>
+<text x="70" y="261.5" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">①</text>
+<text x="100" y="262" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13.5" font-weight="700" fill="#1f2933" text-anchor="start">SELECT 절</text>
+<text x="210" y="262" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13.5" font-weight="700" fill="#2f5d8a" text-anchor="start">스칼라 서브쿼리</text>
+<text x="360" y="262" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="400" fill="#1f2933" text-anchor="start">값 하나를 돌려준다</text>
+<text x="560" y="262" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13" font-weight="400" fill="#1f2933" text-anchor="start">5136</text>
+<circle cx="70" cy="291" r="10" fill="#2f855a" stroke="#2f855a" stroke-width="1.5"/>
+<text x="70" y="295.5" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">②</text>
+<text x="100" y="296" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13.5" font-weight="700" fill="#1f2933" text-anchor="start">FROM 절</text>
+<text x="210" y="296" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13.5" font-weight="700" fill="#2f855a" text-anchor="start">인라인 뷰</text>
+<text x="360" y="296" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="400" fill="#1f2933" text-anchor="start">테이블처럼 쓴다</text>
+<text x="560" y="296" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="400" fill="#1f2933" text-anchor="start">커피 메뉴 3행</text>
+<circle cx="70" cy="325" r="10" fill="#c05621" stroke="#c05621" stroke-width="1.5"/>
+<text x="70" y="329.5" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">③</text>
+<text x="100" y="330" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13.5" font-weight="700" fill="#1f2933" text-anchor="start">WHERE 절</text>
+<text x="210" y="330" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13.5" font-weight="700" fill="#c05621" text-anchor="start">중첩 서브쿼리</text>
+<text x="360" y="330" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="400" fill="#1f2933" text-anchor="start">비교할 값(또는 목록)</text>
+<text x="560" y="330" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13" font-weight="400" fill="#1f2933" text-anchor="start">4500</text>
+<line x1="50" y1="240" x2="780" y2="240" stroke="#cbd2d9" stroke-width="1"/>
+<text x="40" y="384" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="400" fill="#616e7c" text-anchor="start">결과: 카페라떼 5000, 바닐라라떼 5500 (avg_all은 두 행 모두 5136)</text>
+</svg>

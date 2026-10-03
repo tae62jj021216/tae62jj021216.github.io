@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 500" width="840" height="500" role="img" aria-label="시스템 구조: GCS, 공격기, UAV 노드, PX4, 기체로 이어지는 경로와 UAV 노드 안의 탐지·대응 흐름">
+<title>시스템 구조: GCS, 공격기, UAV 노드, PX4, 기체로 이어지는 경로와 UAV 노드 안의 탐지·대응 흐름</title>
+<rect width="840" height="500" rx="12" fill="#ffffff"/>
+<rect x="20" y="30" width="120" height="58" rx="8" fill="#f7f9fb" stroke="#9aa5b1" stroke-width="1.2"/>
+<text x="80.0" y="56.0" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="14" font-weight="700" fill="#1f2933" text-anchor="middle">GCS</text>
+<text x="80.0" y="75.0" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12" font-weight="400" fill="#616e7c" text-anchor="middle">정상 명령</text>
+<rect x="180" y="30" width="130" height="58" rx="8" fill="#fde8dd" stroke="#c05621" stroke-width="1.6"/>
+<text x="245.0" y="56.0" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="14" font-weight="700" fill="#c05621" text-anchor="middle">공격기</text>
+<text x="245.0" y="75.0" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12" font-weight="400" fill="#616e7c" text-anchor="middle">통과 + 주입</text>
+<rect x="350" y="30" width="150" height="58" rx="8" fill="#e8f0f8" stroke="#2f5d8a" stroke-width="1.6"/>
+<text x="425.0" y="56.0" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="14" font-weight="700" fill="#1f2933" text-anchor="middle">UAV 노드</text>
+<text x="425.0" y="75.0" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12" font-weight="400" fill="#616e7c" text-anchor="middle">탐지·대응 판단</text>
+<rect x="540" y="30" width="120" height="58" rx="8" fill="#eef1f4" stroke="#52606d" stroke-width="1.6"/>
+<text x="600.0" y="56.0" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="14" font-weight="700" fill="#1f2933" text-anchor="middle">PX4</text>
+<text x="600.0" y="75.0" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12" font-weight="400" fill="#616e7c" text-anchor="middle">모드 실행</text>
+<rect x="700" y="30" width="120" height="58" rx="8" fill="#f7f9fb" stroke="#9aa5b1" stroke-width="1.2"/>
+<text x="760.0" y="56.0" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="14" font-weight="700" fill="#1f2933" text-anchor="middle">기체</text>
+<text x="760.0" y="75.0" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12" font-weight="400" fill="#616e7c" text-anchor="middle">Gazebo</text>
+<line x1="140" y1="59.0" x2="173.6" y2="59.0" stroke="#52606d" stroke-width="1.6"/>
+<path d="M180.0,59.0 L172.0,63.0 L172.0,55.0 z" fill="#52606d"/>
+<line x1="310" y1="59.0" x2="343.6" y2="59.0" stroke="#c05621" stroke-width="2"/>
+<path d="M350.0,59.0 L342.0,63.0 L342.0,55.0 z" fill="#c05621"/>
+<line x1="500" y1="59.0" x2="533.6" y2="59.0" stroke="#2f5d8a" stroke-width="2"/>
+<path d="M540.0,59.0 L532.0,63.0 L532.0,55.0 z" fill="#2f5d8a"/>
+<line x1="660" y1="59.0" x2="693.6" y2="59.0" stroke="#52606d" stroke-width="1.6"/>
+<path d="M700.0,59.0 L692.0,63.0 L692.0,55.0 z" fill="#52606d"/>
+<path d="M600,88 V110 H445" stroke="#2f855a" stroke-width="1.6" fill="none"/>
+<line x1="445" y1="110" x2="445.0" y2="97.4" stroke="#2f855a" stroke-width="1.6"/>
+<path d="M445.0,91.0 L449.0,99.0 L441.0,99.0 z" fill="#2f855a"/>
+<text x="525" y="127" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12" font-weight="400" fill="#2f855a" text-anchor="middle">텔레메트리</text>
+<line x1="350" y1="88" x2="20" y2="136" stroke="#2f5d8a" stroke-width="1" stroke-dasharray="4 4"/>
+<line x1="500" y1="88" x2="820" y2="136" stroke="#2f5d8a" stroke-width="1" stroke-dasharray="4 4"/>
+<rect x="20" y="136" width="800" height="344" rx="10" fill="#ffffff" stroke="#2f5d8a" stroke-width="1.4"/>
+<text x="36" y="162" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="14" font-weight="700" fill="#2f5d8a" text-anchor="start">UAV 노드 안</text>
+<rect x="40" y="188" width="170" height="92" rx="8" fill="#f7f9fb" stroke="#9aa5b1" stroke-width="1.2"/>
+<text x="125.0" y="239.0" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="14.5" font-weight="700" fill="#1f2933" text-anchor="middle"></text>
+<text x="56" y="212" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13.5" font-weight="700" fill="#1f2933" text-anchor="start">수신 메시지</text>
+<text x="56" y="234" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12" font-weight="400" fill="#616e7c" text-anchor="start">Sequence 번호</text>
+<text x="56" y="252" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12" font-weight="400" fill="#616e7c" text-anchor="start">같은 명령 반복</text>
+<text x="56" y="270" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12" font-weight="400" fill="#616e7c" text-anchor="start">도착 빈도 · 명령 값</text>
+<rect x="40" y="304" width="170" height="76" rx="8" fill="#f7f9fb" stroke="#9aa5b1" stroke-width="1.2"/>
+<text x="125.0" y="347.0" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="14.5" font-weight="700" fill="#1f2933" text-anchor="middle"></text>
+<text x="56" y="328" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13.5" font-weight="700" fill="#2f855a" text-anchor="start">텔레메트리</text>
+<text x="56" y="350" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12" font-weight="400" fill="#616e7c" text-anchor="start">실제 위치·속도와</text>
+<text x="56" y="368" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12" font-weight="400" fill="#616e7c" text-anchor="start">기준 경로의 차이</text>
+<rect x="290" y="192" width="150" height="44" rx="6" fill="#fde8dd" stroke="#c05621" stroke-width="1.4"/>
+<text x="365.0" y="219" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13.5" font-weight="700" fill="#c05621" text-anchor="middle">Replay 탐지</text>
+<line x1="210" y1="234" x2="285.34331599930243" y2="215.1641710001744" stroke="#52606d" stroke-width="1.2"/>
+<path d="M290.0,214.0 L284.9,218.4 L283.5,212.5 z" fill="#52606d"/>
+<rect x="290" y="256" width="150" height="44" rx="6" fill="#fde8dd" stroke="#c05621" stroke-width="1.4"/>
+<text x="365.0" y="283" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13.5" font-weight="700" fill="#c05621" text-anchor="middle">Flood 탐지</text>
+<line x1="210" y1="234" x2="285.7941636383521" y2="275.68679000109364" stroke="#52606d" stroke-width="1.2"/>
+<path d="M290.0,278.0 L283.3,277.7 L286.2,272.5 z" fill="#52606d"/>
+<rect x="290" y="320" width="150" height="44" rx="6" fill="#fde8dd" stroke="#c05621" stroke-width="1.4"/>
+<text x="365.0" y="347" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13.5" font-weight="700" fill="#c05621" text-anchor="middle">Range 탐지</text>
+<line x1="210" y1="234" x2="287.14290775699646" y2="338.1429254719452" stroke="#52606d" stroke-width="1.2"/>
+<path d="M290.0,342.0 L284.0,339.0 L288.8,335.4 z" fill="#52606d"/>
+<path d="M276,196 V364" stroke="#2f855a" stroke-width="1.4" fill="none"/>
+<line x1="210" y1="342" x2="271.2" y2="342.0" stroke="#2f855a" stroke-width="1.4"/>
+<path d="M276.0,342.0 L270.0,345.0 L270.0,339.0 z" fill="#2f855a"/>
+<text x="365.0" y="408" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12" font-weight="400" fill="#616e7c" text-anchor="middle">점수 + 지속성 확인 → 확정</text>
+<rect x="510" y="208" width="140" height="120" rx="8" fill="#e8f0f8" stroke="#2f5d8a" stroke-width="1.6"/>
+<text x="580.0" y="238" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="14" font-weight="700" fill="#1f2933" text-anchor="middle">대응 선택</text>
+<text x="580.0" y="266" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12" font-weight="700" fill="#2f5d8a" text-anchor="middle">LAND &gt; RTH &gt; HOLD</text>
+<text x="580.0" y="288" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12" font-weight="400" fill="#616e7c" text-anchor="middle">한 번 켜지면 유지,</text>
+<text x="580.0" y="306" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12" font-weight="400" fill="#616e7c" text-anchor="middle">올리기만 한다</text>
+<line x1="440" y1="214" x2="505.4594594594595" y2="236.44324324324324" stroke="#52606d" stroke-width="1.2"/>
+<path d="M510.0,238.0 L503.4,238.9 L505.3,233.2 z" fill="#52606d"/>
+<line x1="440" y1="278" x2="505.2482424304264" y2="268.6788225099391" stroke="#52606d" stroke-width="1.2"/>
+<path d="M510.0,268.0 L504.5,271.8 L503.6,265.9 z" fill="#52606d"/>
+<line x1="440" y1="342" x2="505.9361445637872" y2="300.55442341704804" stroke="#52606d" stroke-width="1.2"/>
+<path d="M510.0,298.0 L506.5,303.7 L503.3,298.7 z" fill="#52606d"/>
+<rect x="700" y="202" width="104" height="40" rx="6" fill="#ffffff" stroke="#2f5d8a" stroke-width="1.3"/>
+<text x="752" y="220" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13.5" font-weight="700" fill="#2f5d8a" text-anchor="middle">HOLD</text>
+<text x="752" y="235" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11" font-weight="400" fill="#616e7c" text-anchor="middle">제자리 유지</text>
+<rect x="700" y="254" width="104" height="40" rx="6" fill="#ffffff" stroke="#2f5d8a" stroke-width="1.3"/>
+<text x="752" y="272" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13.5" font-weight="700" fill="#2f5d8a" text-anchor="middle">RTH</text>
+<text x="752" y="287" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11" font-weight="400" fill="#616e7c" text-anchor="middle">Home 복귀</text>
+<rect x="700" y="306" width="104" height="40" rx="6" fill="#ffffff" stroke="#2f5d8a" stroke-width="1.3"/>
+<text x="752" y="324" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13.5" font-weight="700" fill="#2f5d8a" text-anchor="middle">LAND</text>
+<text x="752" y="339" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11" font-weight="400" fill="#616e7c" text-anchor="middle">착륙</text>
+<line x1="650" y1="268.0" x2="695.8787863341338" y2="225.79151657259695" stroke="#2f5d8a" stroke-width="1.4"/>
+<path d="M700.0,222.0 L697.2,229.3 L692.5,224.2 z" fill="#2f5d8a"/>
+<line x1="650" y1="268.0" x2="694.4398897044732" y2="273.33278676453676" stroke="#2f5d8a" stroke-width="1.4"/>
+<path d="M700.0,274.0 L692.6,276.6 L693.5,269.7 z" fill="#2f5d8a"/>
+<line x1="650" y1="268.0" x2="696.343538116411" y2="321.7585042150368" stroke="#2f5d8a" stroke-width="1.4"/>
+<path d="M700.0,326.0 L692.8,323.0 L698.1,318.4 z" fill="#2f5d8a"/>
+<text x="36" y="460" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="400" fill="#616e7c" text-anchor="start">Replay → HOLD · Range → RTH · Flood → LAND. 선택한 모드는 PX4로 보낸다.</text>
+</svg>

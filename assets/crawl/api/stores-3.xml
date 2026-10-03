@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+  <header>
+    <resultCode>00</resultCode>
+    <resultMsg>NORMAL SERVICE.</resultMsg>
+  </header>
+  <body>
+    <items>
+      <item><storeId>S021</storeId><storeNm>가상카페 유성구 2호점</storeNm><sido>대전광역시</sido><gugun>유성구</gugun><addr>대전광역시 유성구 연습로 73</addr><seats>47</seats><driveThru>N</driveThru><openDate>2023-10-08</openDate></item>
+      <item><storeId>S022</storeId><storeNm>가상카페 서구 1호점</storeNm><sido>대전광역시</sido><gugun>서구</gugun><addr>대전광역시 서구 연습로 76</addr><seats>54</seats><driveThru>N</driveThru><openDate>2024-11-11</openDate></item>
+      <item><storeId>S023</storeId><storeNm>가상카페 서구 2호점</storeNm><sido>대전광역시</sido><gugun>서구</gugun><addr>대전광역시 서구 연습로 79</addr><seats>21</seats><driveThru>N</driveThru><openDate>2025-12-14</openDate></item>
+    </items>
+    <numOfRows>10</numOfRows>
+    <pageNo>3</pageNo>
+    <totalCount>23</totalCount>
+  </body>
+</response>

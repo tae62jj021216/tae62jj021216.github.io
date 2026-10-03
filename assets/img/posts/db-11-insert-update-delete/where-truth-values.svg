@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 830 312" width="830" height="312" role="img" aria-label="③ UPDATE WHERE qty &lt; 10과 ④ DELETE WHERE qty &lt; 15에서 행마다 조건이 TRUE, FALSE, UNKNOWN 중 무엇인지와 결과. 시럽은 NULL이라 두 번 다 UNKNOWN으로 남는다">
+<title>③ UPDATE WHERE qty &lt; 10과 ④ DELETE WHERE qty &lt; 15에서 행마다 조건이 TRUE, FALSE, UNKNOWN 중 무엇인지와 결과. 시럽은 NULL이라 두 번 다 UNKNOWN으로 남는다</title>
+<rect width="830" height="312" rx="12" fill="#ffffff"/>
+<text x="30" y="32" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="14" font-weight="700" fill="#1f2933" text-anchor="start">③</text>
+<text x="50" y="32" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13" font-weight="700" fill="#1f2933" text-anchor="start">UPDATE stock SET qty = qty + 10</text>
+<text x="50" y="52" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13" font-weight="700" fill="#2f5d8a" text-anchor="start">WHERE qty &lt; 10</text>
+<rect x="30" y="70" width="370" height="28" rx="0" fill="#2f5d8a"/>
+<text x="65.0" y="89" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="700" fill="#ffffff" text-anchor="middle">item</text>
+<text x="135.0" y="89" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="700" fill="#ffffff" text-anchor="middle">qty</text>
+<text x="230.0" y="89" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="700" fill="#ffffff" text-anchor="middle">조건</text>
+<text x="345.0" y="89" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="700" fill="#ffffff" text-anchor="middle">결과</text>
+<rect x="30" y="98" width="370" height="40" rx="0" fill="#fde8dd"/>
+<text x="65" y="123" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13.5" font-weight="700" fill="#1f2933" text-anchor="middle">시럽</text>
+<text x="135" y="123" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13.5" font-weight="400" fill="#c05621" text-anchor="middle">NULL</text>
+<rect x="194.4" y="107" width="71.19999999999999" height="22" rx="11" fill="#fde8dd" stroke="#c05621" stroke-width="1.1"/>
+<text x="230" y="122.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12" font-weight="700" fill="#c05621" text-anchor="middle">UNKNOWN</text>
+<text x="345" y="123" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13.5" font-weight="700" fill="#616e7c" text-anchor="middle">그대로</text>
+<rect x="30" y="138" width="370" height="40" rx="0" fill="#f7f9fb"/>
+<text x="65" y="163" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13.5" font-weight="700" fill="#1f2933" text-anchor="middle">우유</text>
+<text x="135" y="163" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13.5" font-weight="400" fill="#1f2933" text-anchor="middle">4</text>
+<rect x="205.8" y="147" width="48.4" height="22" rx="11" fill="#e3f3ea" stroke="#2f855a" stroke-width="1.1"/>
+<text x="230" y="162.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12" font-weight="700" fill="#2f855a" text-anchor="middle">TRUE</text>
+<text x="345" y="163" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13.5" font-weight="700" fill="#2f855a" text-anchor="middle">14</text>
+<rect x="30" y="178" width="370" height="40" rx="0" fill="#ffffff"/>
+<text x="65" y="203" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13.5" font-weight="700" fill="#1f2933" text-anchor="middle">원두</text>
+<text x="135" y="203" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13.5" font-weight="400" fill="#1f2933" text-anchor="middle">12</text>
+<rect x="202.0" y="187" width="56.0" height="22" rx="11" fill="#eef1f4" stroke="#616e7c" stroke-width="1.1"/>
+<text x="230" y="202.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12" font-weight="700" fill="#616e7c" text-anchor="middle">FALSE</text>
+<text x="345" y="203" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13.5" font-weight="700" fill="#616e7c" text-anchor="middle">그대로</text>
+<rect x="30" y="218" width="370" height="40" rx="0" fill="#f7f9fb"/>
+<text x="65" y="243" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13.5" font-weight="700" fill="#1f2933" text-anchor="middle">컵</text>
+<text x="135" y="243" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13.5" font-weight="400" fill="#1f2933" text-anchor="middle">30</text>
+<rect x="202.0" y="227" width="56.0" height="22" rx="11" fill="#eef1f4" stroke="#616e7c" stroke-width="1.1"/>
+<text x="230" y="242.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12" font-weight="700" fill="#616e7c" text-anchor="middle">FALSE</text>
+<text x="345" y="243" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13.5" font-weight="700" fill="#616e7c" text-anchor="middle">그대로</text>
+<rect x="30" y="70" width="370" height="188" rx="0" fill="none" stroke="#9aa5b1" stroke-width="1"/>
+<text x="430" y="32" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="14" font-weight="700" fill="#1f2933" text-anchor="start">④</text>
+<text x="450" y="32" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13" font-weight="700" fill="#1f2933" text-anchor="start">DELETE FROM stock</text>
+<text x="450" y="52" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13" font-weight="700" fill="#2f5d8a" text-anchor="start">WHERE qty &lt; 15</text>
+<rect x="430" y="70" width="370" height="28" rx="0" fill="#2f5d8a"/>
+<text x="465.0" y="89" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="700" fill="#ffffff" text-anchor="middle">item</text>
+<text x="535.0" y="89" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="700" fill="#ffffff" text-anchor="middle">qty</text>
+<text x="630.0" y="89" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="700" fill="#ffffff" text-anchor="middle">조건</text>
+<text x="745.0" y="89" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="700" fill="#ffffff" text-anchor="middle">결과</text>
+<rect x="430" y="98" width="370" height="40" rx="0" fill="#fde8dd"/>
+<text x="465" y="123" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13.5" font-weight="700" fill="#1f2933" text-anchor="middle">시럽</text>
+<text x="535" y="123" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13.5" font-weight="400" fill="#c05621" text-anchor="middle">NULL</text>
+<rect x="594.4" y="107" width="71.19999999999999" height="22" rx="11" fill="#fde8dd" stroke="#c05621" stroke-width="1.1"/>
+<text x="630" y="122.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12" font-weight="700" fill="#c05621" text-anchor="middle">UNKNOWN</text>
+<text x="745" y="123" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13.5" font-weight="700" fill="#616e7c" text-anchor="middle">남음</text>
+<rect x="430" y="138" width="370" height="40" rx="0" fill="#f7f9fb"/>
+<text x="465" y="163" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13.5" font-weight="700" fill="#1f2933" text-anchor="middle">우유</text>
+<text x="535" y="163" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13.5" font-weight="400" fill="#1f2933" text-anchor="middle">14</text>
+<rect x="605.8" y="147" width="48.4" height="22" rx="11" fill="#e3f3ea" stroke="#2f855a" stroke-width="1.1"/>
+<text x="630" y="162.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12" font-weight="700" fill="#2f855a" text-anchor="middle">TRUE</text>
+<rect x="723.0" y="147" width="44" height="22" rx="11" fill="#fbe4e4" stroke="#c53030" stroke-width="1.1"/>
+<text x="745" y="162.5" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12" font-weight="700" fill="#c53030" text-anchor="middle">삭제</text>
+<rect x="430" y="178" width="370" height="40" rx="0" fill="#ffffff"/>
+<text x="465" y="203" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13.5" font-weight="700" fill="#1f2933" text-anchor="middle">원두</text>
+<text x="535" y="203" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13.5" font-weight="400" fill="#1f2933" text-anchor="middle">12</text>
+<rect x="605.8" y="187" width="48.4" height="22" rx="11" fill="#e3f3ea" stroke="#2f855a" stroke-width="1.1"/>
+<text x="630" y="202.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12" font-weight="700" fill="#2f855a" text-anchor="middle">TRUE</text>
+<rect x="723.0" y="187" width="44" height="22" rx="11" fill="#fbe4e4" stroke="#c53030" stroke-width="1.1"/>
+<text x="745" y="202.5" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12" font-weight="700" fill="#c53030" text-anchor="middle">삭제</text>
+<rect x="430" y="218" width="370" height="40" rx="0" fill="#f7f9fb"/>
+<text x="465" y="243" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13.5" font-weight="700" fill="#1f2933" text-anchor="middle">컵</text>
+<text x="535" y="243" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13.5" font-weight="400" fill="#1f2933" text-anchor="middle">30</text>
+<rect x="602.0" y="227" width="56.0" height="22" rx="11" fill="#eef1f4" stroke="#616e7c" stroke-width="1.1"/>
+<text x="630" y="242.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12" font-weight="700" fill="#616e7c" text-anchor="middle">FALSE</text>
+<text x="745" y="243" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13.5" font-weight="700" fill="#616e7c" text-anchor="middle">남음</text>
+<rect x="430" y="70" width="370" height="188" rx="0" fill="none" stroke="#9aa5b1" stroke-width="1"/>
+<text x="30" y="290" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13.5" font-weight="700" fill="#c05621" text-anchor="start">WHERE는 TRUE인 행만 고른다. 시럽은 두 번 다 UNKNOWN이라 끝까지 남는다.</text>
+</svg>

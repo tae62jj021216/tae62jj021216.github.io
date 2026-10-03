@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 830 466" width="830" height="466" role="img" aria-label="member의 city가 region으로 바뀌어도 뷰 정의만 region AS city로 고치면 응용 프로그램의 쿼리는 그대로인 논리적 데이터 독립성">
+<title>member의 city가 region으로 바뀌어도 뷰 정의만 region AS city로 고치면 응용 프로그램의 쿼리는 그대로인 논리적 데이터 독립성</title>
+<rect width="830" height="466" rx="12" fill="#ffffff"/>
+<text x="30" y="34" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="14.5" font-weight="700" fill="#1f2933" text-anchor="start">변경 전</text>
+<rect x="30" y="52" width="360" height="78" rx="8" fill="#f7f9fb" stroke="#9aa5b1" stroke-width="1"/>
+<text x="44" y="74" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="700" fill="#616e7c" text-anchor="start">응용 프로그램</text>
+<text x="44" y="98" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12.5" font-weight="400" fill="#1f2933" textLength="278.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve">SELECT name, city FROM v_member_public</text>
+<text x="44" y="118" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12.5" font-weight="400" fill="#1f2933" textLength="161.1" lengthAdjust="spacingAndGlyphs" xml:space="preserve">WHERE member_id = 101;</text>
+<line x1="210" y1="136" x2="210.0" y2="159.6" stroke="#9aa5b1" stroke-width="1.6"/>
+<path d="M210.0,166.0 L206.0,158.0 L214.0,158.0 z" fill="#9aa5b1"/>
+<rect x="30" y="172" width="360" height="100" rx="8" fill="#e8f0f8" stroke="#2f5d8a" stroke-width="1.4"/>
+<text x="44" y="194" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="700" fill="#2f5d8a" text-anchor="start">뷰 v_member_public  (외부 스키마)</text>
+<text x="44" y="220" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12.5" font-weight="400" fill="#1f2933" textLength="219.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve">SELECT member_id, name, grade,</text>
+<text x="44" y="242" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12.5" font-weight="400" fill="#1f2933" textLength="80.5" lengthAdjust="spacingAndGlyphs" xml:space="preserve">       city</text>
+<text x="44" y="264" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12.5" font-weight="400" fill="#1f2933" textLength="80.5" lengthAdjust="spacingAndGlyphs" xml:space="preserve">FROM member</text>
+<line x1="210" y1="278" x2="210.0" y2="301.6" stroke="#9aa5b1" stroke-width="1.6"/>
+<path d="M210.0,308.0 L206.0,300.0 L214.0,300.0 z" fill="#9aa5b1"/>
+<rect x="30" y="314" width="360" height="92" rx="8" fill="#f7f9fb" stroke="#9aa5b1" stroke-width="1"/>
+<text x="44" y="336" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="700" fill="#616e7c" text-anchor="start">기본 테이블 member  (개념 스키마)</text>
+<rect x="44" y="352" width="76.8" height="26" rx="4" fill="#ffffff" stroke="#9aa5b1" stroke-width="1.2"/>
+<text x="82.4" y="370" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12.5" font-weight="400" fill="#1f2933" text-anchor="middle">member_id</text>
+<rect x="125.8" y="352" width="40.8" height="26" rx="4" fill="#ffffff" stroke="#9aa5b1" stroke-width="1.2"/>
+<text x="146.2" y="370" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12.5" font-weight="400" fill="#1f2933" text-anchor="middle">name</text>
+<rect x="171.6" y="352" width="48.0" height="26" rx="4" fill="#ffffff" stroke="#9aa5b1" stroke-width="1.2"/>
+<text x="195.6" y="370" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12.5" font-weight="400" fill="#1f2933" text-anchor="middle">grade</text>
+<rect x="224.6" y="352" width="40.8" height="26" rx="4" fill="#ffffff" stroke="#9aa5b1" stroke-width="1.2"/>
+<text x="245.0" y="370" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12.5" font-weight="400" fill="#1f2933" text-anchor="middle">city</text>
+<rect x="270.4" y="352" width="48.0" height="26" rx="4" fill="#ffffff" stroke="#9aa5b1" stroke-width="1.2"/>
+<text x="294.4" y="370" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12.5" font-weight="400" fill="#1f2933" text-anchor="middle">phone</text>
+<rect x="323.4" y="352" width="19.2" height="26" rx="4" fill="#ffffff" stroke="#9aa5b1" stroke-width="1.2"/>
+<text x="333.0" y="370" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12.5" font-weight="400" fill="#1f2933" text-anchor="middle">…</text>
+<text x="440" y="34" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="14.5" font-weight="700" fill="#c05621" text-anchor="start">ALTER TABLE 뒤 · 뷰 정의만 고침</text>
+<rect x="440" y="52" width="360" height="78" rx="8" fill="#f7f9fb" stroke="#9aa5b1" stroke-width="1"/>
+<text x="454" y="74" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="700" fill="#616e7c" text-anchor="start">응용 프로그램</text>
+<text x="454" y="98" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12.5" font-weight="400" fill="#1f2933" textLength="278.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve">SELECT name, city FROM v_member_public</text>
+<text x="454" y="118" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12.5" font-weight="400" fill="#1f2933" textLength="161.1" lengthAdjust="spacingAndGlyphs" xml:space="preserve">WHERE member_id = 101;</text>
+<text x="786" y="74" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="700" fill="#2f855a" text-anchor="end">그대로</text>
+<line x1="620" y1="136" x2="620.0" y2="159.6" stroke="#9aa5b1" stroke-width="1.6"/>
+<path d="M620.0,166.0 L616.0,158.0 L624.0,158.0 z" fill="#9aa5b1"/>
+<rect x="440" y="172" width="360" height="100" rx="8" fill="#fde8dd" stroke="#c05621" stroke-width="1.4"/>
+<text x="454" y="194" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="700" fill="#c05621" text-anchor="start">뷰 v_member_public  (외부 스키마)</text>
+<text x="454" y="220" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12.5" font-weight="400" fill="#1f2933" textLength="219.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve">SELECT member_id, name, grade,</text>
+<text x="454" y="242" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12.5" font-weight="700" fill="#c05621" textLength="234.3" lengthAdjust="spacingAndGlyphs" xml:space="preserve">       region AS city, joined_on</text>
+<text x="454" y="264" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12.5" font-weight="400" fill="#1f2933" textLength="80.5" lengthAdjust="spacingAndGlyphs" xml:space="preserve">FROM member</text>
+<text x="786" y="194" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="700" fill="#c05621" text-anchor="end">고침</text>
+<line x1="620" y1="278" x2="620.0" y2="301.6" stroke="#9aa5b1" stroke-width="1.6"/>
+<path d="M620.0,308.0 L616.0,300.0 L624.0,300.0 z" fill="#9aa5b1"/>
+<rect x="440" y="314" width="360" height="92" rx="8" fill="#f7f9fb" stroke="#9aa5b1" stroke-width="1"/>
+<text x="454" y="336" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="700" fill="#616e7c" text-anchor="start">기본 테이블 member  (개념 스키마)</text>
+<rect x="454" y="352" width="76.8" height="26" rx="4" fill="#ffffff" stroke="#9aa5b1" stroke-width="1.2"/>
+<text x="492.4" y="370" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12.5" font-weight="400" fill="#1f2933" text-anchor="middle">member_id</text>
+<rect x="535.8" y="352" width="40.8" height="26" rx="4" fill="#ffffff" stroke="#9aa5b1" stroke-width="1.2"/>
+<text x="556.1999999999999" y="370" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12.5" font-weight="400" fill="#1f2933" text-anchor="middle">name</text>
+<rect x="581.5999999999999" y="352" width="48.0" height="26" rx="4" fill="#ffffff" stroke="#9aa5b1" stroke-width="1.2"/>
+<text x="605.5999999999999" y="370" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12.5" font-weight="400" fill="#1f2933" text-anchor="middle">grade</text>
+<rect x="634.5999999999999" y="352" width="55.2" height="26" rx="4" fill="#fde8dd" stroke="#c05621" stroke-width="1.2"/>
+<text x="662.1999999999999" y="370" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12.5" font-weight="700" fill="#c05621" text-anchor="middle">region</text>
+<rect x="694.8" y="352" width="48.0" height="26" rx="4" fill="#ffffff" stroke="#9aa5b1" stroke-width="1.2"/>
+<text x="718.8" y="370" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12.5" font-weight="400" fill="#1f2933" text-anchor="middle">phone</text>
+<rect x="747.8" y="352" width="19.2" height="26" rx="4" fill="#ffffff" stroke="#9aa5b1" stroke-width="1.2"/>
+<text x="757.4" y="370" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12.5" font-weight="400" fill="#1f2933" text-anchor="middle">…</text>
+<line x1="392" y1="380" x2="425.6" y2="380.0" stroke="#c05621" stroke-width="2"/>
+<path d="M432.0,380.0 L424.0,384.0 L424.0,376.0 z" fill="#c05621"/>
+<text x="412" y="432" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12.5" font-weight="700" fill="#c05621" text-anchor="middle">RENAME COLUMN city TO region</text>
+<text x="412" y="456" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="400" fill="#616e7c" text-anchor="middle">테이블이 바뀌어도 뷰 정의만 고치면 위쪽(응용 프로그램)은 바꿀 것이 없다</text>
+</svg>
