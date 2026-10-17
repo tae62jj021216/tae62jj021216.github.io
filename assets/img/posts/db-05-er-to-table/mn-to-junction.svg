@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 440" width="820" height="440" role="img" aria-label="M:N 담기 관계가 orders 1-N order_item N-1 menu 구조로 풀리는 모습">
+<title>M:N 담기 관계가 orders 1-N order_item N-1 menu 구조로 풀리는 모습</title>
+<rect width="820" height="440" rx="12" fill="#ffffff"/>
+<text x="24" y="30" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="14" font-weight="700" fill="#616e7c" text-anchor="start">ER 모델</text>
+<text x="24" y="240" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="14" font-weight="700" fill="#616e7c" text-anchor="start">테이블</text>
+<line x1="200.0" y1="112.6" x2="355.0" y2="112.6" stroke="#52606d" stroke-width="1.5"/>
+<line x1="200.0" y1="107.4" x2="355.0" y2="107.4" stroke="#52606d" stroke-width="1.5"/>
+<line x1="465" y1="110" x2="620" y2="110" stroke="#52606d" stroke-width="1.5"/>
+<line x1="410" y1="80" x2="410" y2="62" stroke="#52606d" stroke-width="1.5"/>
+<rect x="80.0" y="86.0" width="120" height="48" rx="2" fill="#e8f0f8" stroke="#2f5d8a" stroke-width="1.6"/>
+<text x="140" y="115.5" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="15" font-weight="700" fill="#1f2933" text-anchor="middle">주문</text>
+<polygon points="410,80.0 465.0,110 410,140.0 355.0,110" fill="#fbefd9" stroke="#b7791f" stroke-width="1.6"/>
+<text x="410" y="115" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13.5" font-weight="700" fill="#1f2933" text-anchor="middle">담기</text>
+<rect x="620.0" y="86.0" width="120" height="48" rx="2" fill="#e8f0f8" stroke="#2f5d8a" stroke-width="1.6"/>
+<text x="680" y="115.5" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="15" font-weight="700" fill="#1f2933" text-anchor="middle">메뉴</text>
+<ellipse cx="410" cy="46" rx="40" ry="17" fill="#ffffff" stroke="#52606d" stroke-width="1.4"/>
+<text x="410" y="51" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13.5" font-weight="400" fill="#1f2933" text-anchor="middle">qty</text>
+<text x="216" y="100" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="15" font-weight="700" fill="#c05621" text-anchor="start">M</text>
+<text x="604" y="100" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="15" font-weight="700" fill="#c05621" text-anchor="end">N</text>
+<line x1="140" y1="142" x2="140.0" y2="247.6" stroke="#9aa5b1" stroke-width="1.6" stroke-dasharray="5 4"/>
+<path d="M140.0,254.0 L136.0,246.0 L144.0,246.0 z" fill="#9aa5b1"/>
+<line x1="680" y1="142" x2="680.0" y2="271.6" stroke="#9aa5b1" stroke-width="1.6" stroke-dasharray="5 4"/>
+<path d="M680.0,278.0 L676.0,270.0 L684.0,270.0 z" fill="#9aa5b1"/>
+<line x1="410" y1="148" x2="410.0" y2="247.6" stroke="#c05621" stroke-width="1.8" stroke-dasharray="6 4"/>
+<path d="M410.0,254.0 L406.0,246.0 L414.0,246.0 z" fill="#c05621"/>
+<text x="422" y="188.0" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="700" fill="#c05621" text-anchor="start">관계가 교차 테이블이 된다</text>
+<text x="422" y="206.0" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="400" fill="#616e7c" text-anchor="start">(관계의 속성 qty도 함께)</text>
+<line x1="230" y1="310.0" x2="320" y2="310.0" stroke="#52606d" stroke-width="1.5"/>
+<line x1="240" y1="317.0" x2="240" y2="303.0" stroke="#52606d" stroke-width="1.5"/>
+<line x1="246" y1="317.0" x2="246" y2="303.0" stroke="#52606d" stroke-width="1.5"/>
+<line x1="310" y1="303.0" x2="310" y2="317.0" stroke="#52606d" stroke-width="1.5"/>
+<line x1="306" y1="310.0" x2="320" y2="318.0" stroke="#52606d" stroke-width="1.5"/>
+<line x1="306" y1="310.0" x2="320" y2="310.0" stroke="#52606d" stroke-width="1.5"/>
+<line x1="306" y1="310.0" x2="320" y2="302.0" stroke="#52606d" stroke-width="1.5"/>
+<line x1="500" y1="334.0" x2="590" y2="334.0" stroke="#52606d" stroke-width="1.5"/>
+<line x1="514" y1="334.0" x2="500" y2="326.0" stroke="#52606d" stroke-width="1.5"/>
+<line x1="514" y1="334.0" x2="500" y2="334.0" stroke="#52606d" stroke-width="1.5"/>
+<line x1="514" y1="334.0" x2="500" y2="342.0" stroke="#52606d" stroke-width="1.5"/>
+<circle cx="520" cy="334.0" r="4.5" fill="#ffffff" stroke="#52606d" stroke-width="1.5"/>
+<line x1="580" y1="327.0" x2="580" y2="341.0" stroke="#52606d" stroke-width="1.5"/>
+<line x1="574" y1="327.0" x2="574" y2="341.0" stroke="#52606d" stroke-width="1.5"/>
+<text x="242" y="300.0" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="14" font-weight="700" fill="#c05621" text-anchor="middle">1</text>
+<text x="308" y="300.0" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="14" font-weight="700" fill="#c05621" text-anchor="middle">N</text>
+<text x="512" y="324.0" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="14" font-weight="700" fill="#c05621" text-anchor="middle">N</text>
+<text x="578" y="324.0" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="14" font-weight="700" fill="#c05621" text-anchor="middle">1</text>
+<rect x="50" y="262" width="180" height="112" rx="6" fill="#f7f9fb" stroke="#9aa5b1" stroke-width="1"/>
+<path d="M50,294 v-26 q0,-6 6,-6 h168 q6,0 6,6 v26 z" fill="#2f5d8a"/>
+<text x="62" y="283.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="15" font-weight="700" fill="#ffffff" text-anchor="start">orders</text>
+<text x="62" y="314.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="14" font-weight="700" fill="#1f2933" text-anchor="start">order_id</text>
+<text x="220" y="314.5" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11.5" font-weight="700" fill="#b7791f" text-anchor="end">PK</text>
+<text x="62" y="338.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="14" font-weight="400" fill="#1f2933" text-anchor="start">member_id</text>
+<text x="220" y="338.5" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11.5" font-weight="700" fill="#2f5d8a" text-anchor="end">FK</text>
+<text x="62" y="362.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="14" font-weight="400" fill="#1f2933" text-anchor="start">…</text>
+<rect x="320" y="262" width="180" height="112" rx="6" fill="#f7f9fb" stroke="#9aa5b1" stroke-width="1"/>
+<path d="M320,294 v-26 q0,-6 6,-6 h168 q6,0 6,6 v26 z" fill="#2f5d8a"/>
+<text x="332" y="283.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="15" font-weight="700" fill="#ffffff" text-anchor="start">order_item</text>
+<text x="332" y="314.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="14" font-weight="700" fill="#1f2933" text-anchor="start">order_id</text>
+<text x="490" y="314.5" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11.5" font-weight="700" fill="#b7791f" text-anchor="end">PK FK</text>
+<text x="332" y="338.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="14" font-weight="700" fill="#1f2933" text-anchor="start">menu_id</text>
+<text x="490" y="338.5" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11.5" font-weight="700" fill="#b7791f" text-anchor="end">PK FK</text>
+<text x="332" y="362.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="14" font-weight="400" fill="#1f2933" text-anchor="start">qty</text>
+<rect x="590" y="286" width="180" height="112" rx="6" fill="#f7f9fb" stroke="#9aa5b1" stroke-width="1"/>
+<path d="M590,318 v-26 q0,-6 6,-6 h168 q6,0 6,6 v26 z" fill="#2f5d8a"/>
+<text x="602" y="307.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="15" font-weight="700" fill="#ffffff" text-anchor="start">menu</text>
+<text x="602" y="338.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="14" font-weight="700" fill="#1f2933" text-anchor="start">menu_id</text>
+<text x="760" y="338.5" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11.5" font-weight="700" fill="#b7791f" text-anchor="end">PK</text>
+<text x="602" y="362.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="14" font-weight="400" fill="#1f2933" text-anchor="start">name</text>
+<text x="602" y="386.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="14" font-weight="400" fill="#1f2933" text-anchor="start">price</text>
+<text x="410.0" y="404" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13" font-weight="700" fill="#1f2933" text-anchor="middle">PK = (order_id, menu_id)</text>
+<text x="410.0" y="424" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="400" fill="#616e7c" text-anchor="middle">양쪽 기본키를 외래키로 가져와 복합 기본키로</text>
+</svg>

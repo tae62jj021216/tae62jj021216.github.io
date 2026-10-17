@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 430" width="820" height="430" role="img" aria-label="재귀 CTE 조직도. lvl 1 월매(앵커), lvl 2 방자·향단·변학도, lvl 3 장화·홍련·전우치, lvl 4 옹고집, 4회차에서 멈춘다">
+<title>재귀 CTE 조직도. lvl 1 월매(앵커), lvl 2 방자·향단·변학도, lvl 3 장화·홍련·전우치, lvl 4 옹고집, 4회차에서 멈춘다</title>
+<rect width="820" height="430" rx="12" fill="#ffffff"/>
+<rect x="20" y="32" width="780" height="76" rx="6" fill="#ffffff"/>
+<text x="36" y="66" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="15" font-weight="700" fill="#2f5d8a" text-anchor="start">lvl 1</text>
+<text x="36" y="86" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="400" fill="#616e7c" text-anchor="start">앵커</text>
+<rect x="20" y="122" width="780" height="76" rx="6" fill="#f7f9fb"/>
+<text x="36" y="156" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="15" font-weight="700" fill="#2f5d8a" text-anchor="start">lvl 2</text>
+<text x="36" y="176" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="400" fill="#616e7c" text-anchor="start">1회차</text>
+<rect x="20" y="212" width="780" height="76" rx="6" fill="#ffffff"/>
+<text x="36" y="246" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="15" font-weight="700" fill="#2f5d8a" text-anchor="start">lvl 3</text>
+<text x="36" y="266" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="400" fill="#616e7c" text-anchor="start">2회차</text>
+<rect x="20" y="302" width="780" height="76" rx="6" fill="#f7f9fb"/>
+<text x="36" y="336" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="15" font-weight="700" fill="#2f5d8a" text-anchor="start">lvl 4</text>
+<text x="36" y="356" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="400" fill="#616e7c" text-anchor="start">3회차</text>
+<path d="M480,94.0 V115.0 H300 V136.0" stroke="#52606d" stroke-width="1.5" fill="none"/>
+<path d="M480,94.0 V115.0 H500 V136.0" stroke="#52606d" stroke-width="1.5" fill="none"/>
+<path d="M480,94.0 V115.0 H690 V136.0" stroke="#52606d" stroke-width="1.5" fill="none"/>
+<path d="M300,184.0 V205.0 H230 V226.0" stroke="#52606d" stroke-width="1.5" fill="none"/>
+<path d="M300,184.0 V205.0 H370 V226.0" stroke="#52606d" stroke-width="1.5" fill="none"/>
+<path d="M500,184.0 V205.0 H500 V226.0" stroke="#52606d" stroke-width="1.5" fill="none"/>
+<path d="M230,274.0 V295.0 H230 V316.0" stroke="#52606d" stroke-width="1.5" fill="none"/>
+<rect x="421.0" y="46.0" width="118" height="48" rx="7" fill="#2f5d8a" stroke="#2f5d8a" stroke-width="1.3"/>
+<text x="480" y="68" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">월매</text>
+<text x="480" y="85" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11.5" font-weight="400" fill="#ffffff" text-anchor="middle">대표</text>
+<rect x="241.0" y="136.0" width="118" height="48" rx="7" fill="#e8f0f8" stroke="#2f5d8a" stroke-width="1.3"/>
+<text x="300" y="158" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="14" font-weight="700" fill="#1f2933" text-anchor="middle">방자</text>
+<text x="300" y="175" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11.5" font-weight="400" fill="#616e7c" text-anchor="middle">점장</text>
+<rect x="441.0" y="136.0" width="118" height="48" rx="7" fill="#e8f0f8" stroke="#2f5d8a" stroke-width="1.3"/>
+<text x="500" y="158" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="14" font-weight="700" fill="#1f2933" text-anchor="middle">향단</text>
+<text x="500" y="175" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11.5" font-weight="400" fill="#616e7c" text-anchor="middle">점장</text>
+<rect x="631.0" y="136.0" width="118" height="48" rx="7" fill="#e8f0f8" stroke="#2f5d8a" stroke-width="1.3"/>
+<text x="690" y="158" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="14" font-weight="700" fill="#1f2933" text-anchor="middle">변학도</text>
+<text x="690" y="175" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11.5" font-weight="400" fill="#616e7c" text-anchor="middle">점장</text>
+<rect x="171.0" y="226.0" width="118" height="48" rx="7" fill="#e8f0f8" stroke="#2f5d8a" stroke-width="1.3"/>
+<text x="230" y="248" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="14" font-weight="700" fill="#1f2933" text-anchor="middle">장화</text>
+<text x="230" y="265" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11.5" font-weight="400" fill="#616e7c" text-anchor="middle">바리스타</text>
+<rect x="311.0" y="226.0" width="118" height="48" rx="7" fill="#e8f0f8" stroke="#2f5d8a" stroke-width="1.3"/>
+<text x="370" y="248" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="14" font-weight="700" fill="#1f2933" text-anchor="middle">홍련</text>
+<text x="370" y="265" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11.5" font-weight="400" fill="#616e7c" text-anchor="middle">바리스타</text>
+<rect x="441.0" y="226.0" width="118" height="48" rx="7" fill="#e8f0f8" stroke="#2f5d8a" stroke-width="1.3"/>
+<text x="500" y="248" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="14" font-weight="700" fill="#1f2933" text-anchor="middle">전우치</text>
+<text x="500" y="265" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11.5" font-weight="400" fill="#616e7c" text-anchor="middle">바리스타</text>
+<rect x="171.0" y="316.0" width="118" height="48" rx="7" fill="#e8f0f8" stroke="#2f5d8a" stroke-width="1.3"/>
+<text x="230" y="338" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="14" font-weight="700" fill="#1f2933" text-anchor="middle">옹고집</text>
+<text x="230" y="355" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11.5" font-weight="400" fill="#616e7c" text-anchor="middle">파트타임</text>
+<text x="36" y="412" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="700" fill="#c05621" text-anchor="start">4회차: 상사가 옹고집인 직원이 없어 새 행이 없다 → 멈춘다</text>
+</svg>
