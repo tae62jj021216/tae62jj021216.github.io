@@ -1,0 +1,117 @@
+{
+ "response": {
+  "header": {
+   "resultCode": "00",
+   "resultMsg": "NORMAL SERVICE."
+  },
+  "body": {
+   "items": {
+    "item": [
+     {
+      "storeId": "S001",
+      "storeNm": "가상카페 종로구 1호점",
+      "sido": "서울특별시",
+      "gugun": "종로구",
+      "addr": "서울특별시 종로구 연습로 13",
+      "seats": 27,
+      "driveThru": "N",
+      "openDate": "2021-02-04"
+     },
+     {
+      "storeId": "S002",
+      "storeNm": "가상카페 종로구 2호점",
+      "sido": "서울특별시",
+      "gugun": "종로구",
+      "addr": "서울특별시 종로구 연습로 16",
+      "seats": 34,
+      "driveThru": "N",
+      "openDate": "2022-03-07"
+     },
+     {
+      "storeId": "S003",
+      "storeNm": "가상카페 종로구 3호점",
+      "sido": "서울특별시",
+      "gugun": "종로구",
+      "addr": "서울특별시 종로구 연습로 19",
+      "seats": 41,
+      "driveThru": "N",
+      "openDate": "2023-04-10"
+     },
+     {
+      "storeId": "S004",
+      "storeNm": "가상카페 중구 1호점",
+      "sido": "서울특별시",
+      "gugun": "중구",
+      "addr": "서울특별시 중구 연습로 22",
+      "seats": 48,
+      "driveThru": "N",
+      "openDate": "2024-05-13"
+     },
+     {
+      "storeId": "S005",
+      "storeNm": "가상카페 중구 2호점",
+      "sido": "서울특별시",
+      "gugun": "중구",
+      "addr": "서울특별시 중구 연습로 25",
+      "seats": 55,
+      "driveThru": "Y",
+      "openDate": "2025-06-16"
+     },
+     {
+      "storeId": "S006",
+      "storeNm": "가상카페 용산구 1호점",
+      "sido": "서울특별시",
+      "gugun": "용산구",
+      "addr": "서울특별시 용산구 연습로 28",
+      "seats": 22,
+      "driveThru": "N",
+      "openDate": "2020-07-19"
+     },
+     {
+      "storeId": "S007",
+      "storeNm": "가상카페 용산구 2호점",
+      "sido": "서울특별시",
+      "gugun": "용산구",
+      "addr": "서울특별시 용산구 연습로 31",
+      "seats": 29,
+      "driveThru": "N",
+      "openDate": "2021-08-22"
+     },
+     {
+      "storeId": "S008",
+      "storeNm": "가상카페 용산구 3호점",
+      "sido": "서울특별시",
+      "gugun": "용산구",
+      "addr": "서울특별시 용산구 연습로 34",
+      "seats": 36,
+      "driveThru": "N",
+      "openDate": "2022-09-25"
+     },
+     {
+      "storeId": "S009",
+      "storeNm": "가상카페 용산구 4호점",
+      "sido": "서울특별시",
+      "gugun": "용산구",
+      "addr": "서울특별시 용산구 연습로 37",
+      "seats": 43,
+      "driveThru": "N",
+      "openDate": "2023-10-28"
+     },
+     {
+      "storeId": "S010",
+      "storeNm": "가상카페 강남구 1호점",
+      "sido": "서울특별시",
+      "gugun": "강남구",
+      "addr": "서울특별시 강남구 연습로 40",
+      "seats": 50,
+      "driveThru": "Y",
+      "openDate": "2024-11-03"
+     }
+    ]
+   },
+   "numOfRows": 10,
+   "pageNo": 1,
+   "totalCount": 23
+  }
+ }
+}

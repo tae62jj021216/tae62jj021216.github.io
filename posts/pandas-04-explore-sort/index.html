@@ -1,0 +1,431 @@
+<!doctype html><html lang="ko-KR"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta name="theme-color" media="(prefers-color-scheme: light)" content="#f7f7f7"><meta name="theme-color" media="(prefers-color-scheme: dark)" content="#1b1b1e"><meta name="viewport" content="width=device-width, user-scalable=no initial-scale=1, shrink-to-fit=no, viewport-fit=cover" ><meta name="generator" content="Jekyll v4.4.1" /><meta property="og:title" content="[Pandas] 04. 데이터 파악, 정렬, 순위" /><meta property="og:locale" content="ko_KR" /><meta name="description" content="데이터를 읽으면 먼저 열마다 빈칸이 몇 개인지, 숫자가 어느 범위에 있는지, 값이 몇 종류인지를 본다. info(), describe(), value_counts()가 이 일을 하고, sort_values()와 rank()는 행의 순서와 순위를 정한다." /><meta name="twitter:description" property="og:description" content="데이터를 읽으면 먼저 열마다 빈칸이 몇 개인지, 숫자가 어느 범위에 있는지, 값이 몇 종류인지를 본다. info(), describe(), value_counts()가 이 일을 하고, sort_values()와 rank()는 행의 순서와 순위를 정한다." /><link rel="canonical" href="https://tae62jj021216.github.io/posts/pandas-04-explore-sort/" /><meta property="og:url" content="https://tae62jj021216.github.io/posts/pandas-04-explore-sort/" /><meta property="og:site_name" content="Taeyoon.log" /><meta property="og:type" content="article" /><meta property="article:published_time" content="2026-10-22T22:00:00+09:00" /><meta property="article:modified_time" content="2026-10-22T22:00:00+09:00" /><meta name="twitter:card" content="summary" /><meta name="twitter:title" content="[Pandas] 04. 데이터 파악, 정렬, 순위" /><meta name="twitter:site" content="@" /> <script type="application/ld+json"> {"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2026-10-22T22:00:00+09:00","datePublished":"2026-10-22T22:00:00+09:00","description":"데이터를 읽으면 먼저 열마다 빈칸이 몇 개인지, 숫자가 어느 범위에 있는지, 값이 몇 종류인지를 본다. info(), describe(), value_counts()가 이 일을 하고, sort_values()와 rank()는 행의 순서와 순위를 정한다.","headline":"[Pandas] 04. 데이터 파악, 정렬, 순위","mainEntityOfPage":{"@type":"WebPage","@id":"https://tae62jj021216.github.io/posts/pandas-04-explore-sort/"},"url":"https://tae62jj021216.github.io/posts/pandas-04-explore-sort/"}</script><title>[Pandas] 04. 데이터 파악, 정렬, 순위 | Taeyoon.log</title><link rel="icon" type="image/png" href="/assets/img/favicons/favicon-96x96.png" sizes="96x96"><link rel="icon" type="image/svg+xml" href="/assets/img/favicons/favicon.svg"><link rel="shortcut icon" href="/assets/img/favicons/favicon.ico"><link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicons/apple-touch-icon.png"><link rel="manifest" href="/assets/img/favicons/site.webmanifest"><link rel="preconnect" href="https://fonts.googleapis.com" ><link rel="dns-prefetch" href="https://fonts.googleapis.com" ><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="dns-prefetch" href="https://fonts.gstatic.com" ><link rel="preconnect" href="https://cdn.jsdelivr.net" ><link rel="dns-prefetch" href="https://cdn.jsdelivr.net" ><link rel="stylesheet" href="/assets/css/jekyll-theme-chirpy.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Source+Sans+Pro:wght@400;600;700;900&display=swap"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tocbot@4/dist/tocbot.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/loading-attribute-polyfill@2/dist/loading-attribute-polyfill.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox@3/dist/css/glightbox.min.css"> <script src="/assets/js/dist/theme.min.js"></script> <script defer src="https://cdn.jsdelivr.net/combine/npm/simple-jekyll-search@1/dest/simple-jekyll-search.min.js,npm/loading-attribute-polyfill@2/dist/loading-attribute-polyfill.umd.min.js,npm/glightbox@3/dist/js/glightbox.min.js,npm/clipboard@2/dist/clipboard.min.js,npm/dayjs@1/dayjs.min.js,npm/dayjs@1/locale/ko.js,npm/dayjs@1/plugin/relativeTime.js,npm/dayjs@1/plugin/localizedFormat.js,npm/tocbot@4/dist/tocbot.min.js"></script> <script defer src="/assets/js/dist/post.min.js"></script> <script defer src="/app.min.js?baseurl=&register=false" ></script><body><aside aria-label="Sidebar" id="sidebar" class="d-flex flex-column align-items-end"><header class="profile-wrapper"> <a href="/" id="avatar" class="rounded-circle"></a> <a class="site-title d-block" href="/">Taeyoon.log</a><p class="site-subtitle fst-italic mb-0">공부하고, 만들고, 기록합니다</p></header><nav class="flex-column flex-grow-1 w-100 ps-0"><ul class="nav"><li class="nav-item"> <a href="/" class="nav-link"> <i class="fa-fw fas fa-home"></i> <span>홈</span> </a><li class="nav-item"> <a href="/study/" class="nav-link"> <i class="fa-fw fas fa-book"></i> <span>공부 기록</span> </a><li class="nav-item"> <a href="/projects/" class="nav-link"> <i class="fa-fw fas fa-code-branch"></i> <span>프로젝트</span> </a><li class="nav-item"> <a href="/categories/" class="nav-link"> <i class="fa-fw fas fa-stream"></i> <span>카테고리</span> </a><li class="nav-item"> <a href="/tags/" class="nav-link"> <i class="fa-fw fas fa-tags"></i> <span>태그</span> </a><li class="nav-item"> <a href="/archives/" class="nav-link"> <i class="fa-fw fas fa-archive"></i> <span>아카이브</span> </a><li class="nav-item"> <a href="/about/" class="nav-link"> <i class="fa-fw fas fa-info-circle"></i> <span>정보</span> </a></ul></nav><div class="sidebar-bottom d-flex flex-wrap align-items-center w-100"><div class="btn-group dropup"> <button type="button" class="btn btn-link nav-link" aria-label="Switch Mode" id="mode-toggle" data-bs-toggle="dropdown" ><i class="fa-regular fa-sun" data-theme-mode="light"></i><i class="fa-regular fa-moon" data-theme-mode="dark"></i><i class="fa-solid fa-display" data-theme-mode="system"></i></button><ul class="dropdown-menu rounded-3 mb-1 p-1"><li> <button class="dropdown-item d-flex align-items-center" type="button" data-theme-mode="light"><i class="fa-regular fa-sun" data-theme-mode="light"></i>라이트</button><li> <button class="dropdown-item d-flex align-items-center" type="button" data-theme-mode="dark"><i class="fa-regular fa-moon" data-theme-mode="dark"></i>다크</button><li> <button class="dropdown-item d-flex align-items-center" type="button" data-theme-mode="system"><i class="fa-solid fa-display" data-theme-mode="system"></i>시스템</button></ul></div><span class="icon-border"></span> <a href="https://github.com/tae62jj021216" aria-label="github" target="_blank" rel="noopener noreferrer" > <i class="fab fa-github"></i> </a> <a href="/feed.xml" aria-label="rss" > <i class="fas fa-rss"></i> </a></div></aside><div id="main-wrapper" class="d-flex justify-content-center"><div class="container d-flex flex-column px-xxl-5"><header id="topbar-wrapper" class="flex-shrink-0" aria-label="Top Bar"><div id="topbar" class="d-flex align-items-center justify-content-between px-lg-3 h-100" ><nav id="breadcrumb" aria-label="Breadcrumb"> <span> <a href="/">홈</a> </span> <span> <a href="/study/">공부 기록</a> </span> <span> <a href="/categories/pandas/">Pandas</a> </span> <span>[Pandas] 04. 데이터 파악, 정렬, 순위</span></nav><button type="button" id="sidebar-trigger" class="btn btn-link" aria-label="Sidebar"> <i class="fas fa-bars fa-fw"></i> </button><div id="topbar-title"> 포스트</div><button type="button" id="search-trigger" class="btn btn-link" aria-label="Search"> <i class="fas fa-search fa-fw"></i> </button> <search id="search" class="align-items-center ms-3 ms-lg-0"> <i class="fas fa-search fa-fw"></i> <input class="form-control" id="search-input" type="search" aria-label="search" autocomplete="off" placeholder="검색..." > </search> <button type="button" class="btn btn-link text-decoration-none" id="search-cancel">취소</button></div></header><div class="row flex-grow-1"><main aria-label="Main Content" class="col-12 col-lg-11 col-xl-9 px-md-4"><article class="px-1" data-toc="true"><header><h1 data-toc-skip>[Pandas] 04. 데이터 파악, 정렬, 순위</h1><div class="post-meta text-muted"> <span> 게시 <time data-ts="1792674000" data-df="YYYY/MM/DD" data-bs-toggle="tooltip" data-bs-placement="bottom" > 2026/10/22 </time> </span><div class="d-flex justify-content-between"> <span> By <em> <a href="https://github.com/tae62jj021216">Taeyoon Kim</a> </em> </span><div> <span class="readtime" data-bs-toggle="tooltip" data-bs-placement="bottom" title="3366 단어" > <em>18 분</em>읽는 시간</span></div></div></div></header><div id="toc-bar" class="d-flex align-items-center justify-content-between invisible"> <span class="label text-truncate">[Pandas] 04. 데이터 파악, 정렬, 순위</span> <button type="button" class="toc-trigger btn me-1"> <i class="fa-solid fa-list-ul fa-fw"></i> </button></div><button id="toc-solo-trigger" type="button" class="toc-trigger btn btn-outline-secondary btn-sm"> <span class="label ps-2 pe-1">바로가기</span> <i class="fa-solid fa-angle-right fa-fw"></i> </button> <dialog id="toc-popup" class="p-0"><div class="header d-flex flex-row align-items-center justify-content-between"><div class="label text-truncate py-2 ms-4">[Pandas] 04. 데이터 파악, 정렬, 순위</div><button id="toc-popup-close" type="button" class="btn-close btn-sm mx-3" aria-label="Close"></button></div><div id="toc-popup-content" class="px-4 py-3 pb-4"></div></dialog><div class="content"><p>데이터를 읽으면 먼저 열마다 빈칸이 몇 개인지, 숫자가 어느 범위에 있는지, 값이 몇 종류인지를 본다. <code class="language-plaintext highlighter-rouge">info()</code>, <code class="language-plaintext highlighter-rouge">describe()</code>, <code class="language-plaintext highlighter-rouge">value_counts()</code>가 이 일을 하고, <code class="language-plaintext highlighter-rouge">sort_values()</code>와 <code class="language-plaintext highlighter-rouge">rank()</code>는 행의 순서와 순위를 정한다.</p><blockquote class="prompt-info"><p>예제 데이터는 <a href="/posts/pandas-00-setup/">00편</a>의 <code class="language-plaintext highlighter-rouge">cafe</code> 폴더를 쓴다. Python 3.12, pandas 3.0.6에서 실행한 결과다.</p></blockquote><h2 id="info-열마다-빈칸과-자료형"><span class="me-2">info(): 열마다 빈칸과 자료형</span><a href="#info-열마다-빈칸과-자료형" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2><div class="language-python highlighter-rouge"><div class="code-header"> <span data-label-text="Python"><i class="fas fa-code fa-fw small"></i></span> <button aria-label="copy" data-title-succeed="복사되었습니다!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+</pre><td class="rouge-code"><pre><span class="kn">import</span> <span class="n">pandas</span> <span class="k">as</span> <span class="n">pd</span>
+
+<span class="n">pd</span><span class="p">.</span><span class="nf">set_option</span><span class="p">(</span><span class="sh">"</span><span class="s">display.unicode.east_asian_width</span><span class="sh">"</span><span class="p">,</span> <span class="bp">True</span><span class="p">)</span>
+
+<span class="n">menu</span> <span class="o">=</span> <span class="n">pd</span><span class="p">.</span><span class="nf">read_csv</span><span class="p">(</span><span class="sh">"</span><span class="s">cafe/menu.csv</span><span class="sh">"</span><span class="p">)</span>
+<span class="n">member</span> <span class="o">=</span> <span class="n">pd</span><span class="p">.</span><span class="nf">read_csv</span><span class="p">(</span><span class="sh">"</span><span class="s">cafe/member.csv</span><span class="sh">"</span><span class="p">)</span>
+<span class="n">staff</span> <span class="o">=</span> <span class="n">pd</span><span class="p">.</span><span class="nf">read_csv</span><span class="p">(</span><span class="sh">"</span><span class="s">cafe/staff.csv</span><span class="sh">"</span><span class="p">)</span>
+
+<span class="n">member</span><span class="p">.</span><span class="nf">info</span><span class="p">()</span>
+</pre></table></code></div></div><div class="language-text highlighter-rouge"><div class="code-header"> <span data-label-text="Text"><i class="fas fa-code fa-fw small"></i></span> <button aria-label="copy" data-title-succeed="복사되었습니다!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+</pre><td class="rouge-code"><pre>&lt;class 'pandas.DataFrame'&gt;
+RangeIndex: 8 entries, 0 to 7
+Data columns (total 7 columns):
+ #   Column       Non-Null Count  Dtype
+---  ------       --------------  -----
+ 0   member_id    8 non-null      int64
+ 1   name         8 non-null      str
+ 2   grade        8 non-null      str
+ 3   city         7 non-null      str
+ 4   phone        5 non-null      str
+ 5   joined_on    8 non-null      str
+ 6   referrer_id  4 non-null      float64
+dtypes: float64(1), int64(1), str(5)
+memory usage: 580.0 bytes
+</pre></table></code></div></div><p><code class="language-plaintext highlighter-rouge">info()</code>는 표를 돌려주지 않고 바로 출력한다. 위에서부터 인덱스 범위, 열 개수, 열마다 빈칸이 아닌 값의 개수(<code class="language-plaintext highlighter-rouge">Non-Null Count</code>)와 자료형, 자료형별 열 수, 메모리 사용량이다. 8행인데 <code class="language-plaintext highlighter-rouge">city</code>가 7, <code class="language-plaintext highlighter-rouge">phone</code>이 5, <code class="language-plaintext highlighter-rouge">referrer_id</code>가 4이므로 빈칸이 각각 1, 3, 4개다.</p><h2 id="describe-요약-통계"><span class="me-2">describe(): 요약 통계</span><a href="#describe-요약-통계" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2><div class="language-python highlighter-rouge"><div class="code-header"> <span data-label-text="Python"><i class="fas fa-code fa-fw small"></i></span> <button aria-label="copy" data-title-succeed="복사되었습니다!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre><td class="rouge-code"><pre><span class="nf">print</span><span class="p">(</span><span class="n">staff</span><span class="p">[[</span><span class="sh">"</span><span class="s">salary</span><span class="sh">"</span><span class="p">,</span> <span class="sh">"</span><span class="s">manager_id</span><span class="sh">"</span><span class="p">]].</span><span class="nf">describe</span><span class="p">())</span>
+</pre></table></code></div></div><div class="language-text highlighter-rouge"><div class="code-header"> <span data-label-text="Text"><i class="fas fa-code fa-fw small"></i></span> <button aria-label="copy" data-title-succeed="복사되었습니다!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+</pre><td class="rouge-code"><pre>            salary  manager_id
+count     8.000000    7.000000
+mean   3712.500000    2.142857
+std    1174.049768    1.463850
+min    2100.000000    1.000000
+25%    3075.000000    1.000000
+50%    3550.000000    2.000000
+75%    4200.000000    2.500000
+max    6000.000000    5.000000
+</pre></table></code></div></div><p>숫자 열마다 개수(<code class="language-plaintext highlighter-rouge">count</code>, 빈칸 제외), 평균, 표준편차(<code class="language-plaintext highlighter-rouge">std</code>), 최솟값, 사분위수(25%·50%·75%), 최댓값을 계산한다. <code class="language-plaintext highlighter-rouge">50%</code>가 중앙값이다. <code class="language-plaintext highlighter-rouge">manager_id</code>의 <code class="language-plaintext highlighter-rouge">count</code>가 7인 것은 대표(월매)의 상사가 빈칸이기 때문이다.</p><p><code class="language-plaintext highlighter-rouge">describe()</code>는 숫자 열이 하나라도 있으면 숫자 열만 요약한다. 문자열 열만 넘기면 다른 항목이 나온다.</p><div class="language-python highlighter-rouge"><div class="code-header"> <span data-label-text="Python"><i class="fas fa-code fa-fw small"></i></span> <button aria-label="copy" data-title-succeed="복사되었습니다!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre><td class="rouge-code"><pre><span class="nf">print</span><span class="p">(</span><span class="n">member</span><span class="p">[[</span><span class="sh">"</span><span class="s">grade</span><span class="sh">"</span><span class="p">,</span> <span class="sh">"</span><span class="s">city</span><span class="sh">"</span><span class="p">,</span> <span class="sh">"</span><span class="s">phone</span><span class="sh">"</span><span class="p">]].</span><span class="nf">describe</span><span class="p">())</span>
+</pre></table></code></div></div><div class="language-text highlighter-rouge"><div class="code-header"> <span data-label-text="Text"><i class="fas fa-code fa-fw small"></i></span> <button aria-label="copy" data-title-succeed="복사되었습니다!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+</pre><td class="rouge-code"><pre>        grade  city          phone
+count       8     7              5
+unique      3     3              5
+top     BASIC  서울  010-1111-2222
+freq        4     3              1
+</pre></table></code></div></div><div class="table-wrapper"><table><thead><tr><th>항목<th>뜻<tbody><tr><td><code class="language-plaintext highlighter-rouge">count</code><td>빈칸이 아닌 값의 개수<tr><td><code class="language-plaintext highlighter-rouge">unique</code><td>서로 다른 값의 개수<tr><td><code class="language-plaintext highlighter-rouge">top</code><td>가장 많이 나온 값<tr><td><code class="language-plaintext highlighter-rouge">freq</code><td><code class="language-plaintext highlighter-rouge">top</code>이 나온 횟수</table></div><p><code class="language-plaintext highlighter-rouge">phone</code>은 5개가 모두 달라서 <code class="language-plaintext highlighter-rouge">freq</code>가 1이다. 이때 <code class="language-plaintext highlighter-rouge">top</code>은 그중 하나일 뿐 의미가 없다. 숫자 열과 문자열 열을 한 번에 보려면 <code class="language-plaintext highlighter-rouge">include="all"</code>을 준다. 해당하지 않는 칸은 <code class="language-plaintext highlighter-rouge">NaN</code>으로 채운다.</p><div class="language-python highlighter-rouge"><div class="code-header"> <span data-label-text="Python"><i class="fas fa-code fa-fw small"></i></span> <button aria-label="copy" data-title-succeed="복사되었습니다!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre><td class="rouge-code"><pre><span class="nf">print</span><span class="p">(</span><span class="n">menu</span><span class="p">[[</span><span class="sh">"</span><span class="s">price</span><span class="sh">"</span><span class="p">,</span> <span class="sh">"</span><span class="s">name</span><span class="sh">"</span><span class="p">,</span> <span class="sh">"</span><span class="s">is_seasonal</span><span class="sh">"</span><span class="p">]].</span><span class="nf">describe</span><span class="p">(</span><span class="n">include</span><span class="o">=</span><span class="sh">"</span><span class="s">all</span><span class="sh">"</span><span class="p">))</span>
+</pre></table></code></div></div><div class="language-text highlighter-rouge"><div class="code-header"> <span data-label-text="Text"><i class="fas fa-code fa-fw small"></i></span> <button aria-label="copy" data-title-succeed="복사되었습니다!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+</pre><td class="rouge-code"><pre>              price        name is_seasonal
+count     11.000000          11          11
+unique          NaN          11           2
+top             NaN  아메리카노       False
+freq            NaN           1           9
+mean    5136.363636         NaN         NaN
+std     1120.064933         NaN         NaN
+min     3000.000000         NaN         NaN
+25%     4750.000000         NaN         NaN
+50%     5500.000000         NaN         NaN
+75%     5750.000000         NaN         NaN
+max     6500.000000         NaN         NaN
+</pre></table></code></div></div><h2 id="value_counts와-nunique-값의-종류-세기"><span class="me-2">value_counts()와 nunique(): 값의 종류 세기</span><a href="#value_counts와-nunique-값의-종류-세기" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2><div class="language-python highlighter-rouge"><div class="code-header"> <span data-label-text="Python"><i class="fas fa-code fa-fw small"></i></span> <button aria-label="copy" data-title-succeed="복사되었습니다!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+</pre><td class="rouge-code"><pre><span class="nf">print</span><span class="p">(</span><span class="n">member</span><span class="p">[</span><span class="sh">"</span><span class="s">grade</span><span class="sh">"</span><span class="p">].</span><span class="nf">value_counts</span><span class="p">(</span><span class="n">normalize</span><span class="o">=</span><span class="bp">True</span><span class="p">))</span>
+<span class="nf">print</span><span class="p">(</span><span class="n">member</span><span class="p">[</span><span class="sh">"</span><span class="s">city</span><span class="sh">"</span><span class="p">].</span><span class="nf">value_counts</span><span class="p">(</span><span class="n">dropna</span><span class="o">=</span><span class="bp">False</span><span class="p">))</span>
+</pre></table></code></div></div><div class="language-text highlighter-rouge"><div class="code-header"> <span data-label-text="Text"><i class="fas fa-code fa-fw small"></i></span> <button aria-label="copy" data-title-succeed="복사되었습니다!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+</pre><td class="rouge-code"><pre>grade
+BASIC    0.50
+VIP      0.25
+GOLD     0.25
+Name: proportion, dtype: float64
+city
+서울    3
+부산    2
+대전    2
+NaN     1
+Name: count, dtype: int64
+</pre></table></code></div></div><p><code class="language-plaintext highlighter-rouge">normalize=True</code>는 개수 대신 비율을 준다. 이름도 <code class="language-plaintext highlighter-rouge">count</code>에서 <code class="language-plaintext highlighter-rouge">proportion</code>으로 바뀐다. <code class="language-plaintext highlighter-rouge">dropna=False</code>는 빈칸(<code class="language-plaintext highlighter-rouge">NaN</code>)도 한 값으로 센다.</p><p>DataFrame에서 열 여러 개를 고르고 <code class="language-plaintext highlighter-rouge">value_counts()</code>를 쓰면 <strong>값의 조합</strong>별로 센다.</p><div class="language-python highlighter-rouge"><div class="code-header"> <span data-label-text="Python"><i class="fas fa-code fa-fw small"></i></span> <button aria-label="copy" data-title-succeed="복사되었습니다!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+</pre><td class="rouge-code"><pre><span class="nf">print</span><span class="p">(</span><span class="n">staff</span><span class="p">[[</span><span class="sh">"</span><span class="s">store</span><span class="sh">"</span><span class="p">,</span> <span class="sh">"</span><span class="s">role</span><span class="sh">"</span><span class="p">]].</span><span class="nf">value_counts</span><span class="p">())</span>
+<span class="nf">print</span><span class="p">(</span><span class="n">member</span><span class="p">.</span><span class="nf">nunique</span><span class="p">())</span>
+</pre></table></code></div></div><div class="language-text highlighter-rouge"><div class="code-header"> <span data-label-text="Text"><i class="fas fa-code fa-fw small"></i></span> <button aria-label="copy" data-title-succeed="복사되었습니다!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+</pre><td class="rouge-code"><pre>store   role
+본점    바리스타    2
+        점장        1
+강변점  점장        1
+공원점  점장        1
+강변점  바리스타    1
+본점    파트타임    1
+Name: count, dtype: int64
+member_id      8
+name           8
+grade          3
+city           3
+phone          5
+joined_on      8
+referrer_id    3
+dtype: int64
+</pre></table></code></div></div><blockquote class="prompt-info"><p>SQL로 쓰면 <code class="language-plaintext highlighter-rouge">SELECT store, role, COUNT(*) FROM staff GROUP BY store, role ORDER BY COUNT(*) DESC</code>다. 차이가 하나 있다. SQL은 <code class="language-plaintext highlighter-rouge">store</code>가 <code class="language-plaintext highlighter-rouge">NULL</code>인 대표(월매)도 한 그룹으로 세지만, <code class="language-plaintext highlighter-rouge">value_counts()</code>는 기본으로 빈칸이 있는 조합을 빼서 대표가 결과에 없다. <code class="language-plaintext highlighter-rouge">dropna=False</code>를 주면 (빈칸, 대표) 조합도 센다. 그룹별 계산은 12편에서 다룬다.</p></blockquote><p><code class="language-plaintext highlighter-rouge">nunique()</code>는 열마다 서로 다른 값의 개수다. 빈칸은 세지 않는다. <code class="language-plaintext highlighter-rouge">member_id</code>처럼 행 수(8)와 같으면 값이 겹치지 않는 열이다.</p><h2 id="sort_values-값으로-정렬"><span class="me-2">sort_values(): 값으로 정렬</span><a href="#sort_values-값으로-정렬" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2><div class="language-python highlighter-rouge"><div class="code-header"> <span data-label-text="Python"><i class="fas fa-code fa-fw small"></i></span> <button aria-label="copy" data-title-succeed="복사되었습니다!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre><td class="rouge-code"><pre><span class="nf">print</span><span class="p">(</span><span class="n">menu</span><span class="p">.</span><span class="nf">sort_values</span><span class="p">(</span><span class="sh">"</span><span class="s">price</span><span class="sh">"</span><span class="p">,</span> <span class="n">ascending</span><span class="o">=</span><span class="bp">False</span><span class="p">)[[</span><span class="sh">"</span><span class="s">name</span><span class="sh">"</span><span class="p">,</span> <span class="sh">"</span><span class="s">price</span><span class="sh">"</span><span class="p">]].</span><span class="nf">head</span><span class="p">(</span><span class="mi">4</span><span class="p">))</span>
+</pre></table></code></div></div><div class="language-text highlighter-rouge"><div class="code-header"> <span data-label-text="Text"><i class="fas fa-code fa-fw small"></i></span> <button aria-label="copy" data-title-succeed="복사되었습니다!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+</pre><td class="rouge-code"><pre>          name  price
+8   초코케이크   6500
+7   치즈케이크   6500
+6  딸기 에이드   6000
+5     말차라떼   5500
+</pre></table></code></div></div><p><code class="language-plaintext highlighter-rouge">ascending=False</code>가 내림차순이다. 정렬해도 원래 행 인덱스가 따라간다. <code class="language-plaintext highlighter-rouge">0</code>부터 다시 붙이려면 <code class="language-plaintext highlighter-rouge">ignore_index=True</code>를 준다. 가격이 같은 초코케이크(8)와 치즈케이크(7)는 원래 순서와 반대로 나왔다. 기준이 같은 행끼리의 순서는 정해져 있지 않으므로, 순서를 고정하려면 기준을 하나 더 넣는다.</p><p>기준을 여러 개 쓰려면 열 이름을 리스트로 넘긴다. <code class="language-plaintext highlighter-rouge">ascending</code>도 같은 길이의 리스트로 기준마다 정한다.</p><div class="language-python highlighter-rouge"><div class="code-header"> <span data-label-text="Python"><i class="fas fa-code fa-fw small"></i></span> <button aria-label="copy" data-title-succeed="복사되었습니다!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+</pre><td class="rouge-code"><pre><span class="nf">print</span><span class="p">(</span><span class="n">menu</span><span class="p">.</span><span class="nf">sort_values</span><span class="p">([</span><span class="sh">"</span><span class="s">price</span><span class="sh">"</span><span class="p">,</span> <span class="sh">"</span><span class="s">released_on</span><span class="sh">"</span><span class="p">],</span> <span class="n">ascending</span><span class="o">=</span><span class="p">[</span><span class="bp">False</span><span class="p">,</span> <span class="bp">True</span><span class="p">],</span>
+                       <span class="n">ignore_index</span><span class="o">=</span><span class="bp">True</span><span class="p">)[[</span><span class="sh">"</span><span class="s">name</span><span class="sh">"</span><span class="p">,</span> <span class="sh">"</span><span class="s">price</span><span class="sh">"</span><span class="p">,</span> <span class="sh">"</span><span class="s">released_on</span><span class="sh">"</span><span class="p">]].</span><span class="nf">head</span><span class="p">(</span><span class="mi">4</span><span class="p">))</span>
+</pre></table></code></div></div><div class="language-text highlighter-rouge"><div class="code-header"> <span data-label-text="Text"><i class="fas fa-code fa-fw small"></i></span> <button aria-label="copy" data-title-succeed="복사되었습니다!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+</pre><td class="rouge-code"><pre>          name  price released_on
+0   치즈케이크   6500  2024-01-01
+1   초코케이크   6500  2024-09-01
+2  딸기 에이드   6000  2026-03-01
+3   바닐라라떼   5500  2024-01-01
+</pre></table></code></div></div><p>가격이 같은 치즈케이크와 초코케이크는 출시일이 빠른 순서다. <code class="language-plaintext highlighter-rouge">released_on</code>은 문자열이지만 <code class="language-plaintext highlighter-rouge">YYYY-MM-DD</code> 형식이라 문자열 순서가 날짜 순서와 같다.</p><p>빈칸은 기본으로 <strong>맨 뒤</strong>에 놓인다. 오름차순이든 내림차순이든 같다. 앞으로 보내려면 <code class="language-plaintext highlighter-rouge">na_position="first"</code>를 준다.</p><div class="language-python highlighter-rouge"><div class="code-header"> <span data-label-text="Python"><i class="fas fa-code fa-fw small"></i></span> <button aria-label="copy" data-title-succeed="복사되었습니다!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+</pre><td class="rouge-code"><pre><span class="nf">print</span><span class="p">(</span><span class="n">member</span><span class="p">.</span><span class="nf">sort_values</span><span class="p">(</span><span class="sh">"</span><span class="s">city</span><span class="sh">"</span><span class="p">)[[</span><span class="sh">"</span><span class="s">name</span><span class="sh">"</span><span class="p">,</span> <span class="sh">"</span><span class="s">city</span><span class="sh">"</span><span class="p">]].</span><span class="nf">tail</span><span class="p">(</span><span class="mi">2</span><span class="p">))</span>
+<span class="nf">print</span><span class="p">(</span><span class="n">member</span><span class="p">.</span><span class="nf">sort_values</span><span class="p">(</span><span class="sh">"</span><span class="s">city</span><span class="sh">"</span><span class="p">,</span> <span class="n">na_position</span><span class="o">=</span><span class="sh">"</span><span class="s">first</span><span class="sh">"</span><span class="p">)[[</span><span class="sh">"</span><span class="s">name</span><span class="sh">"</span><span class="p">,</span> <span class="sh">"</span><span class="s">city</span><span class="sh">"</span><span class="p">]].</span><span class="nf">head</span><span class="p">(</span><span class="mi">2</span><span class="p">))</span>
+</pre></table></code></div></div><div class="language-text highlighter-rouge"><div class="code-header"> <span data-label-text="Text"><i class="fas fa-code fa-fw small"></i></span> <button aria-label="copy" data-title-succeed="복사되었습니다!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+</pre><td class="rouge-code"><pre>   name  city
+4  흥부  서울
+7  팥쥐   NaN
+   name  city
+7  팥쥐   NaN
+3  심청  대전
+</pre></table></code></div></div><blockquote class="prompt-tip"><p>주의할 점: MySQL은 <code class="language-plaintext highlighter-rouge">NULL</code>을 가장 작은 값으로 보아 <code class="language-plaintext highlighter-rouge">ORDER BY city</code>에서 <code class="language-plaintext highlighter-rouge">NULL</code>이 맨 앞에 온다(DB 시리즈 12편). pandas는 <code class="language-plaintext highlighter-rouge">na_position</code>의 기본값이 <code class="language-plaintext highlighter-rouge">"last"</code>라 같은 데이터를 맨 뒤에 둔다. 두 결과를 맞춰 볼 때 순서가 다르면 이것부터 확인한다.</p></blockquote><p><code class="language-plaintext highlighter-rouge">sort_values()</code>도 원본을 바꾸지 않고 정렬한 결과를 새로 돌려준다. 행 인덱스 순서로 되돌릴 때는 <code class="language-plaintext highlighter-rouge">sort_index()</code>를 쓴다.</p><div class="language-python highlighter-rouge"><div class="code-header"> <span data-label-text="Python"><i class="fas fa-code fa-fw small"></i></span> <button aria-label="copy" data-title-succeed="복사되었습니다!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+</pre><td class="rouge-code"><pre><span class="n">by_price</span> <span class="o">=</span> <span class="n">menu</span><span class="p">.</span><span class="nf">sort_values</span><span class="p">(</span><span class="sh">"</span><span class="s">price</span><span class="sh">"</span><span class="p">)</span>
+<span class="nf">print</span><span class="p">(</span><span class="n">by_price</span><span class="p">.</span><span class="n">index</span><span class="p">.</span><span class="nf">tolist</span><span class="p">())</span>
+<span class="nf">print</span><span class="p">(</span><span class="n">by_price</span><span class="p">.</span><span class="nf">sort_index</span><span class="p">().</span><span class="n">index</span><span class="p">.</span><span class="nf">tolist</span><span class="p">())</span>
+</pre></table></code></div></div><div class="language-text highlighter-rouge"><div class="code-header"> <span data-label-text="Text"><i class="fas fa-code fa-fw small"></i></span> <button aria-label="copy" data-title-succeed="복사되었습니다!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+</pre><td class="rouge-code"><pre>[9, 10, 0, 1, 3, 5, 4, 2, 6, 7, 8]
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+</pre></table></code></div></div><h2 id="nlargest-nsmallest-위에서-n개"><span class="me-2">nlargest(), nsmallest(): 위에서 n개</span><a href="#nlargest-nsmallest-위에서-n개" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2><div class="language-python highlighter-rouge"><div class="code-header"> <span data-label-text="Python"><i class="fas fa-code fa-fw small"></i></span> <button aria-label="copy" data-title-succeed="복사되었습니다!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+</pre><td class="rouge-code"><pre><span class="nf">print</span><span class="p">(</span><span class="n">menu</span><span class="p">.</span><span class="nf">nlargest</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span> <span class="sh">"</span><span class="s">price</span><span class="sh">"</span><span class="p">)[[</span><span class="sh">"</span><span class="s">name</span><span class="sh">"</span><span class="p">,</span> <span class="sh">"</span><span class="s">price</span><span class="sh">"</span><span class="p">]])</span>
+<span class="nf">print</span><span class="p">(</span><span class="n">menu</span><span class="p">.</span><span class="nf">nlargest</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span> <span class="sh">"</span><span class="s">price</span><span class="sh">"</span><span class="p">,</span> <span class="n">keep</span><span class="o">=</span><span class="sh">"</span><span class="s">all</span><span class="sh">"</span><span class="p">)[[</span><span class="sh">"</span><span class="s">name</span><span class="sh">"</span><span class="p">,</span> <span class="sh">"</span><span class="s">price</span><span class="sh">"</span><span class="p">]])</span>
+</pre></table></code></div></div><div class="language-text highlighter-rouge"><div class="code-header"> <span data-label-text="Text"><i class="fas fa-code fa-fw small"></i></span> <button aria-label="copy" data-title-succeed="복사되었습니다!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+</pre><td class="rouge-code"><pre>          name  price
+7   치즈케이크   6500
+8   초코케이크   6500
+6  딸기 에이드   6000
+2   바닐라라떼   5500
+            name  price
+7     치즈케이크   6500
+8     초코케이크   6500
+6    딸기 에이드   6000
+2     바닐라라떼   5500
+4  콜드브루 라떼   5500
+5       말차라떼   5500
+</pre></table></code></div></div><p><code class="language-plaintext highlighter-rouge">nlargest(n, 열)</code>은 그 열이 큰 순서로 n행을 고른다. <code class="language-plaintext highlighter-rouge">sort_values(열, ascending=False).head(n)</code>과 같은 일을 하지만 동점 처리가 다르다. 위의 <code class="language-plaintext highlighter-rouge">sort_values()</code> 결과와 비교하면 치즈케이크·초코케이크의 순서와 4번째 행이 다르다. <code class="language-plaintext highlighter-rouge">nlargest()</code>는 동점일 때 먼저 나온 행을 앞에 두고, <code class="language-plaintext highlighter-rouge">sort_values()</code>는 동점 행의 순서를 보장하지 않는다. 4번째 자리에 5500원 메뉴가 셋 있는데, 기본값 <code class="language-plaintext highlighter-rouge">keep="first"</code>는 먼저 나온 바닐라라떼만 남긴다. <code class="language-plaintext highlighter-rouge">keep="all"</code>은 동점을 모두 남겨서 n보다 많은 6행이 나온다. <code class="language-plaintext highlighter-rouge">keep="last"</code>는 마지막에 나온 동점을 남긴다. <code class="language-plaintext highlighter-rouge">nsmallest()</code>는 작은 순서로 같은 일을 한다.</p><h2 id="rank-순위-매기기"><span class="me-2">rank(): 순위 매기기</span><a href="#rank-순위-매기기" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2><p>월급이 높은 순으로 직원 순위를 매긴다. 4200이 둘, 3100이 둘이라 동점 처리 방식에 따라 순위가 달라진다.</p><div class="language-python highlighter-rouge"><div class="code-header"> <span data-label-text="Python"><i class="fas fa-code fa-fw small"></i></span> <button aria-label="copy" data-title-succeed="복사되었습니다!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+</pre><td class="rouge-code"><pre><span class="n">r</span> <span class="o">=</span> <span class="n">staff</span><span class="p">[[</span><span class="sh">"</span><span class="s">name</span><span class="sh">"</span><span class="p">,</span> <span class="sh">"</span><span class="s">salary</span><span class="sh">"</span><span class="p">]].</span><span class="nf">copy</span><span class="p">()</span>
+<span class="k">for</span> <span class="n">how</span> <span class="ow">in</span> <span class="p">[</span><span class="sh">"</span><span class="s">average</span><span class="sh">"</span><span class="p">,</span> <span class="sh">"</span><span class="s">min</span><span class="sh">"</span><span class="p">,</span> <span class="sh">"</span><span class="s">dense</span><span class="sh">"</span><span class="p">,</span> <span class="sh">"</span><span class="s">first</span><span class="sh">"</span><span class="p">]:</span>
+    <span class="n">r</span><span class="p">[</span><span class="n">how</span><span class="p">]</span> <span class="o">=</span> <span class="n">staff</span><span class="p">[</span><span class="sh">"</span><span class="s">salary</span><span class="sh">"</span><span class="p">].</span><span class="nf">rank</span><span class="p">(</span><span class="n">method</span><span class="o">=</span><span class="n">how</span><span class="p">,</span> <span class="n">ascending</span><span class="o">=</span><span class="bp">False</span><span class="p">)</span>
+<span class="nf">print</span><span class="p">(</span><span class="n">r</span><span class="p">)</span>
+</pre></table></code></div></div><div class="language-text highlighter-rouge"><div class="code-header"> <span data-label-text="Text"><i class="fas fa-code fa-fw small"></i></span> <button aria-label="copy" data-title-succeed="복사되었습니다!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+</pre><td class="rouge-code"><pre>     name  salary  average  min  dense  first
+0    월매    6000      1.0  1.0    1.0    1.0
+1    방자    4200      2.5  2.0    2.0    2.0
+2    향단    4200      2.5  2.0    2.0    3.0
+3  변학도    4000      4.0  4.0    3.0    4.0
+4    장화    3100      5.5  5.0    4.0    5.0
+5    홍련    3000      7.0  7.0    5.0    7.0
+6  전우치    3100      5.5  5.0    4.0    6.0
+7  옹고집    2100      8.0  8.0    6.0    8.0
+</pre></table></code></div></div><div class="table-wrapper"><table><thead><tr><th><code class="language-plaintext highlighter-rouge">method</code><th>동점의 순위<th>다음 순위<th>SQL (DB 시리즈 19편)<tbody><tr><td><code class="language-plaintext highlighter-rouge">average</code> (기본)<td>차지한 자리의 평균 (2, 3위 → 2.5)<td>건너뜀<td>없음<tr><td><code class="language-plaintext highlighter-rouge">min</code><td>가장 작은 자리 (2)<td>건너뜀 (다음은 4)<td><code class="language-plaintext highlighter-rouge">RANK()</code><tr><td><code class="language-plaintext highlighter-rouge">dense</code><td>가장 작은 자리 (2)<td>이어짐 (다음은 3)<td><code class="language-plaintext highlighter-rouge">DENSE_RANK()</code><tr><td><code class="language-plaintext highlighter-rouge">first</code><td>나온 순서대로 (2, 3)<td>동점 없음<td><code class="language-plaintext highlighter-rouge">ROW_NUMBER()</code></table></div><p><code class="language-plaintext highlighter-rouge">rank()</code>의 결과는 <code class="language-plaintext highlighter-rouge">method</code>와 관계없이 <code class="language-plaintext highlighter-rouge">float64</code>다(<code class="language-plaintext highlighter-rouge">average</code>에서 <code class="language-plaintext highlighter-rouge">2.5</code> 같은 값이 나올 수 있기 때문이다). <code class="language-plaintext highlighter-rouge">ascending=False</code>를 주지 않으면 작은 값이 1위가 된다.</p><div class="language-sql highlighter-rouge"><div class="code-header"> <span data-label-text="Sql"><i class="fas fa-code fa-fw small"></i></span> <button aria-label="copy" data-title-succeed="복사되었습니다!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+</pre><td class="rouge-code"><pre><span class="k">SELECT</span> <span class="n">name</span><span class="p">,</span> <span class="n">salary</span><span class="p">,</span>
+       <span class="n">RANK</span><span class="p">()</span>       <span class="n">OVER</span> <span class="p">(</span><span class="k">ORDER</span> <span class="k">BY</span> <span class="n">salary</span> <span class="k">DESC</span><span class="p">)</span> <span class="k">AS</span> <span class="n">rnk</span><span class="p">,</span>
+       <span class="n">DENSE_RANK</span><span class="p">()</span> <span class="n">OVER</span> <span class="p">(</span><span class="k">ORDER</span> <span class="k">BY</span> <span class="n">salary</span> <span class="k">DESC</span><span class="p">)</span> <span class="k">AS</span> <span class="n">dense_rnk</span>
+<span class="k">FROM</span> <span class="n">staff</span><span class="p">;</span>
+</pre></table></code></div></div><blockquote class="prompt-tip"><p>주의할 점: <code class="language-plaintext highlighter-rouge">ROW_NUMBER()</code>는 동점끼리의 순서를 정하지 않으므로 실행할 때마다 달라질 수 있다. <code class="language-plaintext highlighter-rouge">method="first"</code>는 행이 놓인 순서대로 매기므로 같은 표에서는 항상 같다.</p></blockquote><h2 id="집계-메서드와-axis"><span class="me-2">집계 메서드와 axis</span><a href="#집계-메서드와-axis" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2><p>지점별·메뉴별 하루 판매 잔 수를 작은 표로 만든다.</p><div class="language-python highlighter-rouge"><div class="code-header"> <span data-label-text="Python"><i class="fas fa-code fa-fw small"></i></span> <button aria-label="copy" data-title-succeed="복사되었습니다!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+</pre><td class="rouge-code"><pre><span class="n">sales</span> <span class="o">=</span> <span class="n">pd</span><span class="p">.</span><span class="nc">DataFrame</span><span class="p">(</span>
+    <span class="p">{</span><span class="sh">"</span><span class="s">아메리카노</span><span class="sh">"</span><span class="p">:</span> <span class="p">[</span><span class="mi">30</span><span class="p">,</span> <span class="mi">25</span><span class="p">,</span> <span class="mi">18</span><span class="p">],</span> <span class="sh">"</span><span class="s">카페라떼</span><span class="sh">"</span><span class="p">:</span> <span class="p">[</span><span class="mi">22</span><span class="p">,</span> <span class="mi">15</span><span class="p">,</span> <span class="mi">20</span><span class="p">],</span> <span class="sh">"</span><span class="s">콜드브루</span><span class="sh">"</span><span class="p">:</span> <span class="p">[</span><span class="mi">10</span><span class="p">,</span> <span class="mi">12</span><span class="p">,</span> <span class="mi">16</span><span class="p">]},</span>
+    <span class="n">index</span><span class="o">=</span><span class="p">[</span><span class="sh">"</span><span class="s">본점</span><span class="sh">"</span><span class="p">,</span> <span class="sh">"</span><span class="s">강변점</span><span class="sh">"</span><span class="p">,</span> <span class="sh">"</span><span class="s">공원점</span><span class="sh">"</span><span class="p">],</span>
+<span class="p">)</span>
+<span class="nf">print</span><span class="p">(</span><span class="n">sales</span><span class="p">)</span>
+<span class="nf">print</span><span class="p">(</span><span class="n">sales</span><span class="p">.</span><span class="nf">sum</span><span class="p">())</span>
+<span class="nf">print</span><span class="p">(</span><span class="n">sales</span><span class="p">.</span><span class="nf">sum</span><span class="p">(</span><span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">))</span>
+</pre></table></code></div></div><div class="language-text highlighter-rouge"><div class="code-header"> <span data-label-text="Text"><i class="fas fa-code fa-fw small"></i></span> <button aria-label="copy" data-title-succeed="복사되었습니다!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+</pre><td class="rouge-code"><pre>        아메리카노  카페라떼  콜드브루
+본점            30        22        10
+강변점          25        15        12
+공원점          18        20        16
+아메리카노    73
+카페라떼      57
+콜드브루      38
+dtype: int64
+본점      62
+강변점    52
+공원점    54
+dtype: int64
+</pre></table></code></div></div><p><code class="language-plaintext highlighter-rouge">sum()</code>은 기본(<code class="language-plaintext highlighter-rouge">axis=0</code>)으로 <strong>위에서 아래로</strong> 더해 열마다 하나의 값을 낸다. 결과의 인덱스가 열 이름(메뉴)이다. <code class="language-plaintext highlighter-rouge">axis=1</code>은 <strong>왼쪽에서 오른쪽으로</strong> 더해 행마다 하나, 즉 지점별 합계다. <code class="language-plaintext highlighter-rouge">mean()</code>, <code class="language-plaintext highlighter-rouge">max()</code>, <code class="language-plaintext highlighter-rouge">min()</code>, <code class="language-plaintext highlighter-rouge">count()</code>도 같은 규칙이다.</p><div class="table-wrapper"><table><thead><tr><th><code class="language-plaintext highlighter-rouge">axis</code><th>계산 방향<th>결과 하나가 뜻하는 것<th>예<tbody><tr><td><code class="language-plaintext highlighter-rouge">0</code> 또는 <code class="language-plaintext highlighter-rouge">"index"</code> (기본)<td>행을 따라 아래로<td>열 하나<td>메뉴별 합계<tr><td><code class="language-plaintext highlighter-rouge">1</code> 또는 <code class="language-plaintext highlighter-rouge">"columns"</code><td>열을 따라 옆으로<td>행 하나<td>지점별 합계</table></div><p>합계를 표에 붙인다. 행 합계는 새 열로, 열 합계는 <code class="language-plaintext highlighter-rouge">loc</code>으로 새 행을 넣는다.</p><div class="language-python highlighter-rouge"><div class="code-header"> <span data-label-text="Python"><i class="fas fa-code fa-fw small"></i></span> <button aria-label="copy" data-title-succeed="복사되었습니다!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+</pre><td class="rouge-code"><pre><span class="n">sales</span><span class="p">[</span><span class="sh">"</span><span class="s">합계</span><span class="sh">"</span><span class="p">]</span> <span class="o">=</span> <span class="n">sales</span><span class="p">.</span><span class="nf">sum</span><span class="p">(</span><span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">sales</span><span class="p">.</span><span class="n">loc</span><span class="p">[</span><span class="sh">"</span><span class="s">합계</span><span class="sh">"</span><span class="p">]</span> <span class="o">=</span> <span class="n">sales</span><span class="p">.</span><span class="nf">sum</span><span class="p">()</span>
+<span class="nf">print</span><span class="p">(</span><span class="n">sales</span><span class="p">)</span>
+<span class="nf">print</span><span class="p">(</span><span class="n">sales</span><span class="p">.</span><span class="nf">drop</span><span class="p">(</span><span class="n">index</span><span class="o">=</span><span class="sh">"</span><span class="s">합계</span><span class="sh">"</span><span class="p">).</span><span class="nf">mean</span><span class="p">().</span><span class="nf">round</span><span class="p">(</span><span class="mi">1</span><span class="p">))</span>
+</pre></table></code></div></div><div class="language-text highlighter-rouge"><div class="code-header"> <span data-label-text="Text"><i class="fas fa-code fa-fw small"></i></span> <button aria-label="copy" data-title-succeed="복사되었습니다!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+</pre><td class="rouge-code"><pre>        아메리카노  카페라떼  콜드브루  합계
+본점            30        22        10    62
+강변점          25        15        12    52
+공원점          18        20        16    54
+합계            73        57        38   168
+아메리카노    24.3
+카페라떼      19.0
+콜드브루      12.7
+합계          56.0
+dtype: float64
+</pre></table></code></div></div><p><code class="language-plaintext highlighter-rouge">loc</code>에 없는 행 라벨로 대입하면 행이 추가된다. 열 합계를 더할 때 앞에서 만든 <code class="language-plaintext highlighter-rouge">합계</code> 열까지 더해져 오른쪽 아래 칸이 전체 합계(168)가 됐다. 평균을 낼 때는 <code class="language-plaintext highlighter-rouge">합계</code> 행을 빼야 한다. 빼지 않으면 합계가 평균에 섞인다.</p><p>가장 큰 값이 <strong>어디에</strong> 있는지는 <code class="language-plaintext highlighter-rouge">idxmax()</code>로 찾는다.</p><div class="language-python highlighter-rouge"><div class="code-header"> <span data-label-text="Python"><i class="fas fa-code fa-fw small"></i></span> <button aria-label="copy" data-title-succeed="복사되었습니다!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+</pre><td class="rouge-code"><pre><span class="n">t</span> <span class="o">=</span> <span class="n">sales</span><span class="p">.</span><span class="nf">drop</span><span class="p">(</span><span class="n">index</span><span class="o">=</span><span class="sh">"</span><span class="s">합계</span><span class="sh">"</span><span class="p">,</span> <span class="n">columns</span><span class="o">=</span><span class="sh">"</span><span class="s">합계</span><span class="sh">"</span><span class="p">)</span>
+<span class="nf">print</span><span class="p">(</span><span class="n">t</span><span class="p">.</span><span class="nf">max</span><span class="p">())</span>
+<span class="nf">print</span><span class="p">(</span><span class="n">t</span><span class="p">.</span><span class="nf">idxmax</span><span class="p">())</span>
+<span class="nf">print</span><span class="p">(</span><span class="n">t</span><span class="p">.</span><span class="nf">idxmax</span><span class="p">(</span><span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">))</span>
+</pre></table></code></div></div><div class="language-text highlighter-rouge"><div class="code-header"> <span data-label-text="Text"><i class="fas fa-code fa-fw small"></i></span> <button aria-label="copy" data-title-succeed="복사되었습니다!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+</pre><td class="rouge-code"><pre>아메리카노    30
+카페라떼      22
+콜드브루      16
+dtype: int64
+아메리카노      본점
+카페라떼        본점
+콜드브루      공원점
+dtype: str
+본점      아메리카노
+강변점    아메리카노
+공원점      카페라떼
+dtype: str
+</pre></table></code></div></div><p><code class="language-plaintext highlighter-rouge">max()</code>는 값, <code class="language-plaintext highlighter-rouge">idxmax()</code>는 그 값이 있는 행 라벨이다. <code class="language-plaintext highlighter-rouge">axis=1</code>이면 지점마다 가장 많이 팔린 메뉴(열 이름)를 준다.</p><h2 id="복습-문제"><span class="me-2">복습 문제</span><a href="#복습-문제" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2><ol><li><code class="language-plaintext highlighter-rouge">member</code>에서 등급별 회원 수와 비율을 각각 구하시오. BASIC의 비율은 얼마인가.<li>메뉴를 가격이 높은 순으로, 가격이 같으면 이름 가나다순으로 정렬해 앞 5개 메뉴의 이름과 가격을 출력하시오.<li>직원 월급에 <code class="language-plaintext highlighter-rouge">rank(method="dense", ascending=False)</code>를 적용하면 변학도(4000)는 몇 위인가. <code class="language-plaintext highlighter-rouge">method="min"</code>이면 몇 위인가. 각각 SQL의 어떤 함수와 같은지 쓰시오.<li>다음 중 지점(행)마다 판매량 평균을 구하는 코드를 고르시오. <code class="language-plaintext highlighter-rouge">sales</code>는 행이 지점, 열이 메뉴다.<br /> ① <code class="language-plaintext highlighter-rouge">sales.mean()</code> ② <code class="language-plaintext highlighter-rouge">sales.mean(axis=0)</code> ③ <code class="language-plaintext highlighter-rouge">sales.mean(axis=1)</code> ④ <code class="language-plaintext highlighter-rouge">sales.mean(axis="index")</code><li><code class="language-plaintext highlighter-rouge">menu.nlargest(1, "price")</code>와 <code class="language-plaintext highlighter-rouge">menu.nlargest(1, "price", keep="all")</code>의 행 수를 각각 쓰고 이유를 설명하시오.</ol><details> <summary>정답과 해설</summary><p><strong>1.</strong> <code class="language-plaintext highlighter-rouge">value_counts()</code>와 <code class="language-plaintext highlighter-rouge">value_counts(normalize=True)</code>다. BASIC은 8명 중 4명이라 0.5다.</p><div class="language-python highlighter-rouge"><div class="code-header"> <span data-label-text="Python"><i class="fas fa-code fa-fw small"></i></span> <button aria-label="copy" data-title-succeed="복사되었습니다!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+</pre><td class="rouge-code"><pre><span class="nf">print</span><span class="p">(</span><span class="n">member</span><span class="p">[</span><span class="sh">"</span><span class="s">grade</span><span class="sh">"</span><span class="p">].</span><span class="nf">value_counts</span><span class="p">())</span>
+<span class="nf">print</span><span class="p">(</span><span class="n">member</span><span class="p">[</span><span class="sh">"</span><span class="s">grade</span><span class="sh">"</span><span class="p">].</span><span class="nf">value_counts</span><span class="p">(</span><span class="n">normalize</span><span class="o">=</span><span class="bp">True</span><span class="p">))</span>
+</pre></table></code></div></div><div class="language-text highlighter-rouge"><div class="code-header"> <span data-label-text="Text"><i class="fas fa-code fa-fw small"></i></span> <button aria-label="copy" data-title-succeed="복사되었습니다!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+</pre><td class="rouge-code"><pre>grade
+BASIC    4
+VIP      2
+GOLD     2
+Name: count, dtype: int64
+grade
+BASIC    0.50
+VIP      0.25
+GOLD     0.25
+Name: proportion, dtype: float64
+</pre></table></code></div></div><p><strong>2.</strong> 기준 두 개와 방향 두 개를 리스트로 준다.</p><div class="language-python highlighter-rouge"><div class="code-header"> <span data-label-text="Python"><i class="fas fa-code fa-fw small"></i></span> <button aria-label="copy" data-title-succeed="복사되었습니다!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre><td class="rouge-code"><pre><span class="nf">print</span><span class="p">(</span><span class="n">menu</span><span class="p">.</span><span class="nf">sort_values</span><span class="p">([</span><span class="sh">"</span><span class="s">price</span><span class="sh">"</span><span class="p">,</span> <span class="sh">"</span><span class="s">name</span><span class="sh">"</span><span class="p">],</span> <span class="n">ascending</span><span class="o">=</span><span class="p">[</span><span class="bp">False</span><span class="p">,</span> <span class="bp">True</span><span class="p">])[[</span><span class="sh">"</span><span class="s">name</span><span class="sh">"</span><span class="p">,</span> <span class="sh">"</span><span class="s">price</span><span class="sh">"</span><span class="p">]].</span><span class="nf">head</span><span class="p">(</span><span class="mi">5</span><span class="p">))</span>
+</pre></table></code></div></div><div class="language-text highlighter-rouge"><div class="code-header"> <span data-label-text="Text"><i class="fas fa-code fa-fw small"></i></span> <button aria-label="copy" data-title-succeed="복사되었습니다!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+</pre><td class="rouge-code"><pre>          name  price
+8   초코케이크   6500
+7   치즈케이크   6500
+6  딸기 에이드   6000
+5     말차라떼   5500
+2   바닐라라떼   5500
+</pre></table></code></div></div><p><strong>3.</strong> <code class="language-plaintext highlighter-rouge">dense</code>로는 <strong>3위</strong>(6000이 1위, 4200 둘이 2위)이고 <code class="language-plaintext highlighter-rouge">DENSE_RANK()</code>와 같다. <code class="language-plaintext highlighter-rouge">min</code>으로는 4200 둘이 2·3위 자리를 차지하므로 <strong>4위</strong>이고 <code class="language-plaintext highlighter-rouge">RANK()</code>와 같다.</p><div class="language-python highlighter-rouge"><div class="code-header"> <span data-label-text="Python"><i class="fas fa-code fa-fw small"></i></span> <button aria-label="copy" data-title-succeed="복사되었습니다!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+</pre><td class="rouge-code"><pre><span class="nf">print</span><span class="p">(</span><span class="n">staff</span><span class="p">.</span><span class="n">loc</span><span class="p">[</span><span class="n">staff</span><span class="p">[</span><span class="sh">"</span><span class="s">name</span><span class="sh">"</span><span class="p">]</span> <span class="o">==</span> <span class="sh">"</span><span class="s">변학도</span><span class="sh">"</span><span class="p">,</span> <span class="sh">"</span><span class="s">salary</span><span class="sh">"</span><span class="p">].</span><span class="nf">tolist</span><span class="p">())</span>
+<span class="nf">print</span><span class="p">(</span><span class="n">staff</span><span class="p">[</span><span class="sh">"</span><span class="s">salary</span><span class="sh">"</span><span class="p">].</span><span class="nf">rank</span><span class="p">(</span><span class="n">method</span><span class="o">=</span><span class="sh">"</span><span class="s">dense</span><span class="sh">"</span><span class="p">,</span> <span class="n">ascending</span><span class="o">=</span><span class="bp">False</span><span class="p">).</span><span class="n">loc</span><span class="p">[</span><span class="mi">3</span><span class="p">],</span>
+      <span class="n">staff</span><span class="p">[</span><span class="sh">"</span><span class="s">salary</span><span class="sh">"</span><span class="p">].</span><span class="nf">rank</span><span class="p">(</span><span class="n">method</span><span class="o">=</span><span class="sh">"</span><span class="s">min</span><span class="sh">"</span><span class="p">,</span> <span class="n">ascending</span><span class="o">=</span><span class="bp">False</span><span class="p">).</span><span class="n">loc</span><span class="p">[</span><span class="mi">3</span><span class="p">])</span>
+</pre></table></code></div></div><div class="language-text highlighter-rouge"><div class="code-header"> <span data-label-text="Text"><i class="fas fa-code fa-fw small"></i></span> <button aria-label="copy" data-title-succeed="복사되었습니다!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+</pre><td class="rouge-code"><pre>[4000]
+3.0 4.0
+</pre></table></code></div></div><p><strong>4.</strong> ③. 행마다 하나의 값을 내려면 열을 따라 옆으로 계산하는 <code class="language-plaintext highlighter-rouge">axis=1</code>이다. ①②④는 모두 열(메뉴)마다 평균을 낸다.</p><p><strong>5.</strong> 1행과 2행이다. 가장 비싼 6500원 메뉴가 치즈케이크와 초코케이크 둘이다. 기본값 <code class="language-plaintext highlighter-rouge">keep="first"</code>는 먼저 나온 치즈케이크만, <code class="language-plaintext highlighter-rouge">keep="all"</code>은 동점을 모두 남긴다.</p><div class="language-python highlighter-rouge"><div class="code-header"> <span data-label-text="Python"><i class="fas fa-code fa-fw small"></i></span> <button aria-label="copy" data-title-succeed="복사되었습니다!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre><td class="rouge-code"><pre><span class="nf">print</span><span class="p">(</span><span class="nf">len</span><span class="p">(</span><span class="n">menu</span><span class="p">.</span><span class="nf">nlargest</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="sh">"</span><span class="s">price</span><span class="sh">"</span><span class="p">)),</span> <span class="nf">len</span><span class="p">(</span><span class="n">menu</span><span class="p">.</span><span class="nf">nlargest</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="sh">"</span><span class="s">price</span><span class="sh">"</span><span class="p">,</span> <span class="n">keep</span><span class="o">=</span><span class="sh">"</span><span class="s">all</span><span class="sh">"</span><span class="p">)))</span>
+</pre></table></code></div></div><div class="language-text highlighter-rouge"><div class="code-header"> <span data-label-text="Text"><i class="fas fa-code fa-fw small"></i></span> <button aria-label="copy" data-title-succeed="복사되었습니다!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre><td class="rouge-code"><pre>1 2
+</pre></table></code></div></div></details></div><div class="post-tail-wrapper text-muted"><div class="d-flex justify-content-between align-items-center gap-3 mb-3"><div class="post-meta"> <i class="far fa-folder-open fa-fw me-1"></i> <a href="/categories/study/">Study</a>, <a href="/categories/pandas/">Pandas</a></div></div><div class="post-tags"> <i class="fa fa-tags fa-fw me-1"></i> <a href="/tags/pandas/" class="post-tag no-text-decoration" >pandas</a> <a href="/tags/python/" class="post-tag no-text-decoration" >python</a> <a href="/tags/describe/" class="post-tag no-text-decoration" >describe</a> <a href="/tags/sort/" class="post-tag no-text-decoration" >sort</a> <a href="/tags/rank/" class="post-tag no-text-decoration" >rank</a></div><div class=" post-tail-bottom d-flex justify-content-between align-items-center mt-5 pb-2 " ><div class="license-wrapper"> 이 기사는 저작권자의 <a href="https://creativecommons.org/licenses/by/4.0/"> CC BY 4.0 </a> 라이센스를 따릅니다.</div><div class="share-wrapper d-flex align-items-center"> <span class="share-label text-muted">공유하기</span> <span class="share-icons"> <a href="https://twitter.com/intent/tweet?text=[Pandas]%2004.%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%ED%8C%8C%EC%95%85,%20%EC%A0%95%EB%A0%AC,%20%EC%88%9C%EC%9C%84%20-%20Taeyoon.log&url=https%3A%2F%2Ftae62jj021216.github.io%2Fposts%2Fpandas-04-explore-sort%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter" aria-label="Twitter"> <i class="fa-fw fa-brands fa-square-x-twitter"></i> </a> <a href="https://www.facebook.com/sharer/sharer.php?title=[Pandas]%2004.%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%ED%8C%8C%EC%95%85,%20%EC%A0%95%EB%A0%AC,%20%EC%88%9C%EC%9C%84%20-%20Taeyoon.log&u=https%3A%2F%2Ftae62jj021216.github.io%2Fposts%2Fpandas-04-explore-sort%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook" aria-label="Facebook"> <i class="fa-fw fab fa-facebook-square"></i> </a> <a href="https://t.me/share/url?url=https%3A%2F%2Ftae62jj021216.github.io%2Fposts%2Fpandas-04-explore-sort%2F&text=[Pandas]%2004.%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%ED%8C%8C%EC%95%85,%20%EC%A0%95%EB%A0%AC,%20%EC%88%9C%EC%9C%84%20-%20Taeyoon.log" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Telegram" aria-label="Telegram"> <i class="fa-fw fab fa-telegram"></i> </a> <button id="copy-link" aria-label="Copy link" class="btn small" data-bs-toggle="tooltip" data-bs-placement="top" title="링크 복사하기" data-title-succeed="링크가 복사되었습니다!" > <i class="fa-fw fas fa-link pe-none fs-6"></i> </button> </span></div></div></div></article></main><aside aria-label="Panel" id="panel-wrapper" class="col-xl-3 ps-2 text-muted"><div class="access"><section id="access-lastmod"><h2 class="panel-heading">최근 업데이트</h2><ul class="content list-unstyled ps-0 pb-1 ms-1 mt-2"><li class="text-truncate lh-lg"> <a href="/posts/pandas-12-groupby/">[Pandas] 12. groupby로 그룹별 분석</a><li class="text-truncate lh-lg"> <a href="/posts/pandas-11-reshape/">[Pandas] 11. 재구조화: pivot, stack, melt</a><li class="text-truncate lh-lg"> <a href="/posts/pandas-10-multiindex/">[Pandas] 10. 다중 인덱스</a><li class="text-truncate lh-lg"> <a href="/posts/pandas-09-concat-merge/">[Pandas] 09. 데이터 합치기: concat, merge, join</a><li class="text-truncate lh-lg"> <a href="/posts/pandas-08-apply-map/">[Pandas] 08. apply와 map으로 함수 적용하기</a></ul></section><section><h2 class="panel-heading">인기 태그</h2><div class="d-flex flex-wrap mt-3 mb-1 me-3"> <a class="post-tag btn btn-outline-primary" href="/tags/python/">python</a> <a class="post-tag btn btn-outline-primary" href="/tags/%EC%A0%95%EB%B3%B4%EC%B2%98%EB%A6%AC%EA%B8%B0%EC%82%AC/">정보처리기사</a> <a class="post-tag btn btn-outline-primary" href="/tags/sqld/">sqld</a> <a class="post-tag btn btn-outline-primary" href="/tags/mysql/">mysql</a> <a class="post-tag btn btn-outline-primary" href="/tags/sql/">sql</a> <a class="post-tag btn btn-outline-primary" href="/tags/pandas/">pandas</a> <a class="post-tag btn btn-outline-primary" href="/tags/crawling/">crawling</a> <a class="post-tag btn btn-outline-primary" href="/tags/database/">database</a> <a class="post-tag btn btn-outline-primary" href="/tags/uav/">uav</a> <a class="post-tag btn btn-outline-primary" href="/tags/sitl/">sitl</a></div></section></div><div class="toc-border-cover z-3"></div><section id="toc-wrapper" class="invisible position-sticky ps-0 pe-4 pb-4"><h2 class="panel-heading ps-3 pb-2 mb-0">바로가기</h2><nav id="toc"></nav></section></aside></div><div class="row"><div id="tail-wrapper" class="col-12 col-lg-11 col-xl-9 px-md-4"><aside id="related-posts" aria-labelledby="related-label"><h3 class="mb-4" id="related-label">관련된 글</h3><nav class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4 mb-4"><article class="col"> <a href="/posts/pandas-12-groupby/" class="post-preview card h-100"><div class="card-body"> <time data-ts="1792846802" data-df="YYYY/MM/DD" > 2026/10/24 </time><h4 class="pt-0 my-2">[Pandas] 12. groupby로 그룹별 분석</h4><div class="text-muted"><p>groupby()는 행을 어떤 열의 값이 같은 것끼리 묶고, 묶음마다 계산한 결과를 다시 한 표로 합친다. “지점별 매출 합계”, “직급별 평균 급여”처럼 “~별”이 붙는 질문이 모두 여기에 해당하고, SQL의 GROUP BY와 같은 일을 한다. 예제 데이터는 00편의 cafe 폴더를 쓴다. Python 3.12, pandas 3.0.6에서 실...</p></div></div></a></article><article class="col"> <a href="/posts/pandas-11-reshape/" class="post-preview card h-100"><div class="card-body"> <time data-ts="1792846801" data-df="YYYY/MM/DD" > 2026/10/24 </time><h4 class="pt-0 my-2">[Pandas] 11. 재구조화: pivot, stack, melt</h4><div class="text-muted"><p>같은 판매 기록도 날짜·지점·잔 수를 한 줄에 하나씩 쌓으면 93행이 되고, 지점을 열 이름으로 펼치면 31행이 된다. 값은 그대로 두고 표의 모양만 바꾸는 일을 재구조화(reshape)라고 하며, pandas에서는 pivot·stack·melt 같은 함수가 맡는다. 예제 데이터는 00편의 cafe 폴더를 쓴다. Python 3.12, pand...</p></div></div></a></article><article class="col"> <a href="/posts/pandas-10-multiindex/" class="post-preview card h-100"><div class="card-body"> <time data-ts="1792846800" data-df="YYYY/MM/DD" > 2026/10/24 </time><h4 class="pt-0 my-2">[Pandas] 10. 다중 인덱스</h4><div class="text-muted"><p>다중 인덱스(MultiIndex)는 단계가 둘 이상인 인덱스다. 일별 매출 표는 날짜만으로는 행 하나가 정해지지 않고 지점과 날짜가 함께 있어야 정해진다. 이때 (지점, 날짜) 두 단계를 인덱스로 쓴다. 예제 데이터는 00편의 cafe 폴더를 쓴다. Python 3.12, pandas 3.0.6에서 실행한 결과다. set_index로 만들기...</p></div></div></a></article></nav></aside><nav class="post-navigation d-flex justify-content-between" aria-label="Post Navigation"> <a href="/posts/pandas-03-loc-iloc/" class="btn btn-outline-primary" aria-label="이전 글" ><p>[Pandas] 03. loc·iloc 인덱싱과 조건 필터링</p></a> <a href="/posts/pandas-05-missing-duplicates/" class="btn btn-outline-primary" aria-label="다음 글" ><p>[Pandas] 05. 결측치, 중복, 행·열 삭제</p></a></nav><footer aria-label="Site Info" class=" d-flex flex-column justify-content-center text-muted flex-lg-row justify-content-lg-between align-items-lg-center pb-lg-3 " ><p>© <time>2026</time> <a href="https://github.com/tae62jj021216">Taeyoon Kim</a>. <span data-bs-toggle="tooltip" data-bs-placement="top" title="명시되지 않는 한 이 사이트의 블로그 게시물은 작성자의 Creative Commons Attribution 4.0 International(CC BY 4.0) 라이선스에 따라 사용이 허가되었습니다." >일부 권리 보유</span></p><p>Powered by <a href="https://jekyllrb.com" target="_blank" rel="noopener">Jekyll</a> with <a data-bs-toggle="tooltip" data-bs-placement="top" title="v7.6.0" href="https://github.com/cotes2020/jekyll-theme-chirpy" target="_blank" rel="noopener" >Chirpy</a> theme</p></footer></div></div><div id="search-result-wrapper" class="d-flex justify-content-center d-none"><div class="col-11 content"><div id="search-hints"><section><h2 class="panel-heading">인기 태그</h2><div class="d-flex flex-wrap mt-3 mb-1 me-3"> <a class="post-tag btn btn-outline-primary" href="/tags/python/">python</a> <a class="post-tag btn btn-outline-primary" href="/tags/%EC%A0%95%EB%B3%B4%EC%B2%98%EB%A6%AC%EA%B8%B0%EC%82%AC/">정보처리기사</a> <a class="post-tag btn btn-outline-primary" href="/tags/sqld/">sqld</a> <a class="post-tag btn btn-outline-primary" href="/tags/mysql/">mysql</a> <a class="post-tag btn btn-outline-primary" href="/tags/sql/">sql</a> <a class="post-tag btn btn-outline-primary" href="/tags/pandas/">pandas</a> <a class="post-tag btn btn-outline-primary" href="/tags/crawling/">crawling</a> <a class="post-tag btn btn-outline-primary" href="/tags/database/">database</a> <a class="post-tag btn btn-outline-primary" href="/tags/uav/">uav</a> <a class="post-tag btn btn-outline-primary" href="/tags/sitl/">sitl</a></div></section></div><div id="search-results" class="d-flex flex-wrap justify-content-center text-muted mt-3"></div></div></div></div><aside aria-label="Scroll to Top"> <button id="back-to-top" type="button" class="btn btn-lg btn-box-shadow"> <i class="fas fa-angle-up"></i> </button></aside></div><div id="mask" class="d-none position-fixed w-100 h-100 z-1"></div><aside id="notification" class="toast w-auto rounded-5 text-nowrap" role="alert" aria-live="assertive" aria-atomic="true" data-bs-animation="true" data-bs-autohide="false" ><div class="d-flex align-items-center"><div class="toast-body ps-3">새 콘텐츠가 있습니다</div><button type="button" class="btn btn-primary btn-sm rounded-2 py-0" aria-label="Update" >업데이트</button> <button type="button" class="btn-close mx-3 ms-2" data-bs-dismiss="toast" aria-label="Close" ></button></div></aside><script> document.addEventListener('DOMContentLoaded', () => { SimpleJekyllSearch({ searchInput: document.getElementById('search-input'), resultsContainer: document.getElementById('search-results'), json: '/assets/js/data/search.json', searchResultTemplate: '<article class="px-1 px-sm-2 px-lg-4 px-xl-0"><header><h2><a href="{url}">{title}</a></h2><div class="post-meta d-flex flex-column flex-sm-row text-muted mt-1 mb-1"> {categories} {tags}</div></header><p>{content}</p></article>', noResultsText: '<p class="mt-5">검색 결과가 없습니다.</p>', templateMiddleware: function(prop, value, template) { if (prop === 'categories') { if (value === '') { return `${value}`; } else { return `<div class="me-sm-4"><i class="far fa-folder fa-fw"></i>${value}</div>`; } } if (prop === 'tags') { if (value === '') { return `${value}`; } else { return `<div><i class="fa fa-tag fa-fw"></i>${value}</div>`; } } } }); }); </script>

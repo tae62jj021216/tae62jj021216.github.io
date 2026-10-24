@@ -1,0 +1,175 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 360" width="860" height="360" role="img" aria-label="정상 명령 주기와 탐지 창: 0.3초 주기에서는 2초 창에 8개가 들어 Flood 오탐, 3초 주기에서는 1초 창에 1개뿐이라 Range가 3개를 모으지 못한다">
+<title>정상 명령 주기와 탐지 창: 0.3초 주기에서는 2초 창에 8개가 들어 Flood 오탐, 3초 주기에서는 1초 창에 1개뿐이라 Range가 3개를 모으지 못한다</title>
+<rect width="860" height="360" rx="12" fill="#ffffff"/>
+<rect x="450.8333333333333" y="86" width="233.33333333333331" height="40" rx="4" fill="#fbe4e4" stroke="#c53030" stroke-width="1.6"/>
+<text x="567.5" y="79" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12" font-weight="700" fill="#c53030" text-anchor="middle">2초 창에 8개 → Flood 오탐</text>
+<rect x="404.1666666666668" y="236" width="233.33333333333331" height="40" rx="4" fill="none" stroke="#2f855a" stroke-width="1.6"/>
+<text x="520.8333333333335" y="229" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12" font-weight="700" fill="#2f855a" text-anchor="middle">2초 창에 1개 → Flood 오탐 없음</text>
+<rect x="520.8333333333335" y="236" width="116.66666666666663" height="40" rx="4" fill="#fbe4e4" stroke="#c53030" stroke-width="1.6"/>
+<text x="579.1666666666667" y="229" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12" font-weight="700" fill="#c53030" text-anchor="middle"></text>
+<text x="579.1666666666669" y="314" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12" font-weight="700" fill="#c53030" text-anchor="middle">1초 창에 1개 → Range는 3개가 필요해 공격을 놓친다</text>
+<text x="20" y="110" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13.5" font-weight="700" fill="#1f2933" text-anchor="start">정상 명령 0.3초</text>
+<line x1="130" y1="106" x2="830" y2="106" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="130.0" y1="102" x2="130.0" y2="110" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="141.66666666666683" y1="102" x2="141.66666666666683" y2="110" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="153.33333333333366" y1="102" x2="153.33333333333366" y2="110" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="164.99999999999966" y1="102" x2="164.99999999999966" y2="110" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="176.66666666666652" y1="102" x2="176.66666666666652" y2="110" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="188.33333333333331" y1="98" x2="188.33333333333331" y2="114" stroke="#cbd2d9" stroke-width="1"/>
+<text x="188.33333333333331" y="138" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11" font-weight="400" fill="#616e7c" text-anchor="middle">45초</text>
+<line x1="200.00000000000017" y1="102" x2="200.00000000000017" y2="110" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="211.666666666667" y1="102" x2="211.666666666667" y2="110" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="223.333333333333" y1="102" x2="223.333333333333" y2="110" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="234.99999999999983" y1="102" x2="234.99999999999983" y2="110" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="246.66666666666666" y1="102" x2="246.66666666666666" y2="110" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="258.3333333333335" y1="102" x2="258.3333333333335" y2="110" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="270.00000000000034" y1="102" x2="270.00000000000034" y2="110" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="281.66666666666634" y1="102" x2="281.66666666666634" y2="110" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="293.33333333333314" y1="102" x2="293.33333333333314" y2="110" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="305.0" y1="98" x2="305.0" y2="114" stroke="#cbd2d9" stroke-width="1"/>
+<text x="305.0" y="138" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11" font-weight="400" fill="#616e7c" text-anchor="middle">46초</text>
+<line x1="316.66666666666686" y1="102" x2="316.66666666666686" y2="110" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="328.3333333333337" y1="102" x2="328.3333333333337" y2="110" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="339.99999999999966" y1="102" x2="339.99999999999966" y2="110" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="351.6666666666665" y1="102" x2="351.6666666666665" y2="110" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="363.3333333333333" y1="102" x2="363.3333333333333" y2="110" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="375.00000000000017" y1="102" x2="375.00000000000017" y2="110" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="386.66666666666697" y1="102" x2="386.66666666666697" y2="110" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="398.33333333333303" y1="102" x2="398.33333333333303" y2="110" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="409.99999999999983" y1="102" x2="409.99999999999983" y2="110" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="421.6666666666667" y1="98" x2="421.6666666666667" y2="114" stroke="#cbd2d9" stroke-width="1"/>
+<text x="421.6666666666667" y="138" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11" font-weight="400" fill="#616e7c" text-anchor="middle">47초</text>
+<line x1="433.3333333333335" y1="102" x2="433.3333333333335" y2="110" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="445.00000000000034" y1="102" x2="445.00000000000034" y2="110" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="456.66666666666634" y1="102" x2="456.66666666666634" y2="110" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="468.3333333333332" y1="102" x2="468.3333333333332" y2="110" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="480.0" y1="102" x2="480.0" y2="110" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="491.66666666666686" y1="102" x2="491.66666666666686" y2="110" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="503.33333333333366" y1="102" x2="503.33333333333366" y2="110" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="514.9999999999997" y1="102" x2="514.9999999999997" y2="110" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="526.6666666666665" y1="102" x2="526.6666666666665" y2="110" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="538.3333333333334" y1="98" x2="538.3333333333334" y2="114" stroke="#cbd2d9" stroke-width="1"/>
+<text x="538.3333333333334" y="138" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11" font-weight="400" fill="#616e7c" text-anchor="middle">48초</text>
+<line x1="550.0000000000001" y1="102" x2="550.0000000000001" y2="110" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="561.666666666667" y1="102" x2="561.666666666667" y2="110" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="573.333333333333" y1="102" x2="573.333333333333" y2="110" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="584.9999999999999" y1="102" x2="584.9999999999999" y2="110" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="596.6666666666666" y1="102" x2="596.6666666666666" y2="110" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="608.3333333333335" y1="102" x2="608.3333333333335" y2="110" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="620.0000000000003" y1="102" x2="620.0000000000003" y2="110" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="631.6666666666663" y1="102" x2="631.6666666666663" y2="110" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="643.3333333333331" y1="102" x2="643.3333333333331" y2="110" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="655.0" y1="98" x2="655.0" y2="114" stroke="#cbd2d9" stroke-width="1"/>
+<text x="655.0" y="138" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11" font-weight="400" fill="#616e7c" text-anchor="middle">49초</text>
+<line x1="666.6666666666669" y1="102" x2="666.6666666666669" y2="110" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="678.3333333333336" y1="102" x2="678.3333333333336" y2="110" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="689.9999999999997" y1="102" x2="689.9999999999997" y2="110" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="701.6666666666665" y1="102" x2="701.6666666666665" y2="110" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="713.3333333333334" y1="102" x2="713.3333333333334" y2="110" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="725.0000000000001" y1="102" x2="725.0000000000001" y2="110" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="736.666666666667" y1="102" x2="736.666666666667" y2="110" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="748.333333333333" y1="102" x2="748.333333333333" y2="110" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="759.9999999999999" y1="102" x2="759.9999999999999" y2="110" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="771.6666666666666" y1="98" x2="771.6666666666666" y2="114" stroke="#cbd2d9" stroke-width="1"/>
+<text x="771.6666666666666" y="138" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11" font-weight="400" fill="#616e7c" text-anchor="middle">50초</text>
+<line x1="783.3333333333335" y1="102" x2="783.3333333333335" y2="110" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="795.0000000000003" y1="102" x2="795.0000000000003" y2="110" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="806.6666666666664" y1="102" x2="806.6666666666664" y2="110" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="818.3333333333331" y1="102" x2="818.3333333333331" y2="110" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="830.0" y1="102" x2="830.0" y2="110" stroke="#cbd2d9" stroke-width="1"/>
+<rect x="137.66666666666683" y="96" width="8" height="20" rx="2" fill="#2f5d8a"/>
+<rect x="184.33333333333331" y="96" width="8" height="20" rx="2" fill="#2f5d8a"/>
+<rect x="219.333333333333" y="96" width="8" height="20" rx="2" fill="#2f5d8a"/>
+<rect x="242.66666666666666" y="96" width="8" height="20" rx="2" fill="#c53030"/>
+<rect x="277.66666666666634" y="96" width="8" height="20" rx="2" fill="#2f5d8a"/>
+<rect x="312.66666666666686" y="96" width="8" height="20" rx="2" fill="#2f5d8a"/>
+<rect x="347.6666666666665" y="96" width="8" height="20" rx="2" fill="#2f5d8a"/>
+<rect x="382.66666666666697" y="96" width="8" height="20" rx="2" fill="#2f5d8a"/>
+<rect x="417.6666666666667" y="96" width="8" height="20" rx="2" fill="#2f5d8a"/>
+<rect x="452.66666666666634" y="96" width="8" height="20" rx="2" fill="#2f5d8a"/>
+<rect x="487.66666666666686" y="96" width="8" height="20" rx="2" fill="#2f5d8a"/>
+<rect x="534.3333333333334" y="96" width="8" height="20" rx="2" fill="#2f5d8a"/>
+<rect x="557.666666666667" y="96" width="8" height="20" rx="2" fill="#c53030"/>
+<rect x="592.6666666666666" y="96" width="8" height="20" rx="2" fill="#2f5d8a"/>
+<rect x="627.6666666666663" y="96" width="8" height="20" rx="2" fill="#2f5d8a"/>
+<rect x="662.6666666666669" y="96" width="8" height="20" rx="2" fill="#2f5d8a"/>
+<rect x="674.3333333333336" y="96" width="8" height="20" rx="2" fill="#c53030"/>
+<rect x="697.6666666666665" y="96" width="8" height="20" rx="2" fill="#c53030"/>
+<rect x="732.666666666667" y="96" width="8" height="20" rx="2" fill="#2f5d8a"/>
+<rect x="767.6666666666666" y="96" width="8" height="20" rx="2" fill="#2f5d8a"/>
+<rect x="802.6666666666664" y="96" width="8" height="20" rx="2" fill="#2f5d8a"/>
+<text x="20" y="260" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13.5" font-weight="700" fill="#1f2933" text-anchor="start">정상 명령 3초</text>
+<line x1="130" y1="256" x2="830" y2="256" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="130.0" y1="252" x2="130.0" y2="260" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="141.66666666666683" y1="252" x2="141.66666666666683" y2="260" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="153.33333333333366" y1="252" x2="153.33333333333366" y2="260" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="164.99999999999966" y1="252" x2="164.99999999999966" y2="260" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="176.66666666666652" y1="252" x2="176.66666666666652" y2="260" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="188.33333333333331" y1="248" x2="188.33333333333331" y2="264" stroke="#cbd2d9" stroke-width="1"/>
+<text x="188.33333333333331" y="288" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11" font-weight="400" fill="#616e7c" text-anchor="middle">45초</text>
+<line x1="200.00000000000017" y1="252" x2="200.00000000000017" y2="260" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="211.666666666667" y1="252" x2="211.666666666667" y2="260" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="223.333333333333" y1="252" x2="223.333333333333" y2="260" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="234.99999999999983" y1="252" x2="234.99999999999983" y2="260" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="246.66666666666666" y1="252" x2="246.66666666666666" y2="260" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="258.3333333333335" y1="252" x2="258.3333333333335" y2="260" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="270.00000000000034" y1="252" x2="270.00000000000034" y2="260" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="281.66666666666634" y1="252" x2="281.66666666666634" y2="260" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="293.33333333333314" y1="252" x2="293.33333333333314" y2="260" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="305.0" y1="248" x2="305.0" y2="264" stroke="#cbd2d9" stroke-width="1"/>
+<text x="305.0" y="288" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11" font-weight="400" fill="#616e7c" text-anchor="middle">46초</text>
+<line x1="316.66666666666686" y1="252" x2="316.66666666666686" y2="260" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="328.3333333333337" y1="252" x2="328.3333333333337" y2="260" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="339.99999999999966" y1="252" x2="339.99999999999966" y2="260" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="351.6666666666665" y1="252" x2="351.6666666666665" y2="260" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="363.3333333333333" y1="252" x2="363.3333333333333" y2="260" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="375.00000000000017" y1="252" x2="375.00000000000017" y2="260" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="386.66666666666697" y1="252" x2="386.66666666666697" y2="260" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="398.33333333333303" y1="252" x2="398.33333333333303" y2="260" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="409.99999999999983" y1="252" x2="409.99999999999983" y2="260" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="421.6666666666667" y1="248" x2="421.6666666666667" y2="264" stroke="#cbd2d9" stroke-width="1"/>
+<text x="421.6666666666667" y="288" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11" font-weight="400" fill="#616e7c" text-anchor="middle">47초</text>
+<line x1="433.3333333333335" y1="252" x2="433.3333333333335" y2="260" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="445.00000000000034" y1="252" x2="445.00000000000034" y2="260" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="456.66666666666634" y1="252" x2="456.66666666666634" y2="260" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="468.3333333333332" y1="252" x2="468.3333333333332" y2="260" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="480.0" y1="252" x2="480.0" y2="260" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="491.66666666666686" y1="252" x2="491.66666666666686" y2="260" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="503.33333333333366" y1="252" x2="503.33333333333366" y2="260" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="514.9999999999997" y1="252" x2="514.9999999999997" y2="260" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="526.6666666666665" y1="252" x2="526.6666666666665" y2="260" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="538.3333333333334" y1="248" x2="538.3333333333334" y2="264" stroke="#cbd2d9" stroke-width="1"/>
+<text x="538.3333333333334" y="288" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11" font-weight="400" fill="#616e7c" text-anchor="middle">48초</text>
+<line x1="550.0000000000001" y1="252" x2="550.0000000000001" y2="260" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="561.666666666667" y1="252" x2="561.666666666667" y2="260" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="573.333333333333" y1="252" x2="573.333333333333" y2="260" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="584.9999999999999" y1="252" x2="584.9999999999999" y2="260" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="596.6666666666666" y1="252" x2="596.6666666666666" y2="260" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="608.3333333333335" y1="252" x2="608.3333333333335" y2="260" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="620.0000000000003" y1="252" x2="620.0000000000003" y2="260" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="631.6666666666663" y1="252" x2="631.6666666666663" y2="260" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="643.3333333333331" y1="252" x2="643.3333333333331" y2="260" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="655.0" y1="248" x2="655.0" y2="264" stroke="#cbd2d9" stroke-width="1"/>
+<text x="655.0" y="288" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11" font-weight="400" fill="#616e7c" text-anchor="middle">49초</text>
+<line x1="666.6666666666669" y1="252" x2="666.6666666666669" y2="260" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="678.3333333333336" y1="252" x2="678.3333333333336" y2="260" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="689.9999999999997" y1="252" x2="689.9999999999997" y2="260" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="701.6666666666665" y1="252" x2="701.6666666666665" y2="260" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="713.3333333333334" y1="252" x2="713.3333333333334" y2="260" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="725.0000000000001" y1="252" x2="725.0000000000001" y2="260" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="736.666666666667" y1="252" x2="736.666666666667" y2="260" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="748.333333333333" y1="252" x2="748.333333333333" y2="260" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="759.9999999999999" y1="252" x2="759.9999999999999" y2="260" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="771.6666666666666" y1="248" x2="771.6666666666666" y2="264" stroke="#cbd2d9" stroke-width="1"/>
+<text x="771.6666666666666" y="288" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11" font-weight="400" fill="#616e7c" text-anchor="middle">50초</text>
+<line x1="783.3333333333335" y1="252" x2="783.3333333333335" y2="260" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="795.0000000000003" y1="252" x2="795.0000000000003" y2="260" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="806.6666666666664" y1="252" x2="806.6666666666664" y2="260" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="818.3333333333331" y1="252" x2="818.3333333333331" y2="260" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="830.0" y1="252" x2="830.0" y2="260" stroke="#cbd2d9" stroke-width="1"/>
+<rect x="230.99999999999983" y="246" width="8" height="20" rx="2" fill="#2f5d8a"/>
+<rect x="580.9999999999999" y="246" width="8" height="20" rx="2" fill="#2f5d8a"/>
+<text x="130" y="46" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12" font-weight="400" fill="#616e7c" text-anchor="start">평소 2초 창에는 6~7개가 들어간다. 기준은 8개.</text>
+<text x="830" y="156" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11.5" font-weight="400" fill="#c53030" text-anchor="end">빨간 막대: 앞 메시지와 0.1~0.2초 간격으로 붙어 온 것</text>
+<text x="20" y="350" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11.5" font-weight="400" fill="#616e7c" text-anchor="start">가상 비행 기록의 실제 도착 시각 (막대 = 새 메시지, 눈금 = 0.1초 sample). 위는 Range 실험(40초부터 공격), 아래는 정상 비행</text>
+</svg>
