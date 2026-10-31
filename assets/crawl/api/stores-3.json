@@ -1,0 +1,47 @@
+{
+ "response": {
+  "header": {
+   "resultCode": "00",
+   "resultMsg": "NORMAL SERVICE."
+  },
+  "body": {
+   "items": {
+    "item": [
+     {
+      "storeId": "S021",
+      "storeNm": "가상카페 유성구 2호점",
+      "sido": "대전광역시",
+      "gugun": "유성구",
+      "addr": "대전광역시 유성구 연습로 73",
+      "seats": 47,
+      "driveThru": "N",
+      "openDate": "2023-10-08"
+     },
+     {
+      "storeId": "S022",
+      "storeNm": "가상카페 서구 1호점",
+      "sido": "대전광역시",
+      "gugun": "서구",
+      "addr": "대전광역시 서구 연습로 76",
+      "seats": 54,
+      "driveThru": "N",
+      "openDate": "2024-11-11"
+     },
+     {
+      "storeId": "S023",
+      "storeNm": "가상카페 서구 2호점",
+      "sido": "대전광역시",
+      "gugun": "서구",
+      "addr": "대전광역시 서구 연습로 79",
+      "seats": 21,
+      "driveThru": "N",
+      "openDate": "2025-12-14"
+     }
+    ]
+   },
+   "numOfRows": 10,
+   "pageNo": 3,
+   "totalCount": 23
+  }
+ }
+}

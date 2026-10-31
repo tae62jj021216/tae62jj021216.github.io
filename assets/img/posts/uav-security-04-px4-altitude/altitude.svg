@@ -1,0 +1,341 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 510" width="860" height="510" role="img" aria-label="PX4 추정 고도와 실제 고도: 수정 전에는 지상에서 1.2~1.5 m, 호버링 중 약 1.4 m 높게 추정했고, 수정 뒤에는 둘이 붙어 간다. 아래는 수정 전 31회와 수정 후 94회의 분포">
+<title>PX4 추정 고도와 실제 고도: 수정 전에는 지상에서 1.2~1.5 m, 호버링 중 약 1.4 m 높게 추정했고, 수정 뒤에는 둘이 붙어 간다. 아래는 수정 전 31회와 수정 후 94회의 분포</title>
+<rect width="860" height="510" rx="12" fill="#ffffff"/>
+<text x="70" y="46" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="14" font-weight="700" fill="#1f2933" text-anchor="start">수정 전 (GPS 높이 기준)</text>
+<text x="62" y="66" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11.5" font-weight="400" fill="#616e7c" text-anchor="start">고도 (m)</text>
+<line x1="70" y1="236.0" x2="430" y2="236.0" stroke="#cbd2d9" stroke-width="0.8"/>
+<text x="62" y="240.0" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11.5" font-weight="400" fill="#616e7c" text-anchor="end">0</text>
+<line x1="70" y1="186.76923076923077" x2="430" y2="186.76923076923077" stroke="#cbd2d9" stroke-width="0.8"/>
+<text x="62" y="190.76923076923077" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11.5" font-weight="400" fill="#616e7c" text-anchor="end">2</text>
+<line x1="70" y1="137.53846153846155" x2="430" y2="137.53846153846155" stroke="#cbd2d9" stroke-width="0.8"/>
+<text x="62" y="141.53846153846155" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11.5" font-weight="400" fill="#616e7c" text-anchor="end">4</text>
+<line x1="70" y1="88.30769230769229" x2="430" y2="88.30769230769229" stroke="#cbd2d9" stroke-width="0.8"/>
+<text x="62" y="92.30769230769229" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11.5" font-weight="400" fill="#616e7c" text-anchor="end">6</text>
+<text x="70.0" y="254" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11.5" font-weight="400" fill="#616e7c" text-anchor="middle">0</text>
+<text x="142.0" y="254" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11.5" font-weight="400" fill="#616e7c" text-anchor="middle">20</text>
+<text x="214.0" y="254" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11.5" font-weight="400" fill="#616e7c" text-anchor="middle">40</text>
+<text x="286.0" y="254" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11.5" font-weight="400" fill="#616e7c" text-anchor="middle">60</text>
+<text x="358.0" y="254" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11.5" font-weight="400" fill="#616e7c" text-anchor="middle">80</text>
+<text x="430.0" y="254" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11.5" font-weight="400" fill="#616e7c" text-anchor="middle">100</text>
+<line x1="70" y1="236" x2="430" y2="236" stroke="#52606d" stroke-width="1"/>
+<polyline points="70.0,236.5 71.8,236.5 73.6,236.5 75.4,236.5 77.2,236.5 79.0,236.4 80.8,236.4 82.6,236.4 84.4,236.4 86.2,236.4 88.0,236.4 89.8,236.4 91.6,236.4 93.4,236.3 95.2,236.3 97.0,236.3 98.8,236.3 100.6,236.3 102.4,236.3 104.2,236.3 106.0,236.3 107.8,236.3 109.6,236.3 111.4,236.3 113.2,236.3 115.0,236.3 116.8,236.3 118.6,236.3 120.4,236.3 122.2,236.3 124.0,236.3 125.8,236.3 127.6,236.3 129.4,236.3 131.2,236.3 133.0,236.3 134.8,236.3 136.6,236.3 138.4,236.3 140.2,236.3 142.0,236.3 143.8,236.3 145.6,236.3 147.4,236.3 149.2,236.3 151.0,236.3 152.8,236.3 154.6,236.3 156.4,236.3 158.2,236.3 160.0,236.3 161.8,236.3 163.6,236.3 165.4,236.3 167.2,236.3 169.0,236.3 170.8,236.3 172.6,236.3 174.4,236.3 176.2,236.3 178.0,236.3 179.8,236.3 181.6,236.3 183.4,235.0 185.2,220.6 187.0,194.3 188.8,177.6 190.6,169.0 192.4,163.8 194.2,160.1 196.0,157.4 197.8,155.4 199.6,153.2 201.4,147.8 203.2,149.6 205.0,149.6 206.8,150.7 208.6,152.8 210.4,154.4 212.2,155.5 214.0,156.1 215.8,156.7 217.6,157.2 219.4,157.0 221.2,156.2 223.0,155.6 224.8,155.3 226.6,155.1 228.4,155.0 230.2,154.6 232.0,154.0 233.8,153.5 235.6,153.1 237.4,153.0 239.2,152.5 241.0,151.8 242.8,151.3 244.6,151.1 246.4,150.9 248.2,150.6 250.0,150.0 251.8,149.6 253.6,149.0 255.4,148.2 257.2,147.5 259.0,147.0 260.8,146.4 262.6,145.7 264.4,145.4 266.2,145.6 268.0,145.9 269.8,146.4 271.6,146.6 273.4,146.2 275.2,145.6 277.0,145.1 278.8,144.9 280.6,145.4 282.4,145.7 284.2,145.9 286.0,146.0 287.8,146.1 289.6,146.1 291.4,146.1 293.2,146.1 295.0,146.2 296.8,146.4 298.6,146.5 300.4,146.5 302.2,146.7 304.0,147.4 305.8,148.6 307.6,149.7 309.4,150.7 311.2,151.5 313.0,152.2 314.8,152.8" fill="none" stroke="#c05621" stroke-width="2" stroke-dasharray="6 4"/>
+<polyline points="70.0,236.0 71.8,203.5 73.6,170.7 75.4,168.7 77.2,190.3 79.0,207.1 80.8,209.6 82.6,209.7 84.4,208.2 86.2,206.5 88.0,205.4 89.8,204.9 91.6,204.6 93.4,204.0 95.2,202.6 97.0,202.3 98.8,201.1 100.6,200.1 102.4,199.8 104.2,200.2 106.0,201.6 107.8,201.6 109.6,201.5 111.4,201.8 113.2,203.0 115.0,202.9 116.8,203.3 118.6,203.3 120.4,203.1 122.2,204.0 124.0,204.6 125.8,204.7 127.6,204.9 129.4,204.9 131.2,205.9 133.0,206.5 134.8,206.5 136.6,205.9 138.4,204.9 140.2,204.0 142.0,204.4 143.8,204.2 145.6,204.2 147.4,203.8 149.2,203.9 151.0,204.2 152.8,203.9 154.6,203.3 156.4,203.2 158.2,203.1 160.0,202.7 161.8,202.9 163.6,202.7 165.4,202.1 167.2,201.8 169.0,201.4 170.8,200.6 172.6,199.4 174.4,200.0 176.2,200.7 178.0,200.0 179.8,199.9 181.6,200.2 183.4,199.4 185.2,184.4 187.0,157.3 188.8,141.0 190.6,133.5 192.4,128.5 194.2,125.2 196.0,122.6 197.8,121.0 199.6,119.2 201.4,113.3 203.2,113.1 205.0,113.0 206.8,113.0 208.6,113.8 210.4,114.3 212.2,115.2 214.0,115.3 215.8,115.3 217.6,116.2 219.4,117.1 221.2,117.0 223.0,116.0 224.8,116.0 226.6,115.6 228.4,115.8 230.2,116.3 232.0,115.8 233.8,115.4 235.6,114.8 237.4,115.1 239.2,115.4 241.0,115.0 242.8,114.4 244.6,114.2 246.4,114.3 248.2,114.8 250.0,114.5 251.8,114.7 253.6,114.9 255.4,114.9 257.2,114.0 259.0,114.3 260.8,114.3 262.6,113.9 264.4,112.6 266.2,112.6 268.0,112.4 269.8,112.6 271.6,114.0 273.4,114.4 275.2,113.8 277.0,113.7 278.8,112.5 280.6,112.6 282.4,113.0 284.2,113.0 286.0,113.2 287.8,113.2 289.6,113.3 291.4,113.2 293.2,113.2 295.0,113.4 296.8,113.6 298.6,114.2 300.4,114.3 302.2,113.9 304.0,113.1 305.8,113.5 307.6,114.0 309.4,114.3 311.2,114.7 313.0,114.7 314.8,115.2" fill="none" stroke="#2f5d8a" stroke-width="2"/>
+<text x="77.2" y="223.69230769230768" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12" font-weight="700" fill="#2f5d8a" text-anchor="start">지상인데 1.2~1.5 m</text>
+<text x="214.0" y="90.76923076923075" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12" font-weight="700" fill="#2f5d8a" text-anchor="start">추정 약 5 m</text>
+<text x="214.0" y="172.0" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12" font-weight="700" fill="#c05621" text-anchor="start">실제 약 3.5 m</text>
+<text x="480" y="46" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="14" font-weight="700" fill="#1f2933" text-anchor="start">수정 후 (기압계 + EKF 재시작)</text>
+<text x="472" y="66" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11.5" font-weight="400" fill="#616e7c" text-anchor="start">고도 (m)</text>
+<line x1="480" y1="236.0" x2="840" y2="236.0" stroke="#cbd2d9" stroke-width="0.8"/>
+<text x="472" y="240.0" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11.5" font-weight="400" fill="#616e7c" text-anchor="end">0</text>
+<line x1="480" y1="186.76923076923077" x2="840" y2="186.76923076923077" stroke="#cbd2d9" stroke-width="0.8"/>
+<text x="472" y="190.76923076923077" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11.5" font-weight="400" fill="#616e7c" text-anchor="end">2</text>
+<line x1="480" y1="137.53846153846155" x2="840" y2="137.53846153846155" stroke="#cbd2d9" stroke-width="0.8"/>
+<text x="472" y="141.53846153846155" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11.5" font-weight="400" fill="#616e7c" text-anchor="end">4</text>
+<line x1="480" y1="88.30769230769229" x2="840" y2="88.30769230769229" stroke="#cbd2d9" stroke-width="0.8"/>
+<text x="472" y="92.30769230769229" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11.5" font-weight="400" fill="#616e7c" text-anchor="end">6</text>
+<text x="480.0" y="254" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11.5" font-weight="400" fill="#616e7c" text-anchor="middle">0</text>
+<text x="552.0" y="254" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11.5" font-weight="400" fill="#616e7c" text-anchor="middle">20</text>
+<text x="624.0" y="254" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11.5" font-weight="400" fill="#616e7c" text-anchor="middle">40</text>
+<text x="696.0" y="254" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11.5" font-weight="400" fill="#616e7c" text-anchor="middle">60</text>
+<text x="768.0" y="254" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11.5" font-weight="400" fill="#616e7c" text-anchor="middle">80</text>
+<text x="840.0" y="254" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11.5" font-weight="400" fill="#616e7c" text-anchor="middle">100</text>
+<line x1="480" y1="236" x2="840" y2="236" stroke="#52606d" stroke-width="1"/>
+<polyline points="480.0,236.5 481.8,236.5 483.6,236.5 485.4,236.5 487.2,236.5 489.0,236.4 490.8,236.4 492.6,236.4 494.4,236.4 496.2,236.4 498.0,236.4 499.8,236.4 501.6,236.4 503.4,236.3 505.2,236.3 507.0,236.3 508.8,236.3 510.6,236.3 512.4,236.3 514.2,236.3 516.0,236.3 517.8,236.3 519.6,236.3 521.4,236.3 523.2,236.3 525.0,236.3 526.8,236.3 528.6,236.3 530.4,236.3 532.2,236.3 534.0,236.3 535.8,236.3 537.6,236.3 539.4,236.3 541.2,236.3 543.0,236.3 544.8,236.3 546.6,236.3 548.4,236.3 550.2,236.3 552.0,236.3 553.8,236.3 555.6,236.3 557.4,236.3 559.2,236.3 561.0,236.3 562.8,236.3 564.6,236.3 566.4,236.3 568.2,236.3 570.0,236.3 571.8,236.3 573.6,236.3 575.4,236.3 577.2,236.3 579.0,236.3 580.8,236.3 582.6,236.3 584.4,236.3 586.2,236.3 588.0,236.3 589.8,236.3 591.6,236.3 593.4,236.3 595.2,236.3 597.0,236.3 598.8,236.3 600.6,236.3 602.4,236.3 604.2,236.3 606.0,236.3 607.8,236.3 609.6,236.3 611.4,236.3 613.2,236.3 615.0,236.3 616.8,236.3 618.6,236.3 620.4,236.3 622.2,236.3 624.0,236.3 625.8,236.3 627.6,236.3 629.4,236.3 631.2,236.3 633.0,236.3 634.8,236.3 636.6,236.3 638.4,236.3 640.2,236.3 642.0,236.3 643.8,236.3 645.6,236.3 647.4,236.3 649.2,236.3 651.0,236.3 652.8,236.3 654.6,236.3 656.4,236.3 658.2,236.3 660.0,236.3 661.8,236.3 663.6,236.3 665.4,236.3 667.2,236.3 669.0,236.3 670.8,236.3 672.6,236.3 674.4,236.3 676.2,236.3 678.0,236.3 679.8,236.3 681.6,236.3 683.4,236.3 685.2,236.3 687.0,236.3 688.8,236.3 690.6,236.3 692.4,236.3 694.2,236.3 696.0,236.3 697.8,236.3 699.6,236.3 701.4,235.0 703.2,221.0 705.0,190.3 706.8,162.1 708.6,146.8 710.4,138.8 712.2,134.0 714.0,131.2 715.8,129.7 717.6,124.3 719.4,122.4 721.2,126.0 723.0,127.3 724.8,127.2 726.6,128.2 728.4,129.3 730.2,129.9 732.0,130.1 733.8,130.4 735.6,131.0 737.4,131.7 739.2,132.3 741.0,132.6 742.8,132.2 744.6,131.3 746.4,130.0 748.2,128.6 750.0,127.3 751.8,125.9 753.6,124.7 755.4,123.7 757.2,122.9 759.0,122.1 760.8,121.0 762.6,119.8 764.4,118.7 766.2,117.8 768.0,117.1 769.8,116.6 771.6,115.8 773.4,114.9 775.2,113.9 777.0,113.1 778.8,112.4 780.6,111.7 782.4,111.0 784.2,110.2 786.0,109.4 787.8,109.0 789.6,108.5 791.4,107.8 793.2,106.7 795.0,105.8 796.8,104.9 798.6,104.2 800.4,103.7 802.2,102.9 804.0,102.1 805.8,101.6 807.6,101.0 809.4,100.2 811.2,99.6 813.0,99.5 814.8,99.4 816.6,99.2 818.4,98.7 820.2,98.1 822.0,97.4 823.8,97.1 825.6,96.8 827.4,96.4 829.2,96.1 831.0,95.8 832.8,95.0" fill="none" stroke="#c05621" stroke-width="2" stroke-dasharray="6 4"/>
+<polyline points="480.0,236.0 481.8,204.2 483.6,179.8 485.4,161.6 487.2,176.7 489.0,201.3 490.8,206.4 492.6,206.3 494.4,205.7 496.2,204.9 498.0,204.5 499.8,204.2 501.6,218.1 503.4,233.8 505.2,236.1 507.0,236.0 508.8,236.2 510.6,234.9 512.4,233.9 514.2,234.4 516.0,235.8 517.8,236.1 519.6,235.8 521.4,235.8 523.2,236.1 525.0,236.0 526.8,236.1 528.6,236.3 530.4,235.7 532.2,235.0 534.0,234.9 535.8,235.2 537.6,236.0 539.4,236.0 541.2,236.4 543.0,236.4 544.8,236.1 546.6,236.3 548.4,236.3 550.2,236.5 552.0,236.7 553.8,236.9 555.6,237.0 557.4,236.6 559.2,236.7 561.0,236.6 562.8,236.4 564.6,235.8 566.4,236.3 568.2,237.4 570.0,236.9 571.8,236.3 573.6,235.2 575.4,234.9 577.2,234.9 579.0,234.4 580.8,233.6 582.6,233.3 584.4,233.3 586.2,233.5 588.0,233.7 589.8,233.6 591.6,233.9 593.4,234.3 595.2,233.9 597.0,233.3 598.8,232.8 600.6,233.0 602.4,232.8 604.2,233.4 606.0,233.8 607.8,234.5 609.6,234.8 611.4,234.5 613.2,234.5 615.0,234.5 616.8,234.6 618.6,235.2 620.4,235.3 622.2,236.2 624.0,236.9 625.8,237.6 627.6,238.2 629.4,238.3 631.2,237.8 633.0,237.7 634.8,237.6 636.6,237.9 638.4,238.3 640.2,239.6 642.0,239.6 643.8,238.6 645.6,238.0 647.4,237.7 649.2,237.2 651.0,237.1 652.8,236.8 654.6,236.4 656.4,235.9 658.2,235.7 660.0,235.5 661.8,235.0 663.6,234.2 665.4,233.2 667.2,232.5 669.0,232.2 670.8,232.0 672.6,232.2 674.4,231.9 676.2,231.1 678.0,230.3 679.8,229.5 681.6,228.9 683.4,229.6 685.2,230.1 687.0,230.4 688.8,231.3 690.6,232.1 692.4,232.1 694.2,232.6 696.0,232.7 697.8,232.1 699.6,231.8 701.4,230.1 703.2,215.4 705.0,182.8 706.8,153.5 708.6,138.4 710.4,130.9 712.2,125.8 714.0,122.1 715.8,119.8 717.6,115.1 719.4,111.9 721.2,114.4 723.0,116.0 724.8,115.4 726.6,115.2 728.4,115.3 730.2,115.7 732.0,115.3 733.8,114.7 735.6,114.1 737.4,114.3 739.2,114.4 741.0,115.4 742.8,116.0 744.6,116.6 746.4,116.7 748.2,116.2 750.0,116.5 751.8,116.0 753.6,115.4 755.4,114.9 757.2,114.8 759.0,114.9 760.8,115.2 762.6,114.8 764.4,114.5 766.2,114.1 768.0,113.6 769.8,113.9 771.6,113.9 773.4,113.7 775.2,113.2 777.0,112.8 778.8,112.6 780.6,112.4 782.4,112.5 784.2,112.2 786.0,111.6 787.8,111.4 789.6,111.6 791.4,111.9 793.2,111.8 795.0,111.3 796.8,110.9 798.6,110.4 800.4,110.7 802.2,110.8 804.0,110.2 805.8,110.0 807.6,110.3 809.4,110.0 811.2,109.2 813.0,109.0 814.8,109.4 816.6,109.5 818.4,109.8 820.2,109.9 822.0,109.2 823.8,109.2 825.6,109.3 827.4,108.8 829.2,108.9 831.0,108.8 832.8,108.5" fill="none" stroke="#2f5d8a" stroke-width="2"/>
+<text x="512.4" y="196.6153846153846" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12" font-weight="700" fill="#2f5d8a" text-anchor="start">재시작 뒤 0 m</text>
+<text x="710.4" y="162.15384615384613" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12" font-weight="700" fill="#616e7c" text-anchor="start">차이 −0.6~+0.7 m</text>
+<text x="430" y="272" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11.5" font-weight="400" fill="#616e7c" text-anchor="end">PX4 시작 뒤 시간 (초)</text>
+<text x="840" y="272" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11.5" font-weight="400" fill="#616e7c" text-anchor="end">PX4 시작 뒤 시간 (초)</text>
+<line x1="470" y1="20" x2="500" y2="20" stroke="#2f5d8a" stroke-width="2.4"/>
+<text x="508" y="24.5" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="400" fill="#1f2933" text-anchor="start">PX4 추정 고도</text>
+<line x1="620" y1="20" x2="650" y2="20" stroke="#c05621" stroke-width="2.4" stroke-dasharray="6 4"/>
+<text x="658" y="24.5" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="400" fill="#1f2933" text-anchor="start">실제 고도 (시뮬레이터)</text>
+<text x="110" y="304" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13.5" font-weight="700" fill="#1f2933" text-anchor="start">지상에 있을 때 추정 고도</text>
+<text x="100" y="346" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="700" fill="#1f2933" text-anchor="end">수정 전</text>
+<text x="100" y="362" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11.5" font-weight="400" fill="#616e7c" text-anchor="end">31회</text>
+<circle cx="144.3" cy="331.0" r="3.2" fill="#c53030" fill-opacity="0.45"/>
+<circle cx="233.9" cy="346.4" r="3.2" fill="#c53030" fill-opacity="0.45"/>
+<circle cx="243.8" cy="337.6" r="3.2" fill="#c53030" fill-opacity="0.45"/>
+<circle cx="256.3" cy="353.0" r="3.2" fill="#c53030" fill-opacity="0.45"/>
+<circle cx="258.5" cy="344.2" r="3.2" fill="#c53030" fill-opacity="0.45"/>
+<circle cx="260.2" cy="335.4" r="3.2" fill="#c53030" fill-opacity="0.45"/>
+<circle cx="270.4" cy="350.8" r="3.2" fill="#c53030" fill-opacity="0.45"/>
+<circle cx="272.9" cy="342.0" r="3.2" fill="#c53030" fill-opacity="0.45"/>
+<circle cx="273.5" cy="333.2" r="3.2" fill="#c53030" fill-opacity="0.45"/>
+<circle cx="286.4" cy="348.6" r="3.2" fill="#c53030" fill-opacity="0.45"/>
+<circle cx="300.3" cy="339.8" r="3.2" fill="#c53030" fill-opacity="0.45"/>
+<circle cx="301.1" cy="331.0" r="3.2" fill="#c53030" fill-opacity="0.45"/>
+<circle cx="301.1" cy="346.4" r="3.2" fill="#c53030" fill-opacity="0.45"/>
+<circle cx="301.7" cy="337.6" r="3.2" fill="#c53030" fill-opacity="0.45"/>
+<circle cx="310.4" cy="353.0" r="3.2" fill="#c53030" fill-opacity="0.45"/>
+<circle cx="312.1" cy="344.2" r="3.2" fill="#c53030" fill-opacity="0.45"/>
+<circle cx="316.8" cy="335.4" r="3.2" fill="#c53030" fill-opacity="0.45"/>
+<circle cx="316.9" cy="350.8" r="3.2" fill="#c53030" fill-opacity="0.45"/>
+<circle cx="317.6" cy="342.0" r="3.2" fill="#c53030" fill-opacity="0.45"/>
+<circle cx="318.1" cy="333.2" r="3.2" fill="#c53030" fill-opacity="0.45"/>
+<circle cx="319.1" cy="348.6" r="3.2" fill="#c53030" fill-opacity="0.45"/>
+<circle cx="321.9" cy="339.8" r="3.2" fill="#c53030" fill-opacity="0.45"/>
+<circle cx="328.1" cy="331.0" r="3.2" fill="#c53030" fill-opacity="0.45"/>
+<circle cx="333.6" cy="346.4" r="3.2" fill="#c53030" fill-opacity="0.45"/>
+<circle cx="338.8" cy="337.6" r="3.2" fill="#c53030" fill-opacity="0.45"/>
+<circle cx="357.7" cy="353.0" r="3.2" fill="#c53030" fill-opacity="0.45"/>
+<circle cx="358.7" cy="344.2" r="3.2" fill="#c53030" fill-opacity="0.45"/>
+<circle cx="371.1" cy="335.4" r="3.2" fill="#c53030" fill-opacity="0.45"/>
+<circle cx="380.4" cy="350.8" r="3.2" fill="#c53030" fill-opacity="0.45"/>
+<circle cx="392.9" cy="342.0" r="3.2" fill="#c53030" fill-opacity="0.45"/>
+<circle cx="396.1" cy="333.2" r="3.2" fill="#c53030" fill-opacity="0.45"/>
+<line x1="312.1142857142857" y1="325" x2="312.1142857142857" y2="359" stroke="#1f2933" stroke-width="2.2"/>
+<text x="312.1142857142857" y="321" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11.5" font-weight="700" fill="#1f2933" text-anchor="middle">중앙값 1.4</text>
+<text x="100" y="408" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="700" fill="#1f2933" text-anchor="end">수정 후</text>
+<text x="100" y="424" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11.5" font-weight="400" fill="#616e7c" text-anchor="end">94회</text>
+<circle cx="174.6" cy="393.0" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="179.7" cy="408.4" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="179.7" cy="399.6" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="180.1" cy="415.0" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="180.3" cy="406.2" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="181.0" cy="397.4" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="181.2" cy="412.8" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="181.2" cy="404.0" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="184.8" cy="395.2" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="185.2" cy="410.6" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="185.2" cy="401.8" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="185.8" cy="393.0" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="185.9" cy="408.4" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="186.3" cy="399.6" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="187.7" cy="415.0" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="187.9" cy="406.2" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="188.0" cy="397.4" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="188.1" cy="412.8" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="188.9" cy="404.0" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="188.9" cy="395.2" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="189.0" cy="410.6" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="189.1" cy="401.8" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="189.3" cy="393.0" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="189.5" cy="408.4" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="189.8" cy="399.6" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="189.9" cy="415.0" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="190.1" cy="406.2" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="190.2" cy="397.4" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="190.5" cy="412.8" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="190.7" cy="404.0" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="190.8" cy="395.2" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="191.0" cy="410.6" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="191.3" cy="401.8" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="191.6" cy="393.0" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="191.9" cy="408.4" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="192.2" cy="399.6" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="192.4" cy="415.0" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="192.4" cy="406.2" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="192.9" cy="397.4" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="193.1" cy="412.8" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="193.3" cy="404.0" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="193.6" cy="395.2" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="193.8" cy="410.6" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="194.1" cy="401.8" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="194.5" cy="393.0" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="194.9" cy="408.4" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="194.9" cy="399.6" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="195.5" cy="415.0" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="195.5" cy="406.2" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="195.5" cy="397.4" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="196.1" cy="412.8" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="196.1" cy="404.0" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="196.3" cy="395.2" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="196.7" cy="410.6" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="196.7" cy="401.8" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="196.7" cy="393.0" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="196.7" cy="408.4" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="196.8" cy="399.6" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="197.1" cy="415.0" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="197.3" cy="406.2" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="197.3" cy="397.4" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="197.6" cy="412.8" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="198.0" cy="404.0" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="198.3" cy="395.2" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="198.5" cy="410.6" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="199.0" cy="401.8" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="199.3" cy="393.0" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="199.6" cy="408.4" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="199.6" cy="399.6" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="200.1" cy="415.0" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="200.4" cy="406.2" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="201.3" cy="397.4" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="201.8" cy="412.8" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="201.9" cy="404.0" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="202.0" cy="395.2" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="202.1" cy="410.6" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="202.1" cy="401.8" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="202.1" cy="393.0" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="202.5" cy="408.4" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="204.1" cy="399.6" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="204.5" cy="415.0" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="204.7" cy="406.2" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="205.5" cy="397.4" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="205.6" cy="412.8" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="205.9" cy="404.0" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="206.2" cy="395.2" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="206.6" cy="410.6" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="206.9" cy="401.8" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="208.1" cy="393.0" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="208.1" cy="408.4" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="208.9" cy="399.6" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="211.1" cy="415.0" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="213.8" cy="406.2" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="225.0" cy="397.4" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<line x1="195.24285714285713" y1="387" x2="195.24285714285713" y2="421" stroke="#1f2933" stroke-width="2.2"/>
+<text x="195.24285714285713" y="383" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11.5" font-weight="700" fill="#1f2933" text-anchor="middle">중앙값 0.0</text>
+<line x1="110.0" y1="434" x2="410.0" y2="434" stroke="#52606d" stroke-width="1"/>
+<line x1="110.0" y1="324" x2="110.0" y2="434" stroke="#cbd2d9" stroke-width="0.8" stroke-dasharray="3 3"/>
+<text x="110.0" y="450" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11.5" font-weight="400" fill="#616e7c" text-anchor="middle">-1</text>
+<line x1="195.71428571428572" y1="324" x2="195.71428571428572" y2="434" stroke="#cbd2d9" stroke-width="0.8"/>
+<text x="195.71428571428572" y="450" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11.5" font-weight="400" fill="#616e7c" text-anchor="middle">0</text>
+<line x1="281.42857142857144" y1="324" x2="281.42857142857144" y2="434" stroke="#cbd2d9" stroke-width="0.8" stroke-dasharray="3 3"/>
+<text x="281.42857142857144" y="450" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11.5" font-weight="400" fill="#616e7c" text-anchor="middle">1</text>
+<line x1="367.1428571428571" y1="324" x2="367.1428571428571" y2="434" stroke="#cbd2d9" stroke-width="0.8" stroke-dasharray="3 3"/>
+<text x="367.1428571428571" y="450" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11.5" font-weight="400" fill="#616e7c" text-anchor="middle">2</text>
+<text x="410.0" y="466" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11.5" font-weight="400" fill="#616e7c" text-anchor="end">m</text>
+<text x="520" y="304" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13.5" font-weight="700" fill="#1f2933" text-anchor="start">호버링 중 평균 차이 (추정 − 실제)</text>
+<text x="510" y="346" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="700" fill="#1f2933" text-anchor="end">수정 전</text>
+<text x="510" y="362" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11.5" font-weight="400" fill="#616e7c" text-anchor="end">31회</text>
+<circle cx="600.4" cy="331.0" r="3.2" fill="#c53030" fill-opacity="0.45"/>
+<circle cx="619.0" cy="346.4" r="3.2" fill="#c53030" fill-opacity="0.45"/>
+<circle cx="626.6" cy="337.6" r="3.2" fill="#c53030" fill-opacity="0.45"/>
+<circle cx="640.6" cy="353.0" r="3.2" fill="#c53030" fill-opacity="0.45"/>
+<circle cx="655.9" cy="344.2" r="3.2" fill="#c53030" fill-opacity="0.45"/>
+<circle cx="660.2" cy="335.4" r="3.2" fill="#c53030" fill-opacity="0.45"/>
+<circle cx="673.0" cy="350.8" r="3.2" fill="#c53030" fill-opacity="0.45"/>
+<circle cx="675.5" cy="342.0" r="3.2" fill="#c53030" fill-opacity="0.45"/>
+<circle cx="681.7" cy="333.2" r="3.2" fill="#c53030" fill-opacity="0.45"/>
+<circle cx="683.3" cy="348.6" r="3.2" fill="#c53030" fill-opacity="0.45"/>
+<circle cx="690.0" cy="339.8" r="3.2" fill="#c53030" fill-opacity="0.45"/>
+<circle cx="691.3" cy="331.0" r="3.2" fill="#c53030" fill-opacity="0.45"/>
+<circle cx="697.9" cy="346.4" r="3.2" fill="#c53030" fill-opacity="0.45"/>
+<circle cx="698.3" cy="337.6" r="3.2" fill="#c53030" fill-opacity="0.45"/>
+<circle cx="704.7" cy="353.0" r="3.2" fill="#c53030" fill-opacity="0.45"/>
+<circle cx="709.7" cy="344.2" r="3.2" fill="#c53030" fill-opacity="0.45"/>
+<circle cx="709.8" cy="335.4" r="3.2" fill="#c53030" fill-opacity="0.45"/>
+<circle cx="724.9" cy="350.8" r="3.2" fill="#c53030" fill-opacity="0.45"/>
+<circle cx="734.5" cy="342.0" r="3.2" fill="#c53030" fill-opacity="0.45"/>
+<circle cx="738.7" cy="333.2" r="3.2" fill="#c53030" fill-opacity="0.45"/>
+<circle cx="745.7" cy="348.6" r="3.2" fill="#c53030" fill-opacity="0.45"/>
+<circle cx="746.3" cy="339.8" r="3.2" fill="#c53030" fill-opacity="0.45"/>
+<circle cx="747.1" cy="331.0" r="3.2" fill="#c53030" fill-opacity="0.45"/>
+<circle cx="749.0" cy="346.4" r="3.2" fill="#c53030" fill-opacity="0.45"/>
+<circle cx="756.1" cy="337.6" r="3.2" fill="#c53030" fill-opacity="0.45"/>
+<circle cx="761.1" cy="353.0" r="3.2" fill="#c53030" fill-opacity="0.45"/>
+<circle cx="772.8" cy="344.2" r="3.2" fill="#c53030" fill-opacity="0.45"/>
+<circle cx="785.8" cy="335.4" r="3.2" fill="#c53030" fill-opacity="0.45"/>
+<circle cx="796.9" cy="350.8" r="3.2" fill="#c53030" fill-opacity="0.45"/>
+<circle cx="798.1" cy="342.0" r="3.2" fill="#c53030" fill-opacity="0.45"/>
+<circle cx="811.5" cy="333.2" r="3.2" fill="#c53030" fill-opacity="0.45"/>
+<line x1="709.6857142857143" y1="325" x2="709.6857142857143" y2="359" stroke="#1f2933" stroke-width="2.2"/>
+<text x="709.6857142857143" y="321" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11.5" font-weight="700" fill="#1f2933" text-anchor="middle">중앙값 +1.2</text>
+<text x="510" y="408" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="700" fill="#1f2933" text-anchor="end">수정 후</text>
+<text x="510" y="424" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11.5" font-weight="400" fill="#616e7c" text-anchor="end">94회</text>
+<circle cx="526.6" cy="393.0" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="549.2" cy="408.4" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="558.1" cy="399.6" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="558.7" cy="415.0" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="569.7" cy="406.2" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="570.0" cy="397.4" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="571.5" cy="412.8" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="574.1" cy="404.0" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="574.1" cy="395.2" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="576.7" cy="410.6" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="577.8" cy="401.8" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="578.5" cy="393.0" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="580.3" cy="408.4" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="580.3" cy="399.6" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="582.8" cy="415.0" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="584.0" cy="406.2" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="584.6" cy="397.4" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="584.6" cy="412.8" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="585.1" cy="404.0" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="586.9" cy="395.2" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="588.5" cy="410.6" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="588.6" cy="401.8" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="588.8" cy="393.0" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="590.9" cy="408.4" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="591.0" cy="399.6" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="593.2" cy="415.0" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="593.7" cy="406.2" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="594.3" cy="397.4" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="595.6" cy="412.8" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="596.1" cy="404.0" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="599.1" cy="395.2" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="601.3" cy="410.6" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="603.1" cy="401.8" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="604.4" cy="393.0" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="605.0" cy="408.4" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="605.3" cy="399.6" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="605.4" cy="415.0" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="607.7" cy="406.2" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="610.1" cy="397.4" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="610.7" cy="412.8" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="611.9" cy="404.0" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="612.7" cy="395.2" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="613.3" cy="410.6" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="613.6" cy="401.8" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="613.9" cy="393.0" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="615.1" cy="408.4" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="615.3" cy="399.6" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="615.7" cy="415.0" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="617.0" cy="406.2" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="618.7" cy="397.4" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="619.9" cy="412.8" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="621.1" cy="404.0" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="621.3" cy="395.2" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="621.9" cy="410.6" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="622.3" cy="401.8" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="623.4" cy="393.0" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="623.5" cy="408.4" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="623.6" cy="399.6" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="625.1" cy="415.0" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="626.5" cy="406.2" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="626.5" cy="397.4" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="626.5" cy="412.8" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="626.7" cy="404.0" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="627.5" cy="395.2" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="627.7" cy="410.6" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="628.7" cy="401.8" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="629.3" cy="393.0" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="630.2" cy="408.4" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="630.7" cy="399.6" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="634.8" cy="415.0" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="634.9" cy="406.2" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="635.6" cy="397.4" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="636.6" cy="412.8" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="636.7" cy="404.0" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="637.1" cy="395.2" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="643.3" cy="410.6" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="643.6" cy="401.8" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="645.4" cy="393.0" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="648.1" cy="408.4" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="648.2" cy="399.6" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="651.0" cy="415.0" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="651.1" cy="406.2" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="653.3" cy="397.4" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="653.7" cy="412.8" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="654.0" cy="404.0" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="658.3" cy="395.2" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="661.9" cy="410.6" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="665.6" cy="401.8" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="668.9" cy="393.0" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="671.5" cy="408.4" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="673.1" cy="399.6" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="676.6" cy="415.0" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="681.2" cy="406.2" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<circle cx="682.7" cy="397.4" r="3.2" fill="#2f855a" fill-opacity="0.45"/>
+<line x1="615.4857142857143" y1="387" x2="615.4857142857143" y2="421" stroke="#1f2933" stroke-width="2.2"/>
+<text x="615.4857142857143" y="383" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11.5" font-weight="700" fill="#1f2933" text-anchor="middle">중앙값 +0.1</text>
+<line x1="520.0" y1="434" x2="820.0" y2="434" stroke="#52606d" stroke-width="1"/>
+<line x1="520.0" y1="324" x2="520.0" y2="434" stroke="#cbd2d9" stroke-width="0.8" stroke-dasharray="3 3"/>
+<text x="520.0" y="450" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11.5" font-weight="400" fill="#616e7c" text-anchor="middle">-1</text>
+<line x1="605.7142857142857" y1="324" x2="605.7142857142857" y2="434" stroke="#cbd2d9" stroke-width="0.8"/>
+<text x="605.7142857142857" y="450" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11.5" font-weight="400" fill="#616e7c" text-anchor="middle">0</text>
+<line x1="691.4285714285714" y1="324" x2="691.4285714285714" y2="434" stroke="#cbd2d9" stroke-width="0.8" stroke-dasharray="3 3"/>
+<text x="691.4285714285714" y="450" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11.5" font-weight="400" fill="#616e7c" text-anchor="middle">1</text>
+<line x1="777.1428571428571" y1="324" x2="777.1428571428571" y2="434" stroke="#cbd2d9" stroke-width="0.8" stroke-dasharray="3 3"/>
+<text x="777.1428571428571" y="450" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11.5" font-weight="400" fill="#616e7c" text-anchor="middle">2</text>
+<text x="820.0" y="466" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11.5" font-weight="400" fill="#616e7c" text-anchor="end">m</text>
+</svg>

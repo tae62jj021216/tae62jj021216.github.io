@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 830 380" width="830" height="380" role="img" aria-label="교착상태 대기 그래프. 세션 A는 101을 쥐고 102를 기다리고, 세션 B는 102를 쥐고 101을 기다려 사이클이 생긴다">
+<title>교착상태 대기 그래프. 세션 A는 101을 쥐고 102를 기다리고, 세션 B는 102를 쥐고 101을 기다려 사이클이 생긴다</title>
+<rect width="830" height="380" rx="12" fill="#ffffff"/>
+<line x1="343" y1="80" x2="225.6774316067122" y2="141.04588924528795" stroke="#2f5d8a" stroke-width="2"/>
+<path d="M220.0,144.0 L225.3,136.8 L228.9,143.9 z" fill="#2f5d8a"/>
+<text x="258" y="104" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="700" fill="#2f5d8a" text-anchor="end">① X 잠금 보유</text>
+<line x1="220" y1="236" x2="337.3225683932878" y2="297.045889245288" stroke="#c53030" stroke-width="2" stroke-dasharray="7 5"/>
+<path d="M343.0,300.0 L334.1,299.9 L337.7,292.8 z" fill="#c53030"/>
+<text x="258" y="292" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="700" fill="#c53030" text-anchor="end">③ 기다림</text>
+<line x1="487" y1="300" x2="604.3225683932878" y2="238.95411075471205" stroke="#2f5d8a" stroke-width="2"/>
+<path d="M610.0,236.0 L604.7,243.2 L601.1,236.1 z" fill="#2f5d8a"/>
+<text x="572" y="292" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="700" fill="#2f5d8a" text-anchor="start">② X 잠금 보유</text>
+<line x1="610" y1="144" x2="492.6774316067122" y2="82.95411075471203" stroke="#c53030" stroke-width="2" stroke-dasharray="7 5"/>
+<path d="M487.0,80.0 L495.9,80.1 L492.3,87.2 z" fill="#c53030"/>
+<text x="572" y="104" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="700" fill="#c53030" text-anchor="start">④ 기다림</text>
+<circle cx="190" cy="190" r="52" fill="#e8f0f8" stroke="#2f5d8a" stroke-width="1.8"/>
+<text x="190" y="186" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="16" font-weight="700" fill="#1f2933" text-anchor="middle">세션 A</text>
+<text x="190" y="206" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12" font-weight="400" fill="#616e7c" text-anchor="middle">101 → 102</text>
+<circle cx="640" cy="190" r="52" fill="#e8f0f8" stroke="#2f5d8a" stroke-width="1.8"/>
+<text x="640" y="186" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="16" font-weight="700" fill="#1f2933" text-anchor="middle">세션 B</text>
+<text x="640" y="206" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12" font-weight="400" fill="#616e7c" text-anchor="middle">102 → 101</text>
+<rect x="345" y="46" width="140" height="48" rx="6" fill="#fbefd9" stroke="#b7791f" stroke-width="1.6"/>
+<text x="415" y="68" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="14" font-weight="700" fill="#1f2933" text-anchor="middle">member_id 101</text>
+<text x="415" y="86" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11" font-weight="400" fill="#616e7c" text-anchor="middle">point_account 행</text>
+<rect x="345" y="286" width="140" height="48" rx="6" fill="#fbefd9" stroke="#b7791f" stroke-width="1.6"/>
+<text x="415" y="308" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="14" font-weight="700" fill="#1f2933" text-anchor="middle">member_id 102</text>
+<text x="415" y="326" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11" font-weight="400" fill="#616e7c" text-anchor="middle">point_account 행</text>
+<text x="415" y="182" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="15" font-weight="700" fill="#c53030" text-anchor="middle">사이클</text>
+<text x="415" y="202" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="400" fill="#c53030" text-anchor="middle">= 교착상태</text>
+<text x="415" y="366" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="400" fill="#616e7c" text-anchor="middle">InnoDB가 사이클을 탐지해 희생자 B를 롤백한다 (ERROR 1213). 실선 = 쥐고 있음, 점선 = 기다림</text>
+</svg>

@@ -1,0 +1,302 @@
+[
+ {
+  "id": "p001",
+  "name": "에티오피아 예가체프 200g",
+  "category": "원두",
+  "price": 18000,
+  "salePrice": 15300,
+  "soldOut": false,
+  "rating": 4.5,
+  "reviewCount": 49
+ },
+ {
+  "id": "p002",
+  "name": "콜롬비아 수프리모 200g",
+  "category": "원두",
+  "price": 15000,
+  "salePrice": null,
+  "soldOut": false,
+  "rating": 4.0,
+  "reviewCount": 86
+ },
+ {
+  "id": "p003",
+  "name": "과테말라 안티구아 200g",
+  "category": "원두",
+  "price": 16000,
+  "salePrice": 13600,
+  "soldOut": false,
+  "rating": 4.7,
+  "reviewCount": 123
+ },
+ {
+  "id": "p004",
+  "name": "케냐 AA 200g",
+  "category": "원두",
+  "price": 19000,
+  "salePrice": null,
+  "soldOut": false,
+  "rating": 4.2,
+  "reviewCount": 160
+ },
+ {
+  "id": "p005",
+  "name": "브라질 산토스 200g",
+  "category": "원두",
+  "price": 13000,
+  "salePrice": 11700,
+  "soldOut": false,
+  "rating": 4.9,
+  "reviewCount": 197
+ },
+ {
+  "id": "p006",
+  "name": "코스타리카 따라주 200g",
+  "category": "원두",
+  "price": 17000,
+  "salePrice": null,
+  "soldOut": true,
+  "rating": 4.4,
+  "reviewCount": 44
+ },
+ {
+  "id": "p007",
+  "name": "하우스 블렌드 500g",
+  "category": "원두",
+  "price": 26000,
+  "salePrice": 20800,
+  "soldOut": false,
+  "rating": 3.9,
+  "reviewCount": 81
+ },
+ {
+  "id": "p008",
+  "name": "디카페인 블렌드 200g",
+  "category": "원두",
+  "price": 16000,
+  "salePrice": null,
+  "soldOut": false,
+  "rating": 4.6,
+  "reviewCount": 118
+ },
+ {
+  "id": "p009",
+  "name": "드립백 10개입 (예가체프)",
+  "category": "드립백",
+  "price": 12000,
+  "salePrice": 10800,
+  "soldOut": false,
+  "rating": 4.1,
+  "reviewCount": 155
+ },
+ {
+  "id": "p010",
+  "name": "드립백 10개입 (하우스)",
+  "category": "드립백",
+  "price": 10000,
+  "salePrice": null,
+  "soldOut": false,
+  "rating": 4.8,
+  "reviewCount": 192
+ },
+ {
+  "id": "p011",
+  "name": "드립백 30개입 (하우스)",
+  "category": "드립백",
+  "price": 27000,
+  "salePrice": 21600,
+  "soldOut": false,
+  "rating": 4.3,
+  "reviewCount": 39
+ },
+ {
+  "id": "p012",
+  "name": "콜드브루 원액 500ml",
+  "category": "음료",
+  "price": 14000,
+  "salePrice": null,
+  "soldOut": false,
+  "rating": 3.8,
+  "reviewCount": 76
+ },
+ {
+  "id": "p013",
+  "name": "바닐라 시럽 750ml",
+  "category": "음료",
+  "price": 9000,
+  "salePrice": null,
+  "soldOut": false,
+  "rating": 4.5,
+  "reviewCount": 113
+ },
+ {
+  "id": "p014",
+  "name": "카라멜 시럽 750ml",
+  "category": "음료",
+  "price": 9000,
+  "salePrice": null,
+  "soldOut": true,
+  "rating": 4.0,
+  "reviewCount": 150
+ },
+ {
+  "id": "p015",
+  "name": "우유 거품기 핸디형",
+  "category": "도구",
+  "price": 15000,
+  "salePrice": 12000,
+  "soldOut": false,
+  "rating": 4.7,
+  "reviewCount": 187
+ },
+ {
+  "id": "p016",
+  "name": "핸드드립 입문 세트",
+  "category": "도구",
+  "price": 32000,
+  "salePrice": null,
+  "soldOut": false,
+  "rating": 4.2,
+  "reviewCount": 34
+ },
+ {
+  "id": "p017",
+  "name": "드리퍼 1~2인용",
+  "category": "도구",
+  "price": 9000,
+  "salePrice": null,
+  "soldOut": false,
+  "rating": 4.9,
+  "reviewCount": 71
+ },
+ {
+  "id": "p018",
+  "name": "드립 서버 600ml",
+  "category": "도구",
+  "price": 14000,
+  "salePrice": 12600,
+  "soldOut": false,
+  "rating": 4.4,
+  "reviewCount": 108
+ },
+ {
+  "id": "p019",
+  "name": "핸드밀 그라인더",
+  "category": "도구",
+  "price": 48000,
+  "salePrice": null,
+  "soldOut": false,
+  "rating": 3.9,
+  "reviewCount": 145
+ },
+ {
+  "id": "p020",
+  "name": "드립 전자 저울",
+  "category": "도구",
+  "price": 22000,
+  "salePrice": 17600,
+  "soldOut": false,
+  "rating": 4.6,
+  "reviewCount": 182
+ },
+ {
+  "id": "p021",
+  "name": "드립 필터 100매",
+  "category": "도구",
+  "price": 4000,
+  "salePrice": null,
+  "soldOut": false,
+  "rating": 4.1,
+  "reviewCount": 29
+ },
+ {
+  "id": "p022",
+  "name": "로고 머그 350ml",
+  "category": "머그·텀블러",
+  "price": 12000,
+  "salePrice": null,
+  "soldOut": false,
+  "rating": 4.8,
+  "reviewCount": 66
+ },
+ {
+  "id": "p023",
+  "name": "로고 머그 2개 세트",
+  "category": "머그·텀블러",
+  "price": 22000,
+  "salePrice": 18700,
+  "soldOut": false,
+  "rating": 4.3,
+  "reviewCount": 103
+ },
+ {
+  "id": "p024",
+  "name": "스테인리스 텀블러 473ml",
+  "category": "머그·텀블러",
+  "price": 25000,
+  "salePrice": null,
+  "soldOut": false,
+  "rating": 3.8,
+  "reviewCount": 140
+ },
+ {
+  "id": "p025",
+  "name": "콜드컵 텀블러 710ml",
+  "category": "머그·텀블러",
+  "price": 21000,
+  "salePrice": 16800,
+  "soldOut": false,
+  "rating": 4.5,
+  "reviewCount": 177
+ },
+ {
+  "id": "p026",
+  "name": "유리 머그 300ml",
+  "category": "머그·텀블러",
+  "price": 11000,
+  "salePrice": null,
+  "soldOut": true,
+  "rating": 4.0,
+  "reviewCount": 24
+ },
+ {
+  "id": "p027",
+  "name": "버터 쿠키 6개입",
+  "category": "디저트",
+  "price": 8000,
+  "salePrice": null,
+  "soldOut": false,
+  "rating": 4.7,
+  "reviewCount": 61
+ },
+ {
+  "id": "p028",
+  "name": "초코 브라우니 4개입",
+  "category": "디저트",
+  "price": 12000,
+  "salePrice": 10800,
+  "soldOut": false,
+  "rating": 4.2,
+  "reviewCount": 98
+ },
+ {
+  "id": "p029",
+  "name": "레몬 마들렌 6개입",
+  "category": "디저트",
+  "price": 9000,
+  "salePrice": null,
+  "soldOut": false,
+  "rating": 4.9,
+  "reviewCount": 135
+ },
+ {
+  "id": "p030",
+  "name": "원두 선물 세트 3종",
+  "category": "선물",
+  "price": 45000,
+  "salePrice": 36000,
+  "soldOut": false,
+  "rating": 4.4,
+  "reviewCount": 172
+ }
+]

@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 830 350" width="830" height="350" role="img" aria-label="orders와 member 두 원으로 본 INNER(10행), LEFT(12행), RIGHT(11행), FULL OUTER(13행) 조인이 남기는 영역">
+<title>orders와 member 두 원으로 본 INNER(10행), LEFT(12행), RIGHT(11행), FULL OUTER(13행) 조인이 남기는 영역</title>
+<rect width="830" height="350" rx="12" fill="#ffffff"/>
+<text x="415" y="28" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13" font-weight="700" fill="#1f2933" text-anchor="middle">FROM orders o  ···  JOIN member m  ON o.member_id = m.member_id</text>
+<text x="112" y="62" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="14.5" font-weight="700" fill="#2f5d8a" text-anchor="middle">INNER JOIN</text>
+<clipPath id="ja0"><circle cx="82.0" cy="170" r="54"/></clipPath>
+<circle cx="142.0" cy="170" r="54" fill="#d3e2f1" clip-path="url(#ja0)"/>
+<circle cx="82.0" cy="170" r="54" fill="none" stroke="#2f5d8a" stroke-width="1.6"/>
+<circle cx="142.0" cy="170" r="54" fill="none" stroke="#2f5d8a" stroke-width="1.6"/>
+<text x="68.0" y="106" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12" font-weight="400" fill="#616e7c" text-anchor="middle">orders</text>
+<text x="156.0" y="106" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12" font-weight="400" fill="#616e7c" text-anchor="middle">member</text>
+<text x="56.0" y="168" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12" font-weight="400" fill="#cbd2d9" text-anchor="middle">3·7번</text>
+<text x="56.0" y="184" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11.5" font-weight="400" fill="#cbd2d9" text-anchor="middle">주문</text>
+<text x="112" y="168" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12" font-weight="700" fill="#1f2933" text-anchor="middle">짝</text>
+<text x="112" y="184" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11.5" font-weight="400" fill="#1f2933" text-anchor="middle">10쌍</text>
+<text x="168.0" y="168" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12" font-weight="400" fill="#cbd2d9" text-anchor="middle">팥쥐</text>
+<text x="112" y="260" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="17" font-weight="700" fill="#1f2933" text-anchor="middle">10행</text>
+<text x="112" y="282" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12" font-weight="400" fill="#616e7c" text-anchor="middle">짝 있는 행만</text>
+<text x="314" y="62" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="14.5" font-weight="700" fill="#2f5d8a" text-anchor="middle">LEFT JOIN</text>
+<clipPath id="ja1"><circle cx="284.0" cy="170" r="54"/></clipPath>
+<circle cx="284.0" cy="170" r="54" fill="#d3e2f1"/>
+<circle cx="284.0" cy="170" r="54" fill="none" stroke="#2f5d8a" stroke-width="1.6"/>
+<circle cx="344.0" cy="170" r="54" fill="none" stroke="#2f5d8a" stroke-width="1.6"/>
+<text x="270.0" y="106" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12" font-weight="400" fill="#616e7c" text-anchor="middle">orders</text>
+<text x="358.0" y="106" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12" font-weight="400" fill="#616e7c" text-anchor="middle">member</text>
+<text x="258.0" y="168" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12" font-weight="700" fill="#1f2933" text-anchor="middle">3·7번</text>
+<text x="258.0" y="184" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11.5" font-weight="400" fill="#1f2933" text-anchor="middle">주문</text>
+<text x="314" y="168" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12" font-weight="700" fill="#1f2933" text-anchor="middle">짝</text>
+<text x="314" y="184" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11.5" font-weight="400" fill="#1f2933" text-anchor="middle">10쌍</text>
+<text x="370.0" y="168" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12" font-weight="400" fill="#cbd2d9" text-anchor="middle">팥쥐</text>
+<text x="314" y="260" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="17" font-weight="700" fill="#1f2933" text-anchor="middle">12행</text>
+<text x="314" y="282" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12" font-weight="400" fill="#616e7c" text-anchor="middle">+ 비회원 주문 2행</text>
+<text x="516" y="62" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="14.5" font-weight="700" fill="#2f5d8a" text-anchor="middle">RIGHT JOIN</text>
+<clipPath id="ja2"><circle cx="486.0" cy="170" r="54"/></clipPath>
+<circle cx="546.0" cy="170" r="54" fill="#d3e2f1"/>
+<circle cx="486.0" cy="170" r="54" fill="none" stroke="#2f5d8a" stroke-width="1.6"/>
+<circle cx="546.0" cy="170" r="54" fill="none" stroke="#2f5d8a" stroke-width="1.6"/>
+<text x="472.0" y="106" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12" font-weight="400" fill="#616e7c" text-anchor="middle">orders</text>
+<text x="560.0" y="106" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12" font-weight="400" fill="#616e7c" text-anchor="middle">member</text>
+<text x="460.0" y="168" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12" font-weight="400" fill="#cbd2d9" text-anchor="middle">3·7번</text>
+<text x="460.0" y="184" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11.5" font-weight="400" fill="#cbd2d9" text-anchor="middle">주문</text>
+<text x="516" y="168" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12" font-weight="700" fill="#1f2933" text-anchor="middle">짝</text>
+<text x="516" y="184" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11.5" font-weight="400" fill="#1f2933" text-anchor="middle">10쌍</text>
+<text x="572.0" y="168" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12" font-weight="700" fill="#1f2933" text-anchor="middle">팥쥐</text>
+<text x="516" y="260" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="17" font-weight="700" fill="#1f2933" text-anchor="middle">11행</text>
+<text x="516" y="282" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12" font-weight="400" fill="#616e7c" text-anchor="middle">+ 팥쥐 1행</text>
+<text x="718" y="62" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="14.5" font-weight="700" fill="#2f5d8a" text-anchor="middle">FULL OUTER JOIN</text>
+<clipPath id="ja3"><circle cx="688.0" cy="170" r="54"/></clipPath>
+<circle cx="688.0" cy="170" r="54" fill="#d3e2f1"/>
+<circle cx="748.0" cy="170" r="54" fill="#d3e2f1"/>
+<circle cx="688.0" cy="170" r="54" fill="none" stroke="#2f5d8a" stroke-width="1.6"/>
+<circle cx="748.0" cy="170" r="54" fill="none" stroke="#2f5d8a" stroke-width="1.6"/>
+<text x="674.0" y="106" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12" font-weight="400" fill="#616e7c" text-anchor="middle">orders</text>
+<text x="762.0" y="106" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12" font-weight="400" fill="#616e7c" text-anchor="middle">member</text>
+<text x="662.0" y="168" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12" font-weight="700" fill="#1f2933" text-anchor="middle">3·7번</text>
+<text x="662.0" y="184" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11.5" font-weight="400" fill="#1f2933" text-anchor="middle">주문</text>
+<text x="718" y="168" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12" font-weight="700" fill="#1f2933" text-anchor="middle">짝</text>
+<text x="718" y="184" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11.5" font-weight="400" fill="#1f2933" text-anchor="middle">10쌍</text>
+<text x="774.0" y="168" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12" font-weight="700" fill="#1f2933" text-anchor="middle">팥쥐</text>
+<text x="718" y="260" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="17" font-weight="700" fill="#1f2933" text-anchor="middle">13행</text>
+<text x="718" y="282" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12" font-weight="400" fill="#616e7c" text-anchor="middle">+ 둘 다 (MySQL은 UNION으로)</text>
+<text x="24" y="334" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="400" fill="#616e7c" text-anchor="start">원은 각 테이블의 행, 겹친 부분은 조인 조건이 맞는 짝이다. 색칠한 부분이 결과에 남는다.</text>
+</svg>
