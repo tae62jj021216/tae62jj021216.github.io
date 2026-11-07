@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 430" width="760" height="430" role="img" aria-label="키의 포함 관계: 슈퍼키 안에 후보키, 후보키는 기본키와 대체키로 나뉜다">
+<title>키의 포함 관계: 슈퍼키 안에 후보키, 후보키는 기본키와 대체키로 나뉜다</title>
+<rect width="760" height="430" rx="12" fill="#ffffff"/>
+<ellipse cx="380" cy="218" rx="352" ry="196" fill="#eef1f4" stroke="#9aa5b1" stroke-width="1.5"/>
+<text x="118" y="132" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="17" font-weight="700" fill="#1f2933" text-anchor="start">슈퍼키</text>
+<text x="118" y="154" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="400" fill="#616e7c" text-anchor="start">유일성만 만족</text>
+<text x="90" y="200" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="14" font-weight="400" fill="#1f2933" text-anchor="start">{menu_id, price}</text>
+<text x="90" y="228" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="14" font-weight="400" fill="#1f2933" text-anchor="start">{menu_id, name}</text>
+<text x="90" y="256" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="14" font-weight="400" fill="#1f2933" text-anchor="start">{name, price}</text>
+<text x="90" y="284" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="14" font-weight="400" fill="#1f2933" text-anchor="start">…</text>
+<clipPath id="cand"><ellipse cx="478" cy="232" rx="222" ry="150"/></clipPath>
+<ellipse cx="478" cy="232" rx="222" ry="150" fill="#e8f0f8"/>
+<rect x="256" y="158" width="222" height="300" fill="#fbefd9" clip-path="url(#cand)"/>
+<rect x="478" y="158" width="222" height="300" fill="#d3e2f1" clip-path="url(#cand)"/>
+<line x1="256" y1="158" x2="700" y2="158" stroke="#9aa5b1" stroke-width="1" clip-path="url(#cand)"/>
+<line x1="478" y1="158" x2="478" y2="382" stroke="#9aa5b1" stroke-width="1.2" stroke-dasharray="5 4"/>
+<ellipse cx="478" cy="232" rx="222" ry="150" fill="none" stroke="#2f5d8a" stroke-width="1.8"/>
+<text x="478" y="120" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="17" font-weight="700" fill="#2f5d8a" text-anchor="middle">후보키</text>
+<text x="478" y="142" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="400" fill="#616e7c" text-anchor="middle">유일성 + 최소성</text>
+<text x="377.0" y="210" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="16" font-weight="700" fill="#b7791f" text-anchor="middle">기본키</text>
+<text x="377.0" y="242" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="15" font-weight="700" fill="#1f2933" text-anchor="middle">{menu_id}</text>
+<text x="377.0" y="270" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="400" fill="#616e7c" text-anchor="middle">대표로 고른 하나</text>
+<text x="579.0" y="210" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="16" font-weight="700" fill="#2f5d8a" text-anchor="middle">대체키</text>
+<text x="579.0" y="242" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="15" font-weight="700" fill="#1f2933" text-anchor="middle">{name}</text>
+<text x="579.0" y="270" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="400" fill="#616e7c" text-anchor="middle">남은 후보키</text>
+<text x="380" y="398" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="400" fill="#616e7c" text-anchor="middle">예: menu 테이블</text>
+</svg>

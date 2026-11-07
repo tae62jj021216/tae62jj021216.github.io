@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 420" width="820" height="420" role="img" aria-label="root가 cafe_manager에게 WITH GRANT OPTION으로 준 권한을 REVOKE해도 cafe_manager가 cafe_parttime에게 준 SELECT는 남는 모습">
+<title>root가 cafe_manager에게 WITH GRANT OPTION으로 준 권한을 REVOKE해도 cafe_manager가 cafe_parttime에게 준 SELECT는 남는 모습</title>
+<rect width="820" height="420" rx="12" fill="#ffffff"/>
+<text x="30" y="40" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="14.5" font-weight="700" fill="#1f2933" text-anchor="start">① REVOKE 전</text>
+<rect x="30" y="60" width="140" height="70" rx="8" fill="#f7f9fb" stroke="#9aa5b1" stroke-width="1.2"/>
+<text x="44" y="85" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="14" font-weight="700" fill="#1f2933" text-anchor="start">root</text>
+<rect x="44" y="98" width="77.4" height="22" rx="11" fill="#e8f0f8" stroke="#2f5d8a" stroke-width="1.1"/>
+<text x="82.7" y="113.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12" font-weight="700" fill="#2f5d8a" text-anchor="middle">모든 권한</text>
+<rect x="290" y="60" width="285" height="70" rx="8" fill="#f7f9fb" stroke="#9aa5b1" stroke-width="1.2"/>
+<text x="304" y="85" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="14" font-weight="700" fill="#1f2933" text-anchor="start">cafe_manager</text>
+<rect x="304" y="98" width="62.400000000000006" height="22" rx="11" fill="#e8f0f8" stroke="#2f5d8a" stroke-width="1.1"/>
+<text x="335.2" y="113.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12" font-weight="700" fill="#2f5d8a" text-anchor="middle">SELECT</text>
+<rect x="372.4" y="98" width="62.400000000000006" height="22" rx="11" fill="#e8f0f8" stroke="#2f5d8a" stroke-width="1.1"/>
+<text x="403.59999999999997" y="113.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12" font-weight="700" fill="#2f5d8a" text-anchor="middle">UPDATE</text>
+<rect x="440.79999999999995" y="98" width="106.80000000000001" height="22" rx="11" fill="#fbefd9" stroke="#b7791f" stroke-width="1.1"/>
+<text x="494.19999999999993" y="113.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12" font-weight="700" fill="#b7791f" text-anchor="middle">GRANT OPTION</text>
+<rect x="665" y="60" width="135" height="70" rx="8" fill="#f7f9fb" stroke="#9aa5b1" stroke-width="1.2"/>
+<text x="679" y="85" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="14" font-weight="700" fill="#1f2933" text-anchor="start">cafe_parttime</text>
+<rect x="679" y="98" width="62.400000000000006" height="22" rx="11" fill="#e8f0f8" stroke="#2f5d8a" stroke-width="1.1"/>
+<text x="710.2" y="113.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12" font-weight="700" fill="#2f5d8a" text-anchor="middle">SELECT</text>
+<line x1="176" y1="95" x2="277.6" y2="95.0" stroke="#2f5d8a" stroke-width="1.6"/>
+<path d="M284.0,95.0 L276.0,99.0 L276.0,91.0 z" fill="#2f5d8a"/>
+<text x="230.0" y="84" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11.5" font-weight="400" fill="#2f5d8a" text-anchor="middle">GRANT …</text>
+<text x="230.0" y="114" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11.5" font-weight="700" fill="#b7791f" text-anchor="middle">WITH GRANT OPTION</text>
+<line x1="581" y1="95" x2="652.6" y2="95.0" stroke="#2f5d8a" stroke-width="1.6"/>
+<path d="M659.0,95.0 L651.0,99.0 L651.0,91.0 z" fill="#2f5d8a"/>
+<text x="620.0" y="84" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11.5" font-weight="400" fill="#2f5d8a" text-anchor="middle">GRANT</text>
+<text x="620.0" y="114" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11.5" font-weight="400" fill="#2f5d8a" text-anchor="middle">SELECT</text>
+<text x="30" y="230" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="14.5" font-weight="700" fill="#1f2933" text-anchor="start">② root가 cafe_manager의 권한을 모두 REVOKE한 뒤</text>
+<rect x="30" y="250" width="140" height="70" rx="8" fill="#f7f9fb" stroke="#9aa5b1" stroke-width="1.2"/>
+<text x="44" y="275" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="14" font-weight="700" fill="#1f2933" text-anchor="start">root</text>
+<rect x="44" y="288" width="77.4" height="22" rx="11" fill="#e8f0f8" stroke="#2f5d8a" stroke-width="1.1"/>
+<text x="82.7" y="303.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12" font-weight="700" fill="#2f5d8a" text-anchor="middle">모든 권한</text>
+<rect x="290" y="250" width="285" height="70" rx="8" fill="#eef1f4" stroke="#9aa5b1" stroke-width="1.2"/>
+<text x="304" y="275" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="14" font-weight="700" fill="#616e7c" text-anchor="start">cafe_manager</text>
+<rect x="304" y="288" width="62.400000000000006" height="22" rx="11" fill="#eef1f4" stroke="#9aa5b1" stroke-width="1.1"/>
+<text x="335.2" y="303.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12" font-weight="700" fill="#616e7c" text-anchor="middle">SELECT</text>
+<line x1="310" y1="299" x2="360.4" y2="299" stroke="#c53030" stroke-width="1.5"/>
+<rect x="372.4" y="288" width="62.400000000000006" height="22" rx="11" fill="#eef1f4" stroke="#9aa5b1" stroke-width="1.1"/>
+<text x="403.59999999999997" y="303.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12" font-weight="700" fill="#616e7c" text-anchor="middle">UPDATE</text>
+<line x1="378.4" y1="299" x2="428.79999999999995" y2="299" stroke="#c53030" stroke-width="1.5"/>
+<rect x="440.79999999999995" y="288" width="106.80000000000001" height="22" rx="11" fill="#eef1f4" stroke="#9aa5b1" stroke-width="1.1"/>
+<text x="494.19999999999993" y="303.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12" font-weight="700" fill="#616e7c" text-anchor="middle">GRANT OPTION</text>
+<line x1="446.79999999999995" y1="299" x2="541.5999999999999" y2="299" stroke="#c53030" stroke-width="1.5"/>
+<rect x="665" y="250" width="135" height="92" rx="8" fill="#f7f9fb" stroke="#9aa5b1" stroke-width="1.2"/>
+<text x="679" y="275" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="14" font-weight="700" fill="#1f2933" text-anchor="start">cafe_parttime</text>
+<rect x="679" y="288" width="62.400000000000006" height="22" rx="11" fill="#e3f3ea" stroke="#2f855a" stroke-width="1.1"/>
+<text x="710.2" y="303.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12" font-weight="700" fill="#2f855a" text-anchor="middle">SELECT</text>
+<text x="679" y="332" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12" font-weight="700" fill="#2f855a" text-anchor="start">남아 있다</text>
+<line x1="176" y1="285" x2="277.6" y2="285.0" stroke="#c53030" stroke-width="1.6" stroke-dasharray="6 4"/>
+<path d="M284.0,285.0 L276.0,289.0 L276.0,281.0 z" fill="#c53030"/>
+<text x="230.0" y="274" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11.5" font-weight="700" fill="#c53030" text-anchor="middle">REVOKE</text>
+<line x1="581" y1="285" x2="659" y2="285" stroke="#cbd2d9" stroke-width="1.5" stroke-dasharray="4 4"/>
+<text x="620.0" y="274" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11.5" font-weight="700" fill="#2f855a" text-anchor="middle">연쇄 회수</text>
+<text x="620.0" y="304" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11.5" font-weight="700" fill="#2f855a" text-anchor="middle">없음</text>
+<text x="30" y="395" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="400" fill="#616e7c" text-anchor="start">MySQL은 권한을 누가 줬는지 기록하지 않아, 넘겨준 권한까지 거둬들이지 않는다.</text>
+</svg>

@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 450" width="860" height="450" role="img" aria-label="git add -A는 다른 세션이 옮긴 스킬 폴더와 편집 중인 파일까지 담아 원격에서 스킬을 지웠고, 고친 뒤에는 방금 고친 설정 파일 하나만 담는다">
+<title>git add -A는 다른 세션이 옮긴 스킬 폴더와 편집 중인 파일까지 담아 원격에서 스킬을 지웠고, 고친 뒤에는 방금 고친 설정 파일 하나만 담는다</title>
+<rect width="860" height="450" rx="12" fill="#ffffff"/>
+<text x="30" y="34" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="15" font-weight="700" fill="#c53030" text-anchor="start">고치기 전</text>
+<rect x="30" y="50" width="380" height="196" rx="10" fill="#ffffff" stroke="#9aa5b1" stroke-width="1.4" stroke-dasharray="6 4"/>
+<text x="44" y="72" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="700" fill="#616e7c" text-anchor="start">설정 저장소의 작업 트리</text>
+<rect x="44" y="86" width="352" height="42" rx="6" fill="#fbe4e4" stroke="#c53030" stroke-width="1.8"/>
+<text x="58" y="104" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="700" fill="#c53030" text-anchor="start">스킬 폴더</text>
+<text x="58" y="121" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11.5" font-weight="400" fill="#1f2933" text-anchor="start">세션 A가 잠시 옮김 → 삭제로 보임</text>
+<text x="382" y="113" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12" font-weight="700" fill="#c53030" text-anchor="end">담김</text>
+<rect x="44" y="138" width="352" height="42" rx="6" fill="#e8f0f8" stroke="#2f5d8a" stroke-width="1.8"/>
+<text x="58" y="156" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="700" fill="#2f5d8a" text-anchor="start">설정 파일</text>
+<text x="58" y="173" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11.5" font-weight="400" fill="#1f2933" text-anchor="start">세션 B가 방금 고침</text>
+<text x="382" y="165" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12" font-weight="700" fill="#2f5d8a" text-anchor="end">담김</text>
+<rect x="44" y="190" width="352" height="42" rx="6" fill="#efe9fb" stroke="#6b46c1" stroke-width="1.8"/>
+<text x="58" y="208" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="700" fill="#6b46c1" text-anchor="start">스크립트 파일</text>
+<text x="58" y="225" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11.5" font-weight="400" fill="#1f2933" text-anchor="start">다른 세션이 편집 중</text>
+<text x="382" y="217" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12" font-weight="700" fill="#6b46c1" text-anchor="end">담김</text>
+<rect x="30" y="262" width="380" height="40" rx="6" fill="#fde8dd" stroke="#c05621" stroke-width="1.4"/>
+<text x="44" y="287" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="700" fill="#c05621" text-anchor="start">파일 수정 뒤 hook:</text>
+<text x="170" y="287" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12.5" font-weight="400" fill="#1f2933" text-anchor="start">git add -A</text>
+<line x1="220" y1="302" x2="220.0" y2="323.6" stroke="#52606d" stroke-width="1.6"/>
+<path d="M220.0,330.0 L216.0,322.0 L224.0,322.0 z" fill="#52606d"/>
+<text x="230" y="322" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="11.5" font-weight="400" fill="#616e7c" text-anchor="start">commit → push</text>
+<rect x="30" y="334" width="380" height="86" rx="10" fill="#eef1f4" stroke="#52606d" stroke-width="1.4"/>
+<text x="44" y="356" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="700" fill="#616e7c" text-anchor="start">원격 저장소</text>
+<text x="44" y="380" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="700" fill="#c53030" text-anchor="start">스킬 폴더가 삭제됨</text>
+<text x="44" y="402" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="700" fill="#6b46c1" text-anchor="start">편집 중이던 파일이 섞여 커밋됨</text>
+<text x="450" y="34" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="15" font-weight="700" fill="#2f855a" text-anchor="start">고친 뒤</text>
+<rect x="450" y="50" width="380" height="196" rx="10" fill="#ffffff" stroke="#9aa5b1" stroke-width="1.4" stroke-dasharray="6 4"/>
+<text x="464" y="72" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="700" fill="#616e7c" text-anchor="start">설정 저장소의 작업 트리</text>
+<rect x="464" y="86" width="352" height="42" rx="6" fill="#f7f9fb" stroke="#cbd2d9" stroke-width="1"/>
+<text x="478" y="104" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="700" fill="#616e7c" text-anchor="start">스킬 폴더</text>
+<text x="478" y="121" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11.5" font-weight="400" fill="#616e7c" text-anchor="start">세션 A가 잠시 옮김 → 삭제로 보임</text>
+<rect x="464" y="138" width="352" height="42" rx="6" fill="#e8f0f8" stroke="#2f5d8a" stroke-width="1.8"/>
+<text x="478" y="156" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="700" fill="#2f5d8a" text-anchor="start">설정 파일</text>
+<text x="478" y="173" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11.5" font-weight="400" fill="#1f2933" text-anchor="start">세션 B가 방금 고침</text>
+<text x="802" y="165" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12" font-weight="700" fill="#2f5d8a" text-anchor="end">담김</text>
+<rect x="464" y="190" width="352" height="42" rx="6" fill="#f7f9fb" stroke="#cbd2d9" stroke-width="1"/>
+<text x="478" y="208" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="700" fill="#616e7c" text-anchor="start">스크립트 파일</text>
+<text x="478" y="225" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11.5" font-weight="400" fill="#616e7c" text-anchor="start">다른 세션이 편집 중</text>
+<rect x="450" y="262" width="380" height="40" rx="6" fill="#fde8dd" stroke="#c05621" stroke-width="1.4"/>
+<text x="464" y="287" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="700" fill="#c05621" text-anchor="start">파일 수정 뒤 hook:</text>
+<text x="590" y="287" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12.5" font-weight="400" fill="#1f2933" text-anchor="start">git add -- &lt;설정 파일&gt;</text>
+<line x1="640" y1="302" x2="640.0" y2="323.6" stroke="#52606d" stroke-width="1.6"/>
+<path d="M640.0,330.0 L636.0,322.0 L644.0,322.0 z" fill="#52606d"/>
+<text x="650" y="322" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="11.5" font-weight="400" fill="#616e7c" text-anchor="start">commit → push</text>
+<rect x="450" y="334" width="380" height="86" rx="10" fill="#eef1f4" stroke="#52606d" stroke-width="1.4"/>
+<text x="464" y="356" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="700" fill="#616e7c" text-anchor="start">원격 저장소</text>
+<text x="464" y="380" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="700" fill="#2f5d8a" text-anchor="start">설정 파일 하나만 바뀜</text>
+<text x="464" y="402" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="700" fill="#2f855a" text-anchor="start">다른 세션의 변경은 그대로 둠</text>
+<text x="30" y="442" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11.5" font-weight="400" fill="#616e7c" text-anchor="start">여러 세션이 같은 설정 저장소를 쓰는 상황. hook은 세션 B의 파일 수정 뒤에 돌았다.</text>
+</svg>

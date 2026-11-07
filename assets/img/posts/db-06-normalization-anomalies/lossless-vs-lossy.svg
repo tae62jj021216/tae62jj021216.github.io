@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 528" width="820" height="528" role="img" aria-label="order_sheet를 order_id로 나누면 다시 조인해 16행(무손실), member_id로 나누면 29행(손실)">
+<title>order_sheet를 order_id로 나누면 다시 조인해 16행(무손실), member_id로 나누면 29행(손실)</title>
+<rect width="820" height="528" rx="12" fill="#ffffff"/>
+<rect x="90.0" y="20" width="640" height="64" rx="6" fill="#f7f9fb" stroke="#9aa5b1" stroke-width="1"/>
+<path d="M90.0,48 v-22 q0,-6 6,-6 h628 q6,0 6,6 v22 z" fill="#2f5d8a"/>
+<text x="102.0" y="40" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="15" font-weight="700" fill="#ffffff" text-anchor="start">order_sheet</text>
+<text x="720.0" y="40" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="400" fill="#ffffff" text-anchor="end">16행</text>
+<text x="410" y="72" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12.5" font-weight="400" fill="#1f2933" text-anchor="middle">(order_id, store, member_id, member_name, grade, menu_id, menu_name, price, qty)</text>
+<line x1="340.7" y1="90" x2="218.13803722608003" y2="126.18768131630893" stroke="#9aa5b1" stroke-width="1.6"/>
+<path d="M212.0,128.0 L218.5,121.9 L220.8,129.6 z" fill="#9aa5b1"/>
+<text x="212" y="150" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="14" font-weight="700" fill="#1f2933" text-anchor="middle">분해 A: 주문 번호로 연결</text>
+<path d="M205,214.0 H212.5 V214.0 H220" stroke="#c05621" stroke-width="1.8" fill="none"/>
+<rect x="30" y="166" width="175" height="160" rx="6" fill="#f7f9fb" stroke="#9aa5b1" stroke-width="1"/>
+<path d="M30,198 v-26 q0,-6 6,-6 h163 q6,0 6,6 v26 z" fill="#2f5d8a"/>
+<text x="42" y="187.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="15" font-weight="700" fill="#ffffff" text-anchor="start">r_order</text>
+<text x="195" y="187" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="400" fill="#ffffff" text-anchor="end">10행</text>
+<rect x="31" y="202.0" width="173" height="24" rx="0" fill="#fde8dd"/>
+<text x="42" y="218.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="14" font-weight="400" fill="#1f2933" text-anchor="start">order_id</text>
+<text x="195" y="218.5" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11.5" font-weight="700" fill="#2f5d8a" text-anchor="end">키</text>
+<text x="42" y="242.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="14" font-weight="400" fill="#1f2933" text-anchor="start">store</text>
+<text x="42" y="266.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="14" font-weight="400" fill="#1f2933" text-anchor="start">member_id</text>
+<text x="42" y="290.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="14" font-weight="400" fill="#1f2933" text-anchor="start">member_name</text>
+<text x="42" y="314.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="14" font-weight="400" fill="#1f2933" text-anchor="start">grade</text>
+<rect x="220" y="166" width="175" height="160" rx="6" fill="#f7f9fb" stroke="#9aa5b1" stroke-width="1"/>
+<path d="M220,198 v-26 q0,-6 6,-6 h163 q6,0 6,6 v26 z" fill="#2f5d8a"/>
+<text x="232" y="187.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="15" font-weight="700" fill="#ffffff" text-anchor="start">r_line</text>
+<text x="385" y="187" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="400" fill="#ffffff" text-anchor="end">16행</text>
+<rect x="221" y="202.0" width="173" height="24" rx="0" fill="#fde8dd"/>
+<text x="232" y="218.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="14" font-weight="400" fill="#1f2933" text-anchor="start">order_id</text>
+<text x="232" y="242.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="14" font-weight="400" fill="#1f2933" text-anchor="start">menu_id</text>
+<text x="232" y="266.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="14" font-weight="400" fill="#1f2933" text-anchor="start">menu_name</text>
+<text x="232" y="290.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="14" font-weight="400" fill="#1f2933" text-anchor="start">price</text>
+<text x="232" y="314.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="14" font-weight="400" fill="#1f2933" text-anchor="start">qty</text>
+<text x="212" y="352" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="700" fill="#c05621" text-anchor="middle">공통 열 order_id</text>
+<text x="212" y="372" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="400" fill="#616e7c" text-anchor="middle">r_order의 키</text>
+<line x1="212" y1="396" x2="212.0" y2="419.6" stroke="#9aa5b1" stroke-width="1.6"/>
+<path d="M212.0,426.0 L208.0,418.0 L216.0,418.0 z" fill="#9aa5b1"/>
+<text x="222" y="416" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12" font-weight="400" fill="#616e7c" text-anchor="start">JOIN USING (order_id)</text>
+<rect x="30" y="434" width="365" height="74" rx="8" fill="#e3f3ea" stroke="#2f855a" stroke-width="1.4"/>
+<text x="212" y="464" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="15" font-weight="700" fill="#2f855a" text-anchor="middle">16행 = 원래 표와 같다</text>
+<text x="212" y="488" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="400" fill="#1f2933" text-anchor="middle">무손실 분해</text>
+<line x1="478.95" y1="90" x2="600.8644660434499" y2="126.17922459704097" stroke="#9aa5b1" stroke-width="1.6"/>
+<path d="M607.0,128.0 L598.2,129.6 L600.5,121.9 z" fill="#9aa5b1"/>
+<text x="607" y="150" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="14" font-weight="700" fill="#1f2933" text-anchor="middle">분해 B: 회원 번호로 연결</text>
+<path d="M600,262.0 H607.5 V214.0 H615" stroke="#c05621" stroke-width="1.8" fill="none"/>
+<rect x="425" y="166" width="175" height="160" rx="6" fill="#f7f9fb" stroke="#9aa5b1" stroke-width="1"/>
+<path d="M425,198 v-26 q0,-6 6,-6 h163 q6,0 6,6 v26 z" fill="#2f5d8a"/>
+<text x="437" y="187.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="15" font-weight="700" fill="#ffffff" text-anchor="start">r_order</text>
+<text x="590" y="187" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="400" fill="#ffffff" text-anchor="end">10행</text>
+<rect x="426" y="250.0" width="173" height="24" rx="0" fill="#fde8dd"/>
+<text x="437" y="218.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="14" font-weight="400" fill="#1f2933" text-anchor="start">order_id</text>
+<text x="590" y="218.5" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11.5" font-weight="700" fill="#2f5d8a" text-anchor="end">키</text>
+<text x="437" y="242.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="14" font-weight="400" fill="#1f2933" text-anchor="start">store</text>
+<text x="437" y="266.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="14" font-weight="400" fill="#1f2933" text-anchor="start">member_id</text>
+<text x="437" y="290.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="14" font-weight="400" fill="#1f2933" text-anchor="start">member_name</text>
+<text x="437" y="314.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="14" font-weight="400" fill="#1f2933" text-anchor="start">grade</text>
+<rect x="615" y="166" width="175" height="160" rx="6" fill="#f7f9fb" stroke="#9aa5b1" stroke-width="1"/>
+<path d="M615,198 v-26 q0,-6 6,-6 h163 q6,0 6,6 v26 z" fill="#2f5d8a"/>
+<text x="627" y="187.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="15" font-weight="700" fill="#ffffff" text-anchor="start">r_buy</text>
+<text x="780" y="187" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="400" fill="#ffffff" text-anchor="end">16행</text>
+<rect x="616" y="202.0" width="173" height="24" rx="0" fill="#fde8dd"/>
+<text x="627" y="218.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="14" font-weight="400" fill="#1f2933" text-anchor="start">member_id</text>
+<text x="627" y="242.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="14" font-weight="400" fill="#1f2933" text-anchor="start">menu_id</text>
+<text x="627" y="266.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="14" font-weight="400" fill="#1f2933" text-anchor="start">menu_name</text>
+<text x="627" y="290.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="14" font-weight="400" fill="#1f2933" text-anchor="start">price</text>
+<text x="627" y="314.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="14" font-weight="400" fill="#1f2933" text-anchor="start">qty</text>
+<text x="607" y="352" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="700" fill="#c05621" text-anchor="middle">공통 열 member_id</text>
+<text x="607" y="372" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="400" fill="#616e7c" text-anchor="middle">어느 쪽의 키도 아님</text>
+<line x1="607" y1="396" x2="607.0" y2="419.6" stroke="#9aa5b1" stroke-width="1.6"/>
+<path d="M607.0,426.0 L603.0,418.0 L611.0,418.0 z" fill="#9aa5b1"/>
+<text x="617" y="416" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12" font-weight="400" fill="#616e7c" text-anchor="start">JOIN USING (member_id)</text>
+<rect x="425" y="434" width="365" height="74" rx="8" fill="#fbe4e4" stroke="#c53030" stroke-width="1.4"/>
+<text x="607" y="464" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="15" font-weight="700" fill="#c53030" text-anchor="middle">29행 = 원래 16행 + 가짜 13행</text>
+<text x="607" y="488" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="400" fill="#1f2933" text-anchor="middle">손실 분해 (가짜 튜플)</text>
+</svg>

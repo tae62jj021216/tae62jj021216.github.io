@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 600" width="780" height="600" role="img" aria-label="3단계 스키마: 외부 스키마 여러 개, 개념 스키마 하나, 내부 스키마 하나와 두 사상">
+<title>3단계 스키마: 외부 스키마 여러 개, 개념 스키마 하나, 내부 스키마 하나와 두 사상</title>
+<rect width="780" height="600" rx="12" fill="#ffffff"/>
+<text x="24" y="64" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="15" font-weight="700" fill="#1f2933" text-anchor="start">외부 단계</text>
+<text x="24" y="84" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="400" fill="#616e7c" text-anchor="start">사용자 관점</text>
+<rect x="160.0" y="28" width="136" height="82" rx="8" fill="#e8f0f8" stroke="#2f5d8a" stroke-width="1.2"/>
+<text x="228.0" y="50" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12" font-weight="400" fill="#616e7c" text-anchor="middle">외부 스키마</text>
+<text x="228.0" y="74" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="14" font-weight="700" fill="#1f2933" text-anchor="middle">counter_member</text>
+<text x="228.0" y="96" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="400" fill="#1f2933" text-anchor="middle">카운터 직원</text>
+<rect x="317.0" y="28" width="136" height="82" rx="8" fill="#e8f0f8" stroke="#2f5d8a" stroke-width="1.2"/>
+<text x="385.0" y="50" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12" font-weight="400" fill="#616e7c" text-anchor="middle">외부 스키마</text>
+<text x="385.0" y="74" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="14" font-weight="700" fill="#1f2933" text-anchor="middle">payroll_staff</text>
+<text x="385.0" y="96" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="400" fill="#1f2933" text-anchor="middle">급여 담당자</text>
+<rect x="474.0" y="28" width="136" height="82" rx="8" fill="#e8f0f8" stroke="#2f5d8a" stroke-width="1.2"/>
+<text x="542.0" y="50" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12" font-weight="400" fill="#616e7c" text-anchor="middle">외부 스키마</text>
+<text x="542.0" y="74" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="14" font-weight="700" fill="#1f2933" text-anchor="middle">…</text>
+<text x="542.0" y="96" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="400" fill="#1f2933" text-anchor="middle">다른 사용자·응용</text>
+<text x="24" y="244" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="15" font-weight="700" fill="#1f2933" text-anchor="start">개념 단계</text>
+<text x="24" y="264" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="400" fill="#616e7c" text-anchor="start">조직 전체 관점</text>
+<rect x="160" y="190" width="450" height="128" rx="8" fill="#2f5d8a"/>
+<text x="385.0" y="218" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="15" font-weight="700" fill="#ffffff" text-anchor="middle">개념 스키마 (DB에 하나)</text>
+<rect x="178" y="232" width="79.6" height="22" rx="4" fill="#ffffff"/>
+<text x="217.8" y="247.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12.5" font-weight="400" fill="#1f2933" text-anchor="middle">category</text>
+<rect x="265.6" y="232" width="46.8" height="22" rx="4" fill="#ffffff"/>
+<text x="289.0" y="247.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12.5" font-weight="400" fill="#1f2933" text-anchor="middle">menu</text>
+<rect x="320.40000000000003" y="232" width="63.199999999999996" height="22" rx="4" fill="#ffffff"/>
+<text x="352.00000000000006" y="247.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12.5" font-weight="400" fill="#1f2933" text-anchor="middle">member</text>
+<rect x="391.6" y="232" width="63.199999999999996" height="22" rx="4" fill="#ffffff"/>
+<text x="423.20000000000005" y="247.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12.5" font-weight="400" fill="#1f2933" text-anchor="middle">orders</text>
+<rect x="462.8" y="232" width="96.0" height="22" rx="4" fill="#ffffff"/>
+<text x="510.8" y="247.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12.5" font-weight="400" fill="#1f2933" text-anchor="middle">order_item</text>
+<rect x="178" y="260" width="55.0" height="22" rx="4" fill="#ffffff"/>
+<text x="205.5" y="275.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12.5" font-weight="400" fill="#1f2933" text-anchor="middle">staff</text>
+<rect x="241.0" y="260" width="96.0" height="22" rx="4" fill="#ffffff"/>
+<text x="289.0" y="275.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12.5" font-weight="400" fill="#1f2933" text-anchor="middle">event_2025</text>
+<rect x="345.0" y="260" width="96.0" height="22" rx="4" fill="#ffffff"/>
+<text x="393.0" y="275.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12.5" font-weight="400" fill="#1f2933" text-anchor="middle">event_2026</text>
+<text x="385.0" y="304" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="400" fill="#ffffff" text-anchor="middle">테이블 8개 + 키 · 관계 · 제약조건</text>
+<text x="24" y="422" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="15" font-weight="700" fill="#1f2933" text-anchor="start">내부 단계</text>
+<text x="24" y="442" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="400" fill="#616e7c" text-anchor="start">저장 장치 관점</text>
+<rect x="160" y="390" width="450" height="80" rx="8" fill="#eef1f4" stroke="#9aa5b1" stroke-width="1.2"/>
+<text x="385.0" y="420" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="15" font-weight="700" fill="#1f2933" text-anchor="middle">내부 스키마 (DB에 하나)</text>
+<text x="385.0" y="446" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="400" fill="#1f2933" text-anchor="middle">레코드 저장 형식 · 인덱스(B-트리) · 저장 엔진(InnoDB)</text>
+<path d="M285.0,518 v50 a100.0,12 0 0 0 200,0 v-50" stroke="#9aa5b1" stroke-width="1.2" fill="#eef1f4"/>
+<ellipse cx="385.0" cy="518" rx="100.0" ry="12" fill="#ffffff" stroke="#9aa5b1" stroke-width="1.2"/>
+<text x="385.0" y="554" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="400" fill="#1f2933" text-anchor="middle">저장 장치 (디스크)</text>
+<line x1="385.0" y1="474" x2="385.0" y2="495.6" stroke="#52606d" stroke-width="1.6"/>
+<path d="M385.0,502.0 L381.0,494.0 L389.0,494.0 z" fill="#52606d"/>
+<line x1="232.02255012698848" y1="120.97786002975826" x2="278.9274498730115" y2="179.02213997024174" stroke="#2f5d8a" stroke-width="1.6"/>
+<path d="M282.9,184.0 L274.8,180.3 L281.0,175.3 z" fill="#2f5d8a"/>
+<path d="M228.0,116.0 L236.1,119.7 L229.9,124.7 z" fill="#2f5d8a"/>
+<line x1="385.0" y1="122.4" x2="385.0" y2="177.6" stroke="#2f5d8a" stroke-width="1.6"/>
+<path d="M385.0,184.0 L381.0,176.0 L389.0,176.0 z" fill="#2f5d8a"/>
+<path d="M385.0,116.0 L389.0,124.0 L381.0,124.0 z" fill="#2f5d8a"/>
+<line x1="537.9774498730116" y1="120.97786002975826" x2="491.0725501269885" y2="179.02213997024174" stroke="#2f5d8a" stroke-width="1.6"/>
+<path d="M487.1,184.0 L489.0,175.3 L495.2,180.3 z" fill="#2f5d8a"/>
+<path d="M542.0,116.0 L540.1,124.7 L533.9,119.7 z" fill="#2f5d8a"/>
+<line x1="385.0" y1="330.4" x2="385.0" y2="377.6" stroke="#2f5d8a" stroke-width="1.6"/>
+<path d="M385.0,384.0 L381.0,376.0 L389.0,376.0 z" fill="#2f5d8a"/>
+<path d="M385.0,324.0 L389.0,332.0 L381.0,332.0 z" fill="#2f5d8a"/>
+<text x="632" y="146" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="700" fill="#2f5d8a" text-anchor="start">외부/개념 사상</text>
+<text x="632" y="165" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="400" fill="#616e7c" text-anchor="start">논리적 데이터 독립성</text>
+<text x="632" y="352" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="700" fill="#2f5d8a" text-anchor="start">개념/내부 사상</text>
+<text x="632" y="371" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="400" fill="#616e7c" text-anchor="start">물리적 데이터 독립성</text>
+</svg>
