@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 830 610" width="830" height="610" role="img" aria-label="관계대수 식 트리. 맨 아래 member(8행), 그 위 σ city=&#x27;서울&#x27;(3행), 맨 위 π name, grade(3행)">
+<title>관계대수 식 트리. 맨 아래 member(8행), 그 위 σ city=&#x27;서울&#x27;(3행), 맨 위 π name, grade(3행)</title>
+<rect width="830" height="610" rx="12" fill="#ffffff"/>
+<text x="30" y="30" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13.5" font-weight="700" fill="#616e7c" text-anchor="start">π name, grade (σ city=&#x27;서울&#x27; (member))</text>
+<line x1="230" y1="370" x2="230.0" y2="268.4" stroke="#9aa5b1" stroke-width="1.8"/>
+<path d="M230.0,262.0 L234.0,270.0 L226.0,270.0 z" fill="#9aa5b1"/>
+<line x1="230" y1="200" x2="230.0" y2="108.4" stroke="#9aa5b1" stroke-width="1.8"/>
+<path d="M230.0,102.0 L234.0,110.0 L226.0,110.0 z" fill="#9aa5b1"/>
+<rect x="160" y="374" width="140" height="52" rx="8" fill="#2f5d8a"/>
+<text x="230" y="406" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="15" font-weight="700" fill="#ffffff" text-anchor="middle">member</text>
+<rect x="140" y="204" width="180" height="52" rx="26" fill="#e8f0f8" stroke="#c05621" stroke-width="1.6"/>
+<text x="178" y="239" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="26" font-weight="700" fill="#c05621" text-anchor="middle">σ</text>
+<text x="198" y="236" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13.5" font-weight="700" fill="#1f2933" text-anchor="start">city=&#x27;서울&#x27;</text>
+<rect x="140" y="44" width="180" height="52" rx="26" fill="#e8f0f8" stroke="#2f855a" stroke-width="1.6"/>
+<text x="178" y="79" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="26" font-weight="700" fill="#2f855a" text-anchor="middle">π</text>
+<text x="198" y="76" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13.5" font-weight="700" fill="#1f2933" text-anchor="start">name, grade</text>
+<text x="118" y="235" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="700" fill="#c05621" text-anchor="end">② 행 고르기</text>
+<text x="118" y="75" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="700" fill="#2f855a" text-anchor="end">③ 열 고르기</text>
+<text x="148" y="405" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="700" fill="#616e7c" text-anchor="end">①</text>
+<rect x="410" y="30" width="170" height="24" rx="0" fill="#2f5d8a"/>
+<text x="455.0" y="46.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12.5" font-weight="700" fill="#ffffff" text-anchor="middle">name</text>
+<text x="540.0" y="46.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12.5" font-weight="700" fill="#ffffff" text-anchor="middle">grade</text>
+<rect x="410" y="54" width="170" height="24" rx="0" fill="#ffffff"/>
+<text x="455.0" y="70.5" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="400" fill="#1f2933" text-anchor="middle">홍길동</text>
+<text x="540.0" y="70.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13" font-weight="400" fill="#1f2933" text-anchor="middle">VIP</text>
+<rect x="410" y="78" width="170" height="24" rx="0" fill="#f7f9fb"/>
+<text x="455.0" y="94.5" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="400" fill="#1f2933" text-anchor="middle">성춘향</text>
+<text x="540.0" y="94.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13" font-weight="400" fill="#1f2933" text-anchor="middle">BASIC</text>
+<rect x="410" y="102" width="170" height="24" rx="0" fill="#ffffff"/>
+<text x="455.0" y="118.5" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="400" fill="#1f2933" text-anchor="middle">흥부</text>
+<text x="540.0" y="118.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13" font-weight="400" fill="#1f2933" text-anchor="middle">GOLD</text>
+<rect x="410" y="30" width="170" height="96" rx="0" fill="none" stroke="#9aa5b1" stroke-width="1"/>
+<text x="596" y="48" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="700" fill="#2f855a" text-anchor="start">3행</text>
+<rect x="410" y="190" width="296" height="24" rx="0" fill="#2f5d8a"/>
+<text x="453.0" y="206.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12.5" font-weight="700" fill="#ffffff" text-anchor="middle">member_id</text>
+<text x="536.0" y="206.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12.5" font-weight="700" fill="#ffffff" text-anchor="middle">name</text>
+<text x="611.0" y="206.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12.5" font-weight="700" fill="#ffffff" text-anchor="middle">grade</text>
+<text x="676.0" y="206.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12.5" font-weight="700" fill="#ffffff" text-anchor="middle">city</text>
+<rect x="410" y="214" width="296" height="24" rx="0" fill="#ffffff"/>
+<text x="453.0" y="230.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13" font-weight="400" fill="#1f2933" text-anchor="middle">101</text>
+<text x="536.0" y="230.5" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="400" fill="#1f2933" text-anchor="middle">홍길동</text>
+<text x="611.0" y="230.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13" font-weight="400" fill="#1f2933" text-anchor="middle">VIP</text>
+<rect x="646" y="214" width="60" height="24" rx="0" fill="#fde8dd"/>
+<text x="676.0" y="230.5" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="700" fill="#c05621" text-anchor="middle">서울</text>
+<rect x="410" y="238" width="296" height="24" rx="0" fill="#f7f9fb"/>
+<text x="453.0" y="254.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13" font-weight="400" fill="#1f2933" text-anchor="middle">102</text>
+<text x="536.0" y="254.5" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="400" fill="#1f2933" text-anchor="middle">성춘향</text>
+<text x="611.0" y="254.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13" font-weight="400" fill="#1f2933" text-anchor="middle">BASIC</text>
+<rect x="646" y="238" width="60" height="24" rx="0" fill="#fde8dd"/>
+<text x="676.0" y="254.5" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="700" fill="#c05621" text-anchor="middle">서울</text>
+<rect x="410" y="262" width="296" height="24" rx="0" fill="#ffffff"/>
+<text x="453.0" y="278.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13" font-weight="400" fill="#1f2933" text-anchor="middle">105</text>
+<text x="536.0" y="278.5" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="400" fill="#1f2933" text-anchor="middle">흥부</text>
+<text x="611.0" y="278.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13" font-weight="400" fill="#1f2933" text-anchor="middle">GOLD</text>
+<rect x="646" y="262" width="60" height="24" rx="0" fill="#fde8dd"/>
+<text x="676.0" y="278.5" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="700" fill="#c05621" text-anchor="middle">서울</text>
+<rect x="410" y="190" width="296" height="96" rx="0" fill="none" stroke="#9aa5b1" stroke-width="1"/>
+<text x="722" y="208" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="700" fill="#c05621" text-anchor="start">3행</text>
+<line x1="326" y1="76" x2="402" y2="76" stroke="#cbd2d9" stroke-width="1" stroke-dasharray="3 3"/>
+<line x1="326" y1="236" x2="402" y2="236" stroke="#cbd2d9" stroke-width="1" stroke-dasharray="3 3"/>
+<rect x="410" y="334" width="296" height="24" rx="0" fill="#2f5d8a"/>
+<text x="453.0" y="350.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12.5" font-weight="700" fill="#ffffff" text-anchor="middle">member_id</text>
+<text x="536.0" y="350.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12.5" font-weight="700" fill="#ffffff" text-anchor="middle">name</text>
+<text x="611.0" y="350.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12.5" font-weight="700" fill="#ffffff" text-anchor="middle">grade</text>
+<text x="676.0" y="350.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12.5" font-weight="700" fill="#ffffff" text-anchor="middle">city</text>
+<rect x="410" y="358" width="296" height="24" rx="0" fill="#fde8dd"/>
+<text x="453.0" y="374.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13" font-weight="400" fill="#1f2933" text-anchor="middle">101</text>
+<text x="536.0" y="374.5" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="400" fill="#1f2933" text-anchor="middle">홍길동</text>
+<text x="611.0" y="374.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13" font-weight="400" fill="#1f2933" text-anchor="middle">VIP</text>
+<text x="676.0" y="374.5" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="400" fill="#1f2933" text-anchor="middle">서울</text>
+<rect x="410" y="382" width="296" height="24" rx="0" fill="#fde8dd"/>
+<text x="453.0" y="398.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13" font-weight="400" fill="#1f2933" text-anchor="middle">102</text>
+<text x="536.0" y="398.5" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="400" fill="#1f2933" text-anchor="middle">성춘향</text>
+<text x="611.0" y="398.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13" font-weight="400" fill="#1f2933" text-anchor="middle">BASIC</text>
+<text x="676.0" y="398.5" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="400" fill="#1f2933" text-anchor="middle">서울</text>
+<rect x="410" y="406" width="296" height="24" rx="0" fill="#ffffff"/>
+<text x="453.0" y="422.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13" font-weight="400" fill="#1f2933" text-anchor="middle">103</text>
+<text x="536.0" y="422.5" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="400" fill="#1f2933" text-anchor="middle">이몽룡</text>
+<text x="611.0" y="422.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13" font-weight="400" fill="#1f2933" text-anchor="middle">GOLD</text>
+<text x="676.0" y="422.5" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="400" fill="#1f2933" text-anchor="middle">부산</text>
+<rect x="410" y="430" width="296" height="24" rx="0" fill="#f7f9fb"/>
+<text x="453.0" y="446.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13" font-weight="400" fill="#1f2933" text-anchor="middle">104</text>
+<text x="536.0" y="446.5" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="400" fill="#1f2933" text-anchor="middle">심청</text>
+<text x="611.0" y="446.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13" font-weight="400" fill="#1f2933" text-anchor="middle">BASIC</text>
+<text x="676.0" y="446.5" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="400" fill="#1f2933" text-anchor="middle">대전</text>
+<rect x="410" y="454" width="296" height="24" rx="0" fill="#fde8dd"/>
+<text x="453.0" y="470.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13" font-weight="400" fill="#1f2933" text-anchor="middle">105</text>
+<text x="536.0" y="470.5" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="400" fill="#1f2933" text-anchor="middle">흥부</text>
+<text x="611.0" y="470.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13" font-weight="400" fill="#1f2933" text-anchor="middle">GOLD</text>
+<text x="676.0" y="470.5" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="400" fill="#1f2933" text-anchor="middle">서울</text>
+<rect x="410" y="478" width="296" height="24" rx="0" fill="#f7f9fb"/>
+<text x="453.0" y="494.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13" font-weight="400" fill="#1f2933" text-anchor="middle">106</text>
+<text x="536.0" y="494.5" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="400" fill="#1f2933" text-anchor="middle">놀부</text>
+<text x="611.0" y="494.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13" font-weight="400" fill="#1f2933" text-anchor="middle">BASIC</text>
+<text x="676.0" y="494.5" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="400" fill="#1f2933" text-anchor="middle">부산</text>
+<rect x="410" y="502" width="296" height="24" rx="0" fill="#ffffff"/>
+<text x="453.0" y="518.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13" font-weight="400" fill="#1f2933" text-anchor="middle">107</text>
+<text x="536.0" y="518.5" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="400" fill="#1f2933" text-anchor="middle">콩쥐</text>
+<text x="611.0" y="518.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13" font-weight="400" fill="#1f2933" text-anchor="middle">VIP</text>
+<text x="676.0" y="518.5" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="400" fill="#1f2933" text-anchor="middle">대전</text>
+<rect x="410" y="526" width="296" height="24" rx="0" fill="#f7f9fb"/>
+<text x="453.0" y="542.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13" font-weight="400" fill="#1f2933" text-anchor="middle">108</text>
+<text x="536.0" y="542.5" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="400" fill="#1f2933" text-anchor="middle">팥쥐</text>
+<text x="611.0" y="542.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13" font-weight="400" fill="#1f2933" text-anchor="middle">BASIC</text>
+<text x="676.0" y="542.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13" font-weight="400" fill="#1f2933" text-anchor="middle">NULL</text>
+<rect x="410" y="334" width="296" height="216" rx="0" fill="none" stroke="#9aa5b1" stroke-width="1"/>
+<text x="722" y="352" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="700" fill="#616e7c" text-anchor="start">8행</text>
+<line x1="306" y1="400" x2="402" y2="400" stroke="#cbd2d9" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="30" y="594" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="400" fill="#616e7c" text-anchor="start">식은 안쪽(아래)부터 계산한다: member에서 σ로 서울 회원 행을 고르고, π로 name·grade 열만 남긴다.</text>
+</svg>

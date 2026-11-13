@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 420" width="520" height="420" role="img" aria-label="미션 비행 경로: 출발점에서 북쪽 W1, 동쪽 W2, 남쪽 W3, 서쪽 출발점으로 도는 20 m × 10 m 직사각형. Replay는 W3 정지 중, Flood·Range는 세 번째 변 가운데 비행 중에 넣는다">
+<title>미션 비행 경로: 출발점에서 북쪽 W1, 동쪽 W2, 남쪽 W3, 서쪽 출발점으로 도는 20 m × 10 m 직사각형. Replay는 W3 정지 중, Flood·Range는 세 번째 변 가운데 비행 중에 넣는다</title>
+<rect width="520" height="420" rx="12" fill="#ffffff"/>
+<line x1="150" y1="360" x2="150" y2="60" stroke="#2f5d8a" stroke-width="2.4"/>
+<line x1="150.0" y1="280.0" x2="150.0" y2="267.2" stroke="#2f5d8a" stroke-width="2.4"/>
+<path d="M150.0,260.0 L154.5,269.0 L145.5,269.0 z" fill="#2f5d8a"/>
+<line x1="150" y1="60" x2="300" y2="60" stroke="#2f5d8a" stroke-width="2.4"/>
+<line x1="185.0" y1="60.0" x2="197.8" y2="60.0" stroke="#2f5d8a" stroke-width="2.4"/>
+<path d="M205.0,60.0 L196.0,64.5 L196.0,55.5 z" fill="#2f5d8a"/>
+<line x1="300" y1="60" x2="300" y2="360" stroke="#2f5d8a" stroke-width="2.4"/>
+<line x1="300.0" y1="140.0" x2="300.0" y2="152.8" stroke="#2f5d8a" stroke-width="2.4"/>
+<path d="M300.0,160.0 L295.5,151.0 L304.5,151.0 z" fill="#2f5d8a"/>
+<line x1="300" y1="360" x2="150" y2="360" stroke="#2f5d8a" stroke-width="2.4"/>
+<line x1="265.0" y1="360.0" x2="252.2" y2="360.0" stroke="#2f5d8a" stroke-width="2.4"/>
+<path d="M245.0,360.0 L254.0,355.5 L254.0,364.5 z" fill="#2f5d8a"/>
+<circle cx="150" cy="360" r="7" fill="#ffffff" stroke="#2f5d8a" stroke-width="2"/>
+<circle cx="150" cy="60" r="7" fill="#ffffff" stroke="#2f5d8a" stroke-width="2"/>
+<circle cx="300" cy="60" r="7" fill="#ffffff" stroke="#2f5d8a" stroke-width="2"/>
+<circle cx="300" cy="360" r="7" fill="#ffffff" stroke="#2f5d8a" stroke-width="2"/>
+<text x="136" y="382" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13.5" font-weight="700" fill="#1f2933" text-anchor="end">출발·W4</text>
+<text x="136" y="399" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11.5" font-weight="400" fill="#616e7c" text-anchor="end">이륙 7 m · 착륙</text>
+<text x="136" y="52" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13.5" font-weight="700" fill="#1f2933" text-anchor="end">W1</text>
+<text x="314" y="52" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13.5" font-weight="700" fill="#1f2933" text-anchor="start">W2</text>
+<text x="314" y="382" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13.5" font-weight="700" fill="#1f2933" text-anchor="start">W3</text>
+<line x1="150" y1="28" x2="300" y2="28" stroke="#616e7c" stroke-width="1"/>
+<text x="225.0" y="22" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12" font-weight="400" fill="#616e7c" text-anchor="middle">10 m</text>
+<line x1="90" y1="360" x2="90" y2="60" stroke="#616e7c" stroke-width="1"/>
+<text x="84" y="214.0" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12" font-weight="400" fill="#616e7c" text-anchor="end">20 m</text>
+<circle cx="300" cy="360" r="15" fill="none" stroke="#c05621" stroke-width="2"/>
+<polygon points="300,197 313,210 300,223 287,210" fill="#fde8dd" stroke="#c05621" stroke-width="2"/>
+<text x="322" y="215" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="700" fill="#c05621" text-anchor="start">Flood · Range</text>
+<text x="322" y="232" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11.5" font-weight="400" fill="#616e7c" text-anchor="start">세 번째 변 가운데, 비행 중</text>
+<text x="326" y="350" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="700" fill="#c05621" text-anchor="start">Replay</text>
+<text x="326" y="367" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11.5" font-weight="400" fill="#616e7c" text-anchor="start">W3에 멈춰 있을 때</text>
+<line x1="70" y1="100" x2="70.0" y2="75.6" stroke="#616e7c" stroke-width="1.4"/>
+<path d="M70.0,70.0 L73.5,77.0 L66.5,77.0 z" fill="#616e7c"/>
+<text x="70" y="62" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12" font-weight="400" fill="#616e7c" text-anchor="middle">북</text>
+</svg>

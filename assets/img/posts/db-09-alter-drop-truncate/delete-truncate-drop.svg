@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 560" width="820" height="560" role="img" aria-label="같은 visit_log에 DELETE, TRUNCATE, DROP을 실행한 뒤 남는 구조, 데이터, ROLLBACK, 다음 번호 비교">
+<title>같은 visit_log에 DELETE, TRUNCATE, DROP을 실행한 뒤 남는 구조, 데이터, ROLLBACK, 다음 번호 비교</title>
+<rect width="820" height="560" rx="12" fill="#ffffff"/>
+<text x="315.0" y="32" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="14" font-weight="700" fill="#1f2933" text-anchor="start">visit_log</text>
+<rect x="315.0" y="42" width="190" height="26" rx="0" fill="#2f5d8a"/>
+<text x="360.0" y="59.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12.5" font-weight="700" fill="#ffffff" text-anchor="middle">log_id</text>
+<text x="455.0" y="59.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12.5" font-weight="700" fill="#ffffff" text-anchor="middle">store</text>
+<rect x="315.0" y="68" width="190" height="26" rx="0" fill="#ffffff"/>
+<text x="360.0" y="85.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13" font-weight="400" fill="#1f2933" text-anchor="middle">1</text>
+<text x="455.0" y="85.5" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="400" fill="#1f2933" text-anchor="middle">본점</text>
+<rect x="315.0" y="94" width="190" height="26" rx="0" fill="#f7f9fb"/>
+<text x="360.0" y="111.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13" font-weight="400" fill="#1f2933" text-anchor="middle">2</text>
+<text x="455.0" y="111.5" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="400" fill="#1f2933" text-anchor="middle">강변점</text>
+<rect x="315.0" y="120" width="190" height="26" rx="0" fill="#ffffff"/>
+<text x="360.0" y="137.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13" font-weight="400" fill="#1f2933" text-anchor="middle">3</text>
+<text x="455.0" y="137.5" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="400" fill="#1f2933" text-anchor="middle">공원점</text>
+<rect x="315.0" y="42" width="190" height="104" rx="0" fill="none" stroke="#9aa5b1" stroke-width="1"/>
+<text x="521.0" y="99.0" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="700" fill="#616e7c" text-anchor="start">다음 번호 4</text>
+<line x1="410.0" y1="152" x2="146.25725635617496" y2="208.65584863459947" stroke="#9aa5b1" stroke-width="1.6"/>
+<path d="M140.0,210.0 L147.0,204.4 L148.7,212.2 z" fill="#9aa5b1"/>
+<text x="140.0" y="232" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13" font-weight="700" fill="#1f2933" text-anchor="middle">DELETE FROM visit_log;</text>
+<text x="140.0" y="252" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12" font-weight="700" fill="#616e7c" text-anchor="middle">DML</text>
+<rect x="45.0" y="270" width="190" height="26" rx="0" fill="#2f5d8a"/>
+<text x="90.0" y="287.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12.5" font-weight="700" fill="#ffffff" text-anchor="middle">log_id</text>
+<text x="185.0" y="287.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12.5" font-weight="700" fill="#ffffff" text-anchor="middle">store</text>
+<rect x="45.0" y="270" width="190" height="26" rx="0" fill="none" stroke="#9aa5b1" stroke-width="1"/>
+<rect x="45.0" y="296" width="190" height="34" rx="0" fill="#f7f9fb" stroke="#9aa5b1" stroke-width="1" stroke-dasharray="4 3"/>
+<text x="140.0" y="318" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="400" fill="#616e7c" text-anchor="middle">행 없음</text>
+<rect x="30" y="340" width="220" height="92" rx="6" fill="#f7f9fb" stroke="#9aa5b1" stroke-width="1"/>
+<text x="44" y="362" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="700" fill="#1f2933" text-anchor="start">구조</text>
+<text x="236" y="362" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="400" fill="#2f855a" text-anchor="end">남는다</text>
+<text x="44" y="388" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="700" fill="#1f2933" text-anchor="start">데이터</text>
+<text x="236" y="388" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="400" fill="#c53030" text-anchor="end">모두 삭제</text>
+<text x="44" y="414" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="700" fill="#1f2933" text-anchor="start">ROLLBACK</text>
+<text x="236" y="414" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="400" fill="#2f855a" text-anchor="end">된다 (3행 복구)</text>
+<text x="140.0" y="470" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="400" fill="#616e7c" text-anchor="middle">다시 INSERT하면</text>
+<rect x="60.0" y="480" width="160" height="34" rx="6" fill="#e3f3ea" stroke="#2f855a" stroke-width="1.2"/>
+<text x="140.0" y="502" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="14" font-weight="700" fill="#2f855a" text-anchor="middle">log_id = 4</text>
+<line x1="410.0" y1="152" x2="410.0" y2="203.6" stroke="#9aa5b1" stroke-width="1.6"/>
+<path d="M410.0,210.0 L406.0,202.0 L414.0,202.0 z" fill="#9aa5b1"/>
+<text x="410.0" y="232" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13" font-weight="700" fill="#1f2933" text-anchor="middle">TRUNCATE TABLE visit_log;</text>
+<text x="410.0" y="252" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12" font-weight="700" fill="#616e7c" text-anchor="middle">DDL</text>
+<rect x="315.0" y="270" width="190" height="26" rx="0" fill="#2f5d8a"/>
+<text x="360.0" y="287.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12.5" font-weight="700" fill="#ffffff" text-anchor="middle">log_id</text>
+<text x="455.0" y="287.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12.5" font-weight="700" fill="#ffffff" text-anchor="middle">store</text>
+<rect x="315.0" y="270" width="190" height="26" rx="0" fill="none" stroke="#9aa5b1" stroke-width="1"/>
+<rect x="315.0" y="296" width="190" height="34" rx="0" fill="#f7f9fb" stroke="#9aa5b1" stroke-width="1" stroke-dasharray="4 3"/>
+<text x="410.0" y="318" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="400" fill="#616e7c" text-anchor="middle">행 없음</text>
+<rect x="300" y="340" width="220" height="92" rx="6" fill="#f7f9fb" stroke="#9aa5b1" stroke-width="1"/>
+<text x="314" y="362" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="700" fill="#1f2933" text-anchor="start">구조</text>
+<text x="506" y="362" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="400" fill="#2f855a" text-anchor="end">남는다</text>
+<text x="314" y="388" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="700" fill="#1f2933" text-anchor="start">데이터</text>
+<text x="506" y="388" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="400" fill="#c53030" text-anchor="end">모두 삭제</text>
+<text x="314" y="414" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="700" fill="#1f2933" text-anchor="start">ROLLBACK</text>
+<text x="506" y="414" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="400" fill="#c53030" text-anchor="end">안 된다</text>
+<text x="410.0" y="470" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="400" fill="#616e7c" text-anchor="middle">다시 INSERT하면</text>
+<rect x="330.0" y="480" width="160" height="34" rx="6" fill="#e3f3ea" stroke="#2f855a" stroke-width="1.2"/>
+<text x="410.0" y="502" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="14" font-weight="700" fill="#2f855a" text-anchor="middle">log_id = 1</text>
+<line x1="410.0" y1="152" x2="673.7427436438251" y2="208.65584863459947" stroke="#9aa5b1" stroke-width="1.6"/>
+<path d="M680.0,210.0 L671.3,212.2 L673.0,204.4 z" fill="#9aa5b1"/>
+<text x="680.0" y="232" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13" font-weight="700" fill="#1f2933" text-anchor="middle">DROP TABLE visit_log;</text>
+<text x="680.0" y="252" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12" font-weight="700" fill="#616e7c" text-anchor="middle">DDL</text>
+<rect x="585.0" y="270" width="190" height="60" rx="4" fill="none" stroke="#c53030" stroke-width="1.4" stroke-dasharray="6 4"/>
+<text x="680.0" y="305" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13.5" font-weight="700" fill="#c53030" text-anchor="middle">테이블 없음</text>
+<rect x="570" y="340" width="220" height="92" rx="6" fill="#f7f9fb" stroke="#9aa5b1" stroke-width="1"/>
+<text x="584" y="362" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="700" fill="#1f2933" text-anchor="start">구조</text>
+<text x="776" y="362" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="400" fill="#c53030" text-anchor="end">없어진다</text>
+<text x="584" y="388" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="700" fill="#1f2933" text-anchor="start">데이터</text>
+<text x="776" y="388" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="400" fill="#c53030" text-anchor="end">없어진다</text>
+<text x="584" y="414" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="700" fill="#1f2933" text-anchor="start">ROLLBACK</text>
+<text x="776" y="414" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="400" fill="#c53030" text-anchor="end">안 된다</text>
+<text x="680.0" y="470" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="400" fill="#616e7c" text-anchor="middle">다시 INSERT하면</text>
+<rect x="600.0" y="480" width="160" height="34" rx="6" fill="#fbe4e4" stroke="#c53030" stroke-width="1.2"/>
+<text x="680.0" y="502" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="14" font-weight="700" fill="#c53030" text-anchor="middle">ERROR 1146</text>
+<text x="410" y="540" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="400" fill="#616e7c" text-anchor="middle">번호: DELETE는 이어지고(4), TRUNCATE는 1부터 다시 시작한다</text>
+</svg>

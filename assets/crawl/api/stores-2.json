@@ -1,0 +1,117 @@
+{
+ "response": {
+  "header": {
+   "resultCode": "00",
+   "resultMsg": "NORMAL SERVICE."
+  },
+  "body": {
+   "items": {
+    "item": [
+     {
+      "storeId": "S011",
+      "storeNm": "가상카페 강남구 2호점",
+      "sido": "서울특별시",
+      "gugun": "강남구",
+      "addr": "서울특별시 강남구 연습로 43",
+      "seats": 57,
+      "driveThru": "N",
+      "openDate": "2025-12-06"
+     },
+     {
+      "storeId": "S012",
+      "storeNm": "가상카페 강남구 3호점",
+      "sido": "서울특별시",
+      "gugun": "강남구",
+      "addr": "서울특별시 강남구 연습로 46",
+      "seats": 24,
+      "driveThru": "N",
+      "openDate": "2020-01-09"
+     },
+     {
+      "storeId": "S013",
+      "storeNm": "가상카페 해운대구 1호점",
+      "sido": "부산광역시",
+      "gugun": "해운대구",
+      "addr": "부산광역시 해운대구 연습로 49",
+      "seats": 31,
+      "driveThru": "N",
+      "openDate": "2021-02-12"
+     },
+     {
+      "storeId": "S014",
+      "storeNm": "가상카페 해운대구 2호점",
+      "sido": "부산광역시",
+      "gugun": "해운대구",
+      "addr": "부산광역시 해운대구 연습로 52",
+      "seats": 38,
+      "driveThru": "N",
+      "openDate": "2022-03-15"
+     },
+     {
+      "storeId": "S015",
+      "storeNm": "가상카페 해운대구 3호점",
+      "sido": "부산광역시",
+      "gugun": "해운대구",
+      "addr": "부산광역시 해운대구 연습로 55",
+      "seats": 45,
+      "driveThru": "Y",
+      "openDate": "2023-04-18"
+     },
+     {
+      "storeId": "S016",
+      "storeNm": "가상카페 수영구 1호점",
+      "sido": "부산광역시",
+      "gugun": "수영구",
+      "addr": "부산광역시 수영구 연습로 58",
+      "seats": 52,
+      "driveThru": "N",
+      "openDate": "2024-05-21"
+     },
+     {
+      "storeId": "S017",
+      "storeNm": "가상카페 수영구 2호점",
+      "sido": "부산광역시",
+      "gugun": "수영구",
+      "addr": "부산광역시 수영구 연습로 61",
+      "seats": 59,
+      "driveThru": "N",
+      "openDate": "2025-06-24"
+     },
+     {
+      "storeId": "S018",
+      "storeNm": "가상카페 부산진구 1호점",
+      "sido": "부산광역시",
+      "gugun": "부산진구",
+      "addr": "부산광역시 부산진구 연습로 64",
+      "seats": 26,
+      "driveThru": "N",
+      "openDate": "2020-07-27"
+     },
+     {
+      "storeId": "S019",
+      "storeNm": "가상카페 부산진구 2호점",
+      "sido": "부산광역시",
+      "gugun": "부산진구",
+      "addr": "부산광역시 부산진구 연습로 67",
+      "seats": 33,
+      "driveThru": "N",
+      "openDate": "2021-08-02"
+     },
+     {
+      "storeId": "S020",
+      "storeNm": "가상카페 유성구 1호점",
+      "sido": "대전광역시",
+      "gugun": "유성구",
+      "addr": "대전광역시 유성구 연습로 70",
+      "seats": 40,
+      "driveThru": "Y",
+      "openDate": "2022-09-05"
+     }
+    ]
+   },
+   "numOfRows": 10,
+   "pageNo": 2,
+   "totalCount": 23
+  }
+ }
+}

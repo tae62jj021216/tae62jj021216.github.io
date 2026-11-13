@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 830 420" width="830" height="420" role="img" aria-label="나누기 R ÷ S. 주문한 회원 5명 × 콜드브루 메뉴 2개의 격자에서 실제 주문을 지우고, 빠진 조합이 남은 101·102·105를 빼면 103·106이 남는다">
+<title>나누기 R ÷ S. 주문한 회원 5명 × 콜드브루 메뉴 2개의 격자에서 실제 주문을 지우고, 빠진 조합이 남은 101·102·105를 빼면 103·106이 남는다</title>
+<rect width="830" height="420" rx="12" fill="#ffffff"/>
+<text x="30" y="30" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="14" font-weight="700" fill="#1f2933" text-anchor="start">있어야 할 조합 (주문한 회원 × S) 에서 실제 주문 R을 지운다</text>
+<rect x="150" y="34" width="150" height="34" rx="0" fill="#fbefd9"/>
+<text x="225.0" y="56" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="700" fill="#b7791f" text-anchor="middle">4 콜드브루</text>
+<rect x="300" y="34" width="150" height="34" rx="0" fill="#fbefd9"/>
+<text x="375.0" y="56" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="700" fill="#b7791f" text-anchor="middle">5 콜드브루 라떼</text>
+<text x="130" y="100.0" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="14" font-weight="700" fill="#1f2933" text-anchor="end">101</text>
+<rect x="154" y="74" width="142" height="42" rx="6" fill="#fbe4e4" stroke="#c53030" stroke-width="1.2"/>
+<text x="225.0" y="100.0" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="700" fill="#c53030" text-anchor="middle">빠진 조합</text>
+<rect x="304" y="74" width="142" height="42" rx="6" fill="#fbe4e4" stroke="#c53030" stroke-width="1.2"/>
+<text x="375.0" y="100.0" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="700" fill="#c53030" text-anchor="middle">빠진 조합</text>
+<text x="480" y="100.0" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="700" fill="#c53030" text-anchor="start">빠진 칸 있음 → 101 제외</text>
+<text x="130" y="150.0" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="14" font-weight="700" fill="#1f2933" text-anchor="end">102</text>
+<rect x="154" y="124" width="142" height="42" rx="6" fill="#fbe4e4" stroke="#c53030" stroke-width="1.2"/>
+<text x="225.0" y="150.0" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="700" fill="#c53030" text-anchor="middle">빠진 조합</text>
+<rect x="304" y="124" width="142" height="42" rx="6" fill="#fbe4e4" stroke="#c53030" stroke-width="1.2"/>
+<text x="375.0" y="150.0" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="700" fill="#c53030" text-anchor="middle">빠진 조합</text>
+<text x="480" y="150.0" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="700" fill="#c53030" text-anchor="start">빠진 칸 있음 → 102 제외</text>
+<text x="130" y="200.0" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="14" font-weight="700" fill="#1f2933" text-anchor="end">103</text>
+<rect x="154" y="174" width="142" height="42" rx="6" fill="#eef1f4" stroke="#9aa5b1" stroke-width="1.2"/>
+<text x="225.0" y="200.0" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="400" fill="#616e7c" text-anchor="middle">실제 주문 → 지움</text>
+<rect x="304" y="174" width="142" height="42" rx="6" fill="#eef1f4" stroke="#9aa5b1" stroke-width="1.2"/>
+<text x="375.0" y="200.0" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="400" fill="#616e7c" text-anchor="middle">실제 주문 → 지움</text>
+<rect x="474" y="180" width="150" height="30" rx="6" fill="#e3f3ea" stroke="#2f855a" stroke-width="1.4"/>
+<text x="549" y="200.0" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="700" fill="#2f855a" text-anchor="middle">모두 주문 → 103</text>
+<text x="130" y="250.0" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="14" font-weight="700" fill="#1f2933" text-anchor="end">105</text>
+<rect x="154" y="224" width="142" height="42" rx="6" fill="#fbe4e4" stroke="#c53030" stroke-width="1.2"/>
+<text x="225.0" y="250.0" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="700" fill="#c53030" text-anchor="middle">빠진 조합</text>
+<rect x="304" y="224" width="142" height="42" rx="6" fill="#eef1f4" stroke="#9aa5b1" stroke-width="1.2"/>
+<text x="375.0" y="250.0" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="400" fill="#616e7c" text-anchor="middle">실제 주문 → 지움</text>
+<text x="480" y="250.0" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="700" fill="#c53030" text-anchor="start">빠진 칸 있음 → 105 제외</text>
+<text x="130" y="300.0" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="14" font-weight="700" fill="#1f2933" text-anchor="end">106</text>
+<rect x="154" y="274" width="142" height="42" rx="6" fill="#eef1f4" stroke="#9aa5b1" stroke-width="1.2"/>
+<text x="225.0" y="300.0" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="400" fill="#616e7c" text-anchor="middle">실제 주문 → 지움</text>
+<rect x="304" y="274" width="142" height="42" rx="6" fill="#eef1f4" stroke="#9aa5b1" stroke-width="1.2"/>
+<text x="375.0" y="300.0" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="400" fill="#616e7c" text-anchor="middle">실제 주문 → 지움</text>
+<rect x="474" y="280" width="150" height="30" rx="6" fill="#e3f3ea" stroke="#2f855a" stroke-width="1.4"/>
+<text x="549" y="300.0" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="700" fill="#2f855a" text-anchor="middle">모두 주문 → 106</text>
+<text x="30" y="360" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="16" font-weight="700" fill="#2f855a" text-anchor="start">R ÷ S = {103, 106}</text>
+<text x="30" y="386" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="400" fill="#616e7c" text-anchor="start">S에 없는 메뉴(1·2·3번)를 주문했는지는 상관없다. 회색 칸 = 실제 주문 R, 빨강 칸 = 빠진 조합.</text>
+</svg>
