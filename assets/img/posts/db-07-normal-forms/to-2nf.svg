@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 470" width="820" height="470" role="img" aria-label="order_1nf를 부분 종속에 따라 orders_2nf, item_2nf, menu_2nf로 나누는 2NF 분해">
+<title>order_1nf를 부분 종속에 따라 orders_2nf, item_2nf, menu_2nf로 나누는 2NF 분해</title>
+<rect width="820" height="470" rx="12" fill="#ffffff"/>
+<text x="24" y="28" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="14" font-weight="700" fill="#1f2933" text-anchor="start">order_1nf  (16행)</text>
+<rect x="53.0" y="80" width="58.0" height="40" rx="4" fill="#e8f0f8" stroke="#9aa5b1" stroke-width="1.2"/>
+<text x="82.0" y="105" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13.5" font-weight="400" fill="#1f2933" text-anchor="middle">store</text>
+<rect x="118.0" y="80" width="90.0" height="40" rx="4" fill="#e8f0f8" stroke="#9aa5b1" stroke-width="1.2"/>
+<text x="163.0" y="105" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13.5" font-weight="400" fill="#1f2933" text-anchor="middle">member_id</text>
+<rect x="215.0" y="80" width="106.0" height="40" rx="4" fill="#e8f0f8" stroke="#9aa5b1" stroke-width="1.2"/>
+<text x="268.0" y="105" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13.5" font-weight="400" fill="#1f2933" text-anchor="middle">member_name</text>
+<rect x="328.0" y="80" width="58.0" height="40" rx="4" fill="#e8f0f8" stroke="#9aa5b1" stroke-width="1.2"/>
+<text x="357.0" y="105" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13.5" font-weight="400" fill="#1f2933" text-anchor="middle">grade</text>
+<rect x="393.0" y="80" width="82.0" height="40" rx="4" fill="#fbefd9" stroke="#9aa5b1" stroke-width="1.2"/>
+<text x="434.0" y="105" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13.5" font-weight="700" fill="#1f2933" text-anchor="middle">order_id</text>
+<line x1="401.0" y1="110" x2="467.0" y2="110" stroke="#1f2933" stroke-width="1"/>
+<rect x="482.0" y="80" width="74.0" height="40" rx="4" fill="#fbefd9" stroke="#9aa5b1" stroke-width="1.2"/>
+<text x="519.0" y="105" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13.5" font-weight="700" fill="#1f2933" text-anchor="middle">menu_id</text>
+<line x1="490.0" y1="110" x2="548.0" y2="110" stroke="#1f2933" stroke-width="1"/>
+<rect x="563.0" y="80" width="42.0" height="40" rx="4" fill="#fbefd9" stroke="#9aa5b1" stroke-width="1.2"/>
+<text x="584.0" y="105" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13.5" font-weight="400" fill="#1f2933" text-anchor="middle">qty</text>
+<rect x="612.0" y="80" width="90.0" height="40" rx="4" fill="#e3f3ea" stroke="#9aa5b1" stroke-width="1.2"/>
+<text x="657.0" y="105" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13.5" font-weight="400" fill="#1f2933" text-anchor="middle">menu_name</text>
+<rect x="709.0" y="80" width="58.0" height="40" rx="4" fill="#e3f3ea" stroke="#9aa5b1" stroke-width="1.2"/>
+<text x="738.0" y="105" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13.5" font-weight="400" fill="#1f2933" text-anchor="middle">price</text>
+<line x1="434.0" y1="80" x2="434.0" y2="50" stroke="#c05621" stroke-width="1.8"/>
+<line x1="82.0" y1="50" x2="434.0" y2="50" stroke="#c05621" stroke-width="1.8"/>
+<line x1="82.0" y1="50" x2="82.0" y2="69.6" stroke="#c05621" stroke-width="1.8"/>
+<path d="M82.0,76.0 L78.0,68.0 L86.0,68.0 z" fill="#c05621"/>
+<line x1="163.0" y1="50" x2="163.0" y2="69.6" stroke="#c05621" stroke-width="1.8"/>
+<path d="M163.0,76.0 L159.0,68.0 L167.0,68.0 z" fill="#c05621"/>
+<line x1="268.0" y1="50" x2="268.0" y2="69.6" stroke="#c05621" stroke-width="1.8"/>
+<path d="M268.0,76.0 L264.0,68.0 L272.0,68.0 z" fill="#c05621"/>
+<line x1="357.0" y1="50" x2="357.0" y2="69.6" stroke="#c05621" stroke-width="1.8"/>
+<path d="M357.0,76.0 L353.0,68.0 L361.0,68.0 z" fill="#c05621"/>
+<line x1="519.0" y1="80" x2="519.0" y2="50" stroke="#c05621" stroke-width="1.8"/>
+<line x1="519.0" y1="50" x2="738.0" y2="50" stroke="#c05621" stroke-width="1.8"/>
+<line x1="657.0" y1="50" x2="657.0" y2="69.6" stroke="#c05621" stroke-width="1.8"/>
+<path d="M657.0,76.0 L653.0,68.0 L661.0,68.0 z" fill="#c05621"/>
+<line x1="738.0" y1="50" x2="738.0" y2="69.6" stroke="#c05621" stroke-width="1.8"/>
+<path d="M738.0,76.0 L734.0,68.0 L742.0,68.0 z" fill="#c05621"/>
+<line x1="434.0" y1="120" x2="434.0" y2="148" stroke="#2f5d8a" stroke-width="1.8"/>
+<line x1="519.0" y1="120" x2="519.0" y2="148" stroke="#2f5d8a" stroke-width="1.8"/>
+<line x1="434.0" y1="148" x2="584.0" y2="148" stroke="#2f5d8a" stroke-width="1.8"/>
+<line x1="584.0" y1="148" x2="584.0" y2="130.4" stroke="#2f5d8a" stroke-width="1.8"/>
+<path d="M584.0,124.0 L588.0,132.0 L580.0,132.0 z" fill="#2f5d8a"/>
+<line x1="203.0" y1="128" x2="152.81952897850144" y2="230.25454472305367" stroke="#9aa5b1" stroke-width="1.6" stroke-dasharray="5 4"/>
+<path d="M150.0,236.0 L149.9,227.1 L157.1,230.6 z" fill="#9aa5b1"/>
+<line x1="499.0" y1="164" x2="414.9756688422078" y2="231.97473981304535" stroke="#9aa5b1" stroke-width="1.6" stroke-dasharray="5 4"/>
+<path d="M410.0,236.0 L413.7,227.9 L418.7,234.1 z" fill="#9aa5b1"/>
+<line x1="677.0" y1="128" x2="670.4139462402266" y2="229.61340086507676" stroke="#9aa5b1" stroke-width="1.6" stroke-dasharray="5 4"/>
+<path d="M670.0,236.0 L666.5,227.8 L674.5,228.3 z" fill="#9aa5b1"/>
+<rect x="40" y="250" width="220" height="160" rx="6" fill="#f7f9fb" stroke="#9aa5b1" stroke-width="1"/>
+<path d="M40,282 v-26 q0,-6 6,-6 h208 q6,0 6,6 v26 z" fill="#2f5d8a"/>
+<text x="52" y="271.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="15" font-weight="700" fill="#ffffff" text-anchor="start">orders_2nf</text>
+<text x="250" y="271" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="400" fill="#ffffff" text-anchor="end">10행</text>
+<text x="52" y="302.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="14" font-weight="700" fill="#1f2933" text-anchor="start">order_id</text>
+<text x="250" y="302.5" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11.5" font-weight="700" fill="#b7791f" text-anchor="end">PK</text>
+<text x="52" y="326.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="14" font-weight="400" fill="#1f2933" text-anchor="start">store</text>
+<text x="52" y="350.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="14" font-weight="400" fill="#1f2933" text-anchor="start">member_id</text>
+<text x="52" y="374.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="14" font-weight="400" fill="#1f2933" text-anchor="start">member_name</text>
+<text x="52" y="398.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="14" font-weight="400" fill="#1f2933" text-anchor="start">grade</text>
+<rect x="40" y="242" width="220" height="8" rx="3" fill="#e8f0f8" stroke="#9aa5b1" stroke-width="1"/>
+<rect x="300" y="250" width="220" height="112" rx="6" fill="#f7f9fb" stroke="#9aa5b1" stroke-width="1"/>
+<path d="M300,282 v-26 q0,-6 6,-6 h208 q6,0 6,6 v26 z" fill="#2f5d8a"/>
+<text x="312" y="271.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="15" font-weight="700" fill="#ffffff" text-anchor="start">item_2nf</text>
+<text x="510" y="271" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="400" fill="#ffffff" text-anchor="end">16행</text>
+<text x="312" y="302.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="14" font-weight="700" fill="#1f2933" text-anchor="start">order_id</text>
+<text x="510" y="302.5" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11.5" font-weight="700" fill="#b7791f" text-anchor="end">PK</text>
+<text x="312" y="326.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="14" font-weight="700" fill="#1f2933" text-anchor="start">menu_id</text>
+<text x="510" y="326.5" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11.5" font-weight="700" fill="#b7791f" text-anchor="end">PK</text>
+<text x="312" y="350.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="14" font-weight="400" fill="#1f2933" text-anchor="start">qty</text>
+<rect x="300" y="242" width="220" height="8" rx="3" fill="#fbefd9" stroke="#9aa5b1" stroke-width="1"/>
+<rect x="560" y="250" width="220" height="112" rx="6" fill="#f7f9fb" stroke="#9aa5b1" stroke-width="1"/>
+<path d="M560,282 v-26 q0,-6 6,-6 h208 q6,0 6,6 v26 z" fill="#2f5d8a"/>
+<text x="572" y="271.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="15" font-weight="700" fill="#ffffff" text-anchor="start">menu_2nf</text>
+<text x="770" y="271" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="400" fill="#ffffff" text-anchor="end">11행</text>
+<text x="572" y="302.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="14" font-weight="700" fill="#1f2933" text-anchor="start">menu_id</text>
+<text x="770" y="302.5" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11.5" font-weight="700" fill="#b7791f" text-anchor="end">PK</text>
+<text x="572" y="326.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="14" font-weight="400" fill="#1f2933" text-anchor="start">menu_name</text>
+<text x="572" y="350.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="14" font-weight="400" fill="#1f2933" text-anchor="start">price</text>
+<rect x="560" y="242" width="220" height="8" rx="3" fill="#e3f3ea" stroke="#9aa5b1" stroke-width="1"/>
+<line x1="300" y1="395.5" x2="332" y2="395.5" stroke="#c05621" stroke-width="2.4"/>
+<text x="344" y="400" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13.5" font-weight="700" fill="#c05621" text-anchor="start">부분 종속</text>
+<text x="424" y="400" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="400" fill="#1f2933" text-anchor="start">기본키 일부에 종속 → 따로 뺀다</text>
+<line x1="300" y1="421.5" x2="332" y2="421.5" stroke="#2f5d8a" stroke-width="2.4"/>
+<text x="344" y="426" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13.5" font-weight="700" fill="#2f5d8a" text-anchor="start">완전 종속</text>
+<text x="424" y="426" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="400" fill="#1f2933" text-anchor="start">키 전체에 종속 → 원래 키와 남긴다</text>
+</svg>

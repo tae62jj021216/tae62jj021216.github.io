@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 520" width="850" height="520" role="img" aria-label="store에서 공원점(3)을 지웠을 때 staff는 SET NULL, shift는 CASCADE, sales는 RESTRICT로 동작하는 모습">
+<title>store에서 공원점(3)을 지웠을 때 staff는 SET NULL, shift는 CASCADE, sales는 RESTRICT로 동작하는 모습</title>
+<rect width="850" height="520" rx="12" fill="#ffffff"/>
+<text x="30" y="30" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="14" font-weight="700" fill="#c53030" text-anchor="start">DELETE FROM store WHERE store_id = 3;</text>
+<text x="340" y="60" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="14" font-weight="700" fill="#1f2933" text-anchor="start">store</text>
+<rect x="340" y="70" width="170" height="26" rx="0" fill="#2f5d8a"/>
+<text x="382.5" y="87.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12.5" font-weight="700" fill="#ffffff" text-anchor="middle">store_id</text>
+<text x="467.5" y="87.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12.5" font-weight="700" fill="#ffffff" text-anchor="middle">name</text>
+<rect x="340" y="96" width="170" height="26" rx="0" fill="#ffffff"/>
+<text x="382.5" y="113.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13" font-weight="400" fill="#1f2933" text-anchor="middle">1</text>
+<text x="467.5" y="113.5" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="400" fill="#1f2933" text-anchor="middle">본점</text>
+<rect x="340" y="122" width="170" height="26" rx="0" fill="#f7f9fb"/>
+<text x="382.5" y="139.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13" font-weight="400" fill="#1f2933" text-anchor="middle">2</text>
+<text x="467.5" y="139.5" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="400" fill="#1f2933" text-anchor="middle">강변점</text>
+<rect x="340" y="148" width="170" height="26" rx="0" fill="#fbe4e4"/>
+<text x="382.5" y="165.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13" font-weight="400" fill="#616e7c" text-anchor="middle">3</text>
+<text x="467.5" y="165.5" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="400" fill="#616e7c" text-anchor="middle">공원점</text>
+<line x1="346" y1="161.0" x2="504" y2="161.0" stroke="#c53030" stroke-width="1.6"/>
+<rect x="340" y="70" width="170" height="104" rx="0" fill="none" stroke="#9aa5b1" stroke-width="1"/>
+<line x1="425.0" y1="178" x2="151.33567675943146" y2="217.09490332008122" stroke="#9aa5b1" stroke-width="1.6"/>
+<path d="M145.0,218.0 L152.4,212.9 L153.5,220.8 z" fill="#9aa5b1"/>
+<line x1="425.0" y1="178" x2="416.5522280002325" y2="211.79108799906987" stroke="#9aa5b1" stroke-width="1.6"/>
+<path d="M415.0,218.0 L413.1,209.3 L420.8,211.2 z" fill="#9aa5b1"/>
+<line x1="425.0" y1="178" x2="678.674421135036" y2="217.02683402077477" stroke="#9aa5b1" stroke-width="1.6"/>
+<path d="M685.0,218.0 L676.5,220.7 L677.7,212.8 z" fill="#9aa5b1"/>
+<text x="30" y="238" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="14" font-weight="700" fill="#1f2933" text-anchor="start">staff</text>
+<text x="84" y="238" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12.5" font-weight="700" fill="#c05621" text-anchor="start">ON DELETE SET NULL</text>
+<rect x="30" y="268" width="230" height="26" rx="0" fill="#2f5d8a"/>
+<text x="67.5" y="285.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12.5" font-weight="700" fill="#ffffff" text-anchor="middle">staff_id</text>
+<text x="140.0" y="285.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12.5" font-weight="700" fill="#ffffff" text-anchor="middle">name</text>
+<text x="217.5" y="285.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12.5" font-weight="700" fill="#ffffff" text-anchor="middle">store_id</text>
+<rect x="30" y="294" width="230" height="26" rx="0" fill="#ffffff"/>
+<text x="67.5" y="311.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13" font-weight="400" fill="#1f2933" text-anchor="middle">1</text>
+<text x="140.0" y="311.5" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="400" fill="#1f2933" text-anchor="middle">방자</text>
+<text x="217.5" y="311.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13" font-weight="400" fill="#1f2933" text-anchor="middle">1</text>
+<rect x="30" y="320" width="230" height="26" rx="0" fill="#f7f9fb"/>
+<text x="67.5" y="337.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13" font-weight="400" fill="#1f2933" text-anchor="middle">2</text>
+<text x="140.0" y="337.5" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="400" fill="#1f2933" text-anchor="middle">향단</text>
+<text x="217.5" y="337.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13" font-weight="400" fill="#1f2933" text-anchor="middle">2</text>
+<rect x="30" y="346" width="230" height="26" rx="0" fill="#ffffff"/>
+<text x="67.5" y="363.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13" font-weight="400" fill="#1f2933" text-anchor="middle">3</text>
+<text x="140.0" y="363.5" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="400" fill="#1f2933" text-anchor="middle">변학도</text>
+<rect x="175" y="346" width="85" height="26" rx="0" fill="#fde8dd"/>
+<text x="217.5" y="363.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13" font-weight="700" fill="#c05621" text-anchor="middle">NULL</text>
+<rect x="30" y="372" width="230" height="26" rx="0" fill="#f7f9fb"/>
+<text x="67.5" y="389.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13" font-weight="400" fill="#1f2933" text-anchor="middle">4</text>
+<text x="140.0" y="389.5" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="400" fill="#1f2933" text-anchor="middle">장화</text>
+<rect x="175" y="372" width="85" height="26" rx="0" fill="#fde8dd"/>
+<text x="217.5" y="389.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13" font-weight="700" fill="#c05621" text-anchor="middle">NULL</text>
+<rect x="30" y="268" width="230" height="130" rx="0" fill="none" stroke="#9aa5b1" stroke-width="1"/>
+<text x="300" y="238" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="14" font-weight="700" fill="#1f2933" text-anchor="start">shift</text>
+<text x="352" y="238" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12.5" font-weight="700" fill="#c53030" text-anchor="start">ON DELETE CASCADE</text>
+<rect x="300" y="268" width="230" height="26" rx="0" fill="#2f5d8a"/>
+<text x="337.5" y="285.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12.5" font-weight="700" fill="#ffffff" text-anchor="middle">store_id</text>
+<text x="425.0" y="285.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12.5" font-weight="700" fill="#ffffff" text-anchor="middle">work_date</text>
+<text x="502.5" y="285.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12.5" font-weight="700" fill="#ffffff" text-anchor="middle">slot</text>
+<rect x="300" y="294" width="230" height="26" rx="0" fill="#ffffff"/>
+<text x="337.5" y="311.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13" font-weight="400" fill="#1f2933" text-anchor="middle">1</text>
+<text x="425.0" y="311.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13" font-weight="400" fill="#1f2933" text-anchor="middle">2026-09-01</text>
+<text x="502.5" y="311.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13" font-weight="400" fill="#1f2933" text-anchor="middle">AM</text>
+<rect x="300" y="320" width="230" height="26" rx="0" fill="#f7f9fb"/>
+<text x="337.5" y="337.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13" font-weight="400" fill="#1f2933" text-anchor="middle">2</text>
+<text x="425.0" y="337.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13" font-weight="400" fill="#1f2933" text-anchor="middle">2026-09-01</text>
+<text x="502.5" y="337.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13" font-weight="400" fill="#1f2933" text-anchor="middle">AM</text>
+<rect x="300" y="346" width="230" height="26" rx="0" fill="#fbe4e4"/>
+<text x="337.5" y="363.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13" font-weight="400" fill="#616e7c" text-anchor="middle">3</text>
+<text x="425.0" y="363.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13" font-weight="400" fill="#616e7c" text-anchor="middle">2026-09-01</text>
+<text x="502.5" y="363.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13" font-weight="400" fill="#616e7c" text-anchor="middle">AM</text>
+<line x1="306" y1="359.0" x2="524" y2="359.0" stroke="#c53030" stroke-width="1.6"/>
+<rect x="300" y="372" width="230" height="26" rx="0" fill="#fbe4e4"/>
+<text x="337.5" y="389.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13" font-weight="400" fill="#616e7c" text-anchor="middle">3</text>
+<text x="425.0" y="389.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13" font-weight="400" fill="#616e7c" text-anchor="middle">2026-09-01</text>
+<text x="502.5" y="389.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13" font-weight="400" fill="#616e7c" text-anchor="middle">PM</text>
+<line x1="306" y1="385.0" x2="524" y2="385.0" stroke="#c53030" stroke-width="1.6"/>
+<rect x="300" y="268" width="230" height="130" rx="0" fill="none" stroke="#9aa5b1" stroke-width="1"/>
+<text x="570" y="238" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="14" font-weight="700" fill="#1f2933" text-anchor="start">sales</text>
+<text x="622" y="238" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12.5" font-weight="700" fill="#2f5d8a" text-anchor="start">ON DELETE RESTRICT</text>
+<rect x="570" y="268" width="230" height="26" rx="0" fill="#2f5d8a"/>
+<text x="605.0" y="285.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12.5" font-weight="700" fill="#ffffff" text-anchor="middle">sale_id</text>
+<text x="677.5" y="285.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12.5" font-weight="700" fill="#ffffff" text-anchor="middle">store_id</text>
+<text x="757.5" y="285.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12.5" font-weight="700" fill="#ffffff" text-anchor="middle">amount</text>
+<rect x="570" y="294" width="230" height="26" rx="0" fill="#ffffff"/>
+<text x="605.0" y="311.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13" font-weight="400" fill="#1f2933" text-anchor="middle">1</text>
+<text x="677.5" y="311.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13" font-weight="400" fill="#1f2933" text-anchor="middle">1</text>
+<text x="757.5" y="311.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13" font-weight="400" fill="#1f2933" text-anchor="middle">152000</text>
+<rect x="570" y="320" width="230" height="26" rx="0" fill="#f7f9fb"/>
+<text x="605.0" y="337.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13" font-weight="400" fill="#1f2933" text-anchor="middle">2</text>
+<text x="677.5" y="337.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13" font-weight="400" fill="#1f2933" text-anchor="middle">2</text>
+<text x="757.5" y="337.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13" font-weight="400" fill="#1f2933" text-anchor="middle">98000</text>
+<rect x="570" y="268" width="230" height="78" rx="0" fill="none" stroke="#9aa5b1" stroke-width="1"/>
+<text x="30" y="428" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13.5" font-weight="700" fill="#c05621" text-anchor="start">행은 남고 외래키만 NULL</text>
+<text x="30" y="448" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="400" fill="#616e7c" text-anchor="start">직원 2명의 store_id가 NULL</text>
+<text x="300" y="428" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13.5" font-weight="700" fill="#c53030" text-anchor="start">자식 행도 함께 삭제</text>
+<text x="300" y="448" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="400" fill="#616e7c" text-anchor="start">공원점 근무 2건이 사라짐</text>
+<text x="570" y="362" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13.5" font-weight="700" fill="#2f855a" text-anchor="start">store_id = 3인 행이 없어 통과</text>
+<rect x="570" y="380" width="230" height="92" rx="8" fill="#fbe4e4" stroke="#c53030" stroke-width="1.2"/>
+<text x="584" y="404" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="700" fill="#c53030" text-anchor="start">매출이 있는 본점(1)을 지우면</text>
+<text x="584" y="426" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="400" fill="#1f2933" text-anchor="start">ERROR 1451로 거부</text>
+<text x="584" y="448" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="400" fill="#616e7c" text-anchor="start">문장 전체가 실패해 staff·shift도</text>
+<text x="584" y="466" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="400" fill="#616e7c" text-anchor="start">바뀌지 않는다</text>
+</svg>

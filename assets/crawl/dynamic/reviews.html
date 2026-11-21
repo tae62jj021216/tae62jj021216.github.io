@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex">
+<title>고객 리뷰 - 가상카페 온라인몰</title>
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<header id="top">
+<h1 class="logo">가상카페 온라인몰</h1>
+<nav class="menu"><a href="../shop/list-1.html">전체 상품</a><a href="../shop/../dynamic/search.html">상품 검색</a><a href="../shop/../dynamic/stores.html">매장 찾기</a></nav>
+</header>
+<main>
+<p class="notice">리뷰가 자바스크립트로 늦게 그려지고, 아래로 스크롤하면 더 불러오는 연습 페이지입니다.</p>
+<h2>고객 리뷰 <span id="status">불러오는 중...</span></h2>
+<ul id="review-list"></ul>
+</main>
+<footer>Taeyoon.log 크롤링 연습 페이지 · 모든 데이터는 가상입니다.</footer>
+<script>
+// 처음 HTML에는 리뷰가 없다. 1초 뒤 reviews.json을 받아 10개씩 그리고, 바닥까지 스크롤하면 10개를 더 붙인다.
+let all = [], shown = 0, busy = false;
+const list = document.getElementById('review-list');
+function more() {
+  busy = true;
+  setTimeout(() => {
+    all.slice(shown, shown + 10).forEach(r => {
+      const li = document.createElement('li');
+      li.className = 'review-item';
+      li.innerHTML = '<span class="user">' + r.user + '</span> <span class="product">' + r.product +
+        '</span> <span class="star">' + '★'.repeat(r.rating) + '</span> <p class="text">' + r.text +
+        '</p><span class="date">' + r.date + '</span>';
+      list.appendChild(li);
+    });
+    shown = Math.min(shown + 10, all.length);
+    document.getElementById('status').textContent = shown + ' / ' + all.length;
+    busy = false;
+  }, 700);
+}
+setTimeout(() => fetch('reviews.json').then(r => r.json()).then(d => { all = d; more(); }), 1000);
+window.addEventListener('scroll', () => {
+  if (!busy && shown < all.length && window.innerHeight + window.scrollY >= document.body.scrollHeight - 5) more();
+});
+</script>
+</body>
+</html>

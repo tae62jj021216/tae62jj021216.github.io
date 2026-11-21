@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex">
+<title>매장 찾기 - 가상카페</title>
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<header id="top">
+<h1 class="logo">가상카페 온라인몰</h1>
+<nav class="menu"><a href="../shop/list-1.html">전체 상품</a><a href="../shop/../dynamic/search.html">상품 검색</a><a href="../shop/../dynamic/stores.html">매장 찾기</a></nav>
+</header>
+<main>
+<p class="notice">드롭다운과 버튼으로 결과를 바꾸는 연습 페이지입니다.</p>
+<select id="sido" name="sido"><option value="">시·도 선택</option><option value="서울특별시">서울특별시</option><option value="부산광역시">부산광역시</option><option value="대전광역시">대전광역시</option></select>
+<select id="gugun" name="gugun"><option value="">구·군 선택</option></select>
+<button type="button" id="search-btn">조회</button>
+<button type="button" id="download-btn">CSV 저장</button>
+<p id="result-count"></p>
+<table id="store-table"><tbody><tr><td>지역을 고르고 조회를 누르세요.</td></tr></tbody></table>
+</main>
+<footer>Taeyoon.log 크롤링 연습 페이지 · 모든 데이터는 가상입니다.</footer>
+<script>
+// 시·도를 고르면 0.5초 뒤 구·군 목록이 채워진다. 조회를 누르면 0.6초 뒤 결과 표가 새 표로 바뀐다.
+let stores = [];
+fetch('stores.json').then(r => r.json()).then(d => { stores = d; });
+const REGIONS = {"서울특별시": ["종로구", "중구", "용산구", "강남구"], "부산광역시": ["해운대구", "수영구", "부산진구"], "대전광역시": ["유성구", "서구"]};
+const sido = document.getElementById('sido'), gugun = document.getElementById('gugun');
+sido.addEventListener('change', () => {
+  gugun.innerHTML = '<option value="">구·군 선택</option>';
+  setTimeout(() => {
+    (REGIONS[sido.value] || []).forEach(g => {
+      const o = document.createElement('option'); o.value = g; o.textContent = g; gugun.appendChild(o);
+    });
+  }, 500);
+});
+let current = [];
+document.getElementById('search-btn').addEventListener('click', () => {
+  setTimeout(() => {
+    current = stores.filter(s => s.sido === sido.value && (!gugun.value || s.gugun === gugun.value));
+    const t = document.createElement('table');
+    t.id = 'store-table';
+    t.innerHTML = '<thead><tr><th>매장명</th><th>주소</th><th>좌석</th><th>드라이브스루</th></tr></thead><tbody>' +
+      current.map(s => '<tr><td class="store-name">' + s.storeNm + '</td><td class="addr">' + s.addr +
+        '</td><td class="seats">' + s.seats + '</td><td class="dt">' + s.driveThru + '</td></tr>').join('') + '</tbody>';
+    document.getElementById('store-table').replaceWith(t);
+    document.getElementById('result-count').textContent = current.length + '개 매장';
+  }, 600);
+});
+document.getElementById('download-btn').addEventListener('click', () => {
+  const rows = [['storeId', 'storeNm', 'sido', 'gugun', 'addr', 'seats', 'driveThru']]
+    .concat(current.map(s => [s.storeId, s.storeNm, s.sido, s.gugun, s.addr, s.seats, s.driveThru]));
+  const blob = new Blob(['\ufeff' + rows.map(r => r.join(',')).join('\n')], {type: 'text/csv'});
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = 'stores_' + (sido.value || 'all') + '_' + (gugun.value || 'all') + '.csv';
+  a.click();
+});
+</script>
+</body>
+</html>

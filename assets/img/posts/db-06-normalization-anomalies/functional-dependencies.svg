@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 290" width="820" height="290" role="img" aria-label="order_sheet 함수 종속: 기본키에서 qty로 완전 종속, order_id·menu_id에서 부분 종속, member_id를 거친 이행 종속">
+<title>order_sheet 함수 종속: 기본키에서 qty로 완전 종속, order_id·menu_id에서 부분 종속, member_id를 거친 이행 종속</title>
+<rect width="820" height="290" rx="12" fill="#ffffff"/>
+<rect x="53.0" y="66" width="82.0" height="40" rx="4" fill="#fbefd9" stroke="#9aa5b1" stroke-width="1.2"/>
+<text x="94.0" y="91" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13.5" font-weight="700" fill="#1f2933" text-anchor="middle">order_id</text>
+<line x1="61.0" y1="96" x2="127.0" y2="96" stroke="#1f2933" stroke-width="1"/>
+<rect x="142.0" y="66" width="74.0" height="40" rx="4" fill="#fbefd9" stroke="#9aa5b1" stroke-width="1.2"/>
+<text x="179.0" y="91" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13.5" font-weight="700" fill="#1f2933" text-anchor="middle">menu_id</text>
+<line x1="150.0" y1="96" x2="208.0" y2="96" stroke="#1f2933" stroke-width="1"/>
+<rect x="223.0" y="66" width="42.0" height="40" rx="4" fill="#f7f9fb" stroke="#9aa5b1" stroke-width="1.2"/>
+<text x="244.0" y="91" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13.5" font-weight="400" fill="#1f2933" text-anchor="middle">qty</text>
+<rect x="272.0" y="66" width="90.0" height="40" rx="4" fill="#f7f9fb" stroke="#9aa5b1" stroke-width="1.2"/>
+<text x="317.0" y="91" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13.5" font-weight="400" fill="#1f2933" text-anchor="middle">menu_name</text>
+<rect x="369.0" y="66" width="58.0" height="40" rx="4" fill="#f7f9fb" stroke="#9aa5b1" stroke-width="1.2"/>
+<text x="398.0" y="91" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13.5" font-weight="400" fill="#1f2933" text-anchor="middle">price</text>
+<rect x="434.0" y="66" width="58.0" height="40" rx="4" fill="#f7f9fb" stroke="#9aa5b1" stroke-width="1.2"/>
+<text x="463.0" y="91" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13.5" font-weight="400" fill="#1f2933" text-anchor="middle">store</text>
+<rect x="499.0" y="66" width="90.0" height="40" rx="4" fill="#f7f9fb" stroke="#9aa5b1" stroke-width="1.2"/>
+<text x="544.0" y="91" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13.5" font-weight="400" fill="#1f2933" text-anchor="middle">member_id</text>
+<rect x="596.0" y="66" width="106.0" height="40" rx="4" fill="#f7f9fb" stroke="#9aa5b1" stroke-width="1.2"/>
+<text x="649.0" y="91" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13.5" font-weight="400" fill="#1f2933" text-anchor="middle">member_name</text>
+<rect x="709.0" y="66" width="58.0" height="40" rx="4" fill="#f7f9fb" stroke="#9aa5b1" stroke-width="1.2"/>
+<text x="738.0" y="91" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13.5" font-weight="400" fill="#1f2933" text-anchor="middle">grade</text>
+<line x1="94.0" y1="66" x2="94.0" y2="32" stroke="#2f5d8a" stroke-width="1.8"/>
+<line x1="179.0" y1="66" x2="179.0" y2="32" stroke="#2f5d8a" stroke-width="1.8"/>
+<line x1="94.0" y1="32" x2="244.0" y2="32" stroke="#2f5d8a" stroke-width="1.8"/>
+<line x1="244.0" y1="32" x2="244.0" y2="55.6" stroke="#2f5d8a" stroke-width="1.8"/>
+<path d="M244.0,62.0 L240.0,54.0 L248.0,54.0 z" fill="#2f5d8a"/>
+<line x1="544.0" y1="66" x2="544.0" y2="32" stroke="#6b46c1" stroke-width="1.8"/>
+<line x1="544.0" y1="32" x2="738.0" y2="32" stroke="#6b46c1" stroke-width="1.8"/>
+<line x1="649.0" y1="32" x2="649.0" y2="55.6" stroke="#6b46c1" stroke-width="1.8"/>
+<path d="M649.0,62.0 L645.0,54.0 L653.0,54.0 z" fill="#6b46c1"/>
+<line x1="738.0" y1="32" x2="738.0" y2="55.6" stroke="#6b46c1" stroke-width="1.8"/>
+<path d="M738.0,62.0 L734.0,54.0 L742.0,54.0 z" fill="#6b46c1"/>
+<line x1="179.0" y1="106" x2="179.0" y2="136" stroke="#c05621" stroke-width="1.8"/>
+<line x1="179.0" y1="136" x2="398.0" y2="136" stroke="#c05621" stroke-width="1.8"/>
+<line x1="317.0" y1="136" x2="317.0" y2="116.4" stroke="#c05621" stroke-width="1.8"/>
+<path d="M317.0,110.0 L321.0,118.0 L313.0,118.0 z" fill="#c05621"/>
+<line x1="398.0" y1="136" x2="398.0" y2="116.4" stroke="#c05621" stroke-width="1.8"/>
+<path d="M398.0,110.0 L402.0,118.0 L394.0,118.0 z" fill="#c05621"/>
+<line x1="94.0" y1="106" x2="94.0" y2="166" stroke="#c05621" stroke-width="1.8"/>
+<line x1="94.0" y1="166" x2="544.0" y2="166" stroke="#c05621" stroke-width="1.8"/>
+<line x1="463.0" y1="166" x2="463.0" y2="116.4" stroke="#c05621" stroke-width="1.8"/>
+<path d="M463.0,110.0 L467.0,118.0 L459.0,118.0 z" fill="#c05621"/>
+<line x1="544.0" y1="166" x2="544.0" y2="116.4" stroke="#c05621" stroke-width="1.8"/>
+<path d="M544.0,110.0 L548.0,118.0 L540.0,118.0 z" fill="#c05621"/>
+<line x1="60" y1="205.5" x2="92" y2="205.5" stroke="#2f5d8a" stroke-width="2.4"/>
+<text x="104" y="210" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13.5" font-weight="700" fill="#2f5d8a" text-anchor="start">완전 종속</text>
+<text x="184" y="210" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13" font-weight="400" fill="#1f2933" text-anchor="start">(order_id, menu_id) → qty</text>
+<line x1="60" y1="231.5" x2="92" y2="231.5" stroke="#c05621" stroke-width="2.4"/>
+<text x="104" y="236" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13.5" font-weight="700" fill="#c05621" text-anchor="start">부분 종속</text>
+<text x="184" y="236" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13" font-weight="400" fill="#1f2933" text-anchor="start">order_id → store, member_id / menu_id → menu_name, price</text>
+<line x1="60" y1="257.5" x2="92" y2="257.5" stroke="#6b46c1" stroke-width="2.4"/>
+<text x="104" y="262" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13.5" font-weight="700" fill="#6b46c1" text-anchor="start">이행 종속</text>
+<text x="184" y="262" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13" font-weight="400" fill="#1f2933" text-anchor="start">order_id → member_id → member_name, grade</text>
+<text x="760" y="210" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="400" fill="#616e7c" text-anchor="end">밑줄 = 기본키</text>
+</svg>

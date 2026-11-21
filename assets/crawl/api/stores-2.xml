@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+  <header>
+    <resultCode>00</resultCode>
+    <resultMsg>NORMAL SERVICE.</resultMsg>
+  </header>
+  <body>
+    <items>
+      <item><storeId>S011</storeId><storeNm>가상카페 강남구 2호점</storeNm><sido>서울특별시</sido><gugun>강남구</gugun><addr>서울특별시 강남구 연습로 43</addr><seats>57</seats><driveThru>N</driveThru><openDate>2025-12-06</openDate></item>
+      <item><storeId>S012</storeId><storeNm>가상카페 강남구 3호점</storeNm><sido>서울특별시</sido><gugun>강남구</gugun><addr>서울특별시 강남구 연습로 46</addr><seats>24</seats><driveThru>N</driveThru><openDate>2020-01-09</openDate></item>
+      <item><storeId>S013</storeId><storeNm>가상카페 해운대구 1호점</storeNm><sido>부산광역시</sido><gugun>해운대구</gugun><addr>부산광역시 해운대구 연습로 49</addr><seats>31</seats><driveThru>N</driveThru><openDate>2021-02-12</openDate></item>
+      <item><storeId>S014</storeId><storeNm>가상카페 해운대구 2호점</storeNm><sido>부산광역시</sido><gugun>해운대구</gugun><addr>부산광역시 해운대구 연습로 52</addr><seats>38</seats><driveThru>N</driveThru><openDate>2022-03-15</openDate></item>
+      <item><storeId>S015</storeId><storeNm>가상카페 해운대구 3호점</storeNm><sido>부산광역시</sido><gugun>해운대구</gugun><addr>부산광역시 해운대구 연습로 55</addr><seats>45</seats><driveThru>Y</driveThru><openDate>2023-04-18</openDate></item>
+      <item><storeId>S016</storeId><storeNm>가상카페 수영구 1호점</storeNm><sido>부산광역시</sido><gugun>수영구</gugun><addr>부산광역시 수영구 연습로 58</addr><seats>52</seats><driveThru>N</driveThru><openDate>2024-05-21</openDate></item>
+      <item><storeId>S017</storeId><storeNm>가상카페 수영구 2호점</storeNm><sido>부산광역시</sido><gugun>수영구</gugun><addr>부산광역시 수영구 연습로 61</addr><seats>59</seats><driveThru>N</driveThru><openDate>2025-06-24</openDate></item>
+      <item><storeId>S018</storeId><storeNm>가상카페 부산진구 1호점</storeNm><sido>부산광역시</sido><gugun>부산진구</gugun><addr>부산광역시 부산진구 연습로 64</addr><seats>26</seats><driveThru>N</driveThru><openDate>2020-07-27</openDate></item>
+      <item><storeId>S019</storeId><storeNm>가상카페 부산진구 2호점</storeNm><sido>부산광역시</sido><gugun>부산진구</gugun><addr>부산광역시 부산진구 연습로 67</addr><seats>33</seats><driveThru>N</driveThru><openDate>2021-08-02</openDate></item>
+      <item><storeId>S020</storeId><storeNm>가상카페 유성구 1호점</storeNm><sido>대전광역시</sido><gugun>유성구</gugun><addr>대전광역시 유성구 연습로 70</addr><seats>40</seats><driveThru>Y</driveThru><openDate>2022-09-05</openDate></item>
+    </items>
+    <numOfRows>10</numOfRows>
+    <pageNo>2</pageNo>
+    <totalCount>23</totalCount>
+  </body>
+</response>
