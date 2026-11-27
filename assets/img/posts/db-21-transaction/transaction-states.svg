@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 830 330" width="830" height="330" role="img" aria-label="트랜잭션 상태 전이도. 활동에서 부분 완료를 거쳐 완료로 가고, 활동이나 부분 완료에서 실패하면 철회로 간다">
+<title>트랜잭션 상태 전이도. 활동에서 부분 완료를 거쳐 완료로 가고, 활동이나 부분 완료에서 실패하면 철회로 간다</title>
+<rect width="830" height="330" rx="12" fill="#ffffff"/>
+<line x1="20" y1="100" x2="64.6" y2="100.0" stroke="#616e7c" stroke-width="1.6"/>
+<path d="M71.0,100.0 L63.0,104.0 L63.0,96.0 z" fill="#616e7c"/>
+<text x="24" y="88" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12" font-weight="400" fill="#616e7c" text-anchor="start">시작</text>
+<line x1="229" y1="100" x2="329.6" y2="100.0" stroke="#2f855a" stroke-width="1.8"/>
+<path d="M336.0,100.0 L328.0,104.0 L328.0,96.0 z" fill="#2f855a"/>
+<text x="282.5" y="90" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12" font-weight="700" fill="#2f855a" text-anchor="middle">마지막 연산 끝</text>
+<line x1="494" y1="100" x2="594.6" y2="100.0" stroke="#2f855a" stroke-width="1.8"/>
+<path d="M601.0,100.0 L593.0,104.0 L593.0,96.0 z" fill="#2f855a"/>
+<text x="547.5" y="90" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12.5" font-weight="700" fill="#2f855a" text-anchor="middle">COMMIT</text>
+<line x1="180" y1="131" x2="330.69063841523575" y2="232.42639124102405" stroke="#c53030" stroke-width="1.6"/>
+<path d="M336.0,236.0 L327.1,234.9 L331.6,228.2 z" fill="#c53030"/>
+<text x="232" y="196" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12" font-weight="700" fill="#c53030" text-anchor="middle">오류</text>
+<line x1="415" y1="131" x2="415.0" y2="212.6" stroke="#c53030" stroke-width="1.6"/>
+<path d="M415.0,219.0 L411.0,211.0 L419.0,211.0 z" fill="#c53030"/>
+<text x="425" y="180" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12" font-weight="700" fill="#c53030" text-anchor="start">커밋 실패</text>
+<line x1="494" y1="250" x2="594.6" y2="250.0" stroke="#c53030" stroke-width="1.6"/>
+<path d="M601.0,250.0 L593.0,254.0 L593.0,246.0 z" fill="#c53030"/>
+<text x="547.5" y="240" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12.5" font-weight="700" fill="#c53030" text-anchor="middle">ROLLBACK</text>
+<rect x="75.0" y="71.0" width="150" height="58" rx="12" fill="#e8f0f8" stroke="#2f5d8a" stroke-width="1.6"/>
+<text x="150" y="98" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="15" font-weight="700" fill="#1f2933" text-anchor="middle">활동</text>
+<text x="150" y="117" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12" font-weight="400" fill="#616e7c" text-anchor="middle">Active</text>
+<rect x="330.0" y="71.0" width="170" height="58" rx="12" fill="#e8f0f8" stroke="#2f5d8a" stroke-width="1.6"/>
+<text x="415" y="98" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="15" font-weight="700" fill="#1f2933" text-anchor="middle">부분 완료</text>
+<text x="415" y="117" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12" font-weight="400" fill="#616e7c" text-anchor="middle">Partially Committed</text>
+<rect x="605.0" y="71.0" width="150" height="58" rx="12" fill="#e3f3ea" stroke="#2f855a" stroke-width="1.6"/>
+<text x="680" y="98" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="15" font-weight="700" fill="#1f2933" text-anchor="middle">완료</text>
+<text x="680" y="117" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12" font-weight="400" fill="#616e7c" text-anchor="middle">Committed</text>
+<rect x="340.0" y="221.0" width="150" height="58" rx="12" fill="#fbe4e4" stroke="#c53030" stroke-width="1.6"/>
+<text x="415" y="248" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="15" font-weight="700" fill="#1f2933" text-anchor="middle">실패</text>
+<text x="415" y="267" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12" font-weight="400" fill="#616e7c" text-anchor="middle">Failed</text>
+<rect x="605.0" y="221.0" width="150" height="58" rx="12" fill="#fbe4e4" stroke="#c53030" stroke-width="1.6"/>
+<text x="680" y="248" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="15" font-weight="700" fill="#1f2933" text-anchor="middle">철회</text>
+<text x="680" y="267" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12" font-weight="400" fill="#616e7c" text-anchor="middle">Aborted</text>
+<text x="680" y="300" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="400" fill="#616e7c" text-anchor="middle">시작 전 상태로 되돌아간다</text>
+<text x="415" y="30" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="400" fill="#616e7c" text-anchor="middle">부분 완료 = 마지막 연산은 끝났지만 아직 커밋 전</text>
+</svg>

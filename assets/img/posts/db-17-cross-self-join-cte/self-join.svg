@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 390" width="820" height="390" role="img" aria-label="staff를 e(직원)와 m(상사) 두 별칭으로 놓고 e.manager_id에서 m.staff_id로 화살표를 이은 셀프 조인">
+<title>staff를 e(직원)와 m(상사) 두 별칭으로 놓고 e.manager_id에서 m.staff_id로 화살표를 이은 셀프 조인</title>
+<rect width="820" height="390" rx="12" fill="#ffffff"/>
+<text x="50" y="34" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="15" font-weight="700" fill="#1f2933" text-anchor="start">staff e</text>
+<text x="120" y="34" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13.5" font-weight="700" fill="#616e7c" text-anchor="start">직원 역할</text>
+<text x="560" y="34" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="15" font-weight="700" fill="#1f2933" text-anchor="start">staff m</text>
+<text x="630" y="34" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13.5" font-weight="700" fill="#616e7c" text-anchor="start">상사 역할</text>
+<text x="50" y="56" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="400" fill="#616e7c" text-anchor="start">같은 테이블을 별칭 두 개로 두 번 부른다</text>
+<line x1="314" y1="144.0" x2="548.4377264211114" y2="116.648931917537" stroke="#2f5d8a" stroke-width="1.3"/>
+<path d="M554.0,116.0 L547.5,120.3 L546.6,113.3 z" fill="#2f5d8a"/>
+<line x1="314" y1="172.0" x2="548.546489225446" y2="117.27248584739594" stroke="#2f5d8a" stroke-width="1.3"/>
+<path d="M554.0,116.0 L548.0,121.0 L546.4,114.2 z" fill="#2f5d8a"/>
+<line x1="314" y1="200.0" x2="548.7143932043502" y2="117.8499623784774" stroke="#2f5d8a" stroke-width="1.3"/>
+<path d="M554.0,116.0 L548.5,121.6 L546.2,115.0 z" fill="#2f5d8a"/>
+<line x1="314" y1="228.0" x2="548.7143932043502" y2="145.8499623784774" stroke="#2f5d8a" stroke-width="1.3"/>
+<path d="M554.0,144.0 L548.5,149.6 L546.2,143.0 z" fill="#2f5d8a"/>
+<line x1="314" y1="256.0" x2="548.9253744160266" y2="146.3681586058543" stroke="#2f5d8a" stroke-width="1.3"/>
+<path d="M554.0,144.0 L549.1,150.1 L546.2,143.8 z" fill="#2f5d8a"/>
+<line x1="314" y1="284.0" x2="548.9253744160266" y2="174.3681586058543" stroke="#2f5d8a" stroke-width="1.3"/>
+<path d="M554.0,172.0 L549.1,178.1 L546.2,171.8 z" fill="#2f5d8a"/>
+<line x1="314" y1="312.0" x2="548.7143932043502" y2="229.8499623784774" stroke="#2f5d8a" stroke-width="1.3"/>
+<path d="M554.0,228.0 L548.5,233.6 L546.2,227.0 z" fill="#2f5d8a"/>
+<rect x="50" y="74" width="260" height="28" rx="0" fill="#2f5d8a"/>
+<text x="90.0" y="92.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12.5" font-weight="700" fill="#ffffff" text-anchor="middle">staff_id</text>
+<text x="170.0" y="92.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12.5" font-weight="700" fill="#ffffff" text-anchor="middle">name</text>
+<text x="260.0" y="92.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12.5" font-weight="700" fill="#ffffff" text-anchor="middle">manager_id</text>
+<rect x="50" y="102" width="260" height="28" rx="0" fill="#ffffff"/>
+<text x="90.0" y="120.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13" font-weight="400" fill="#1f2933" text-anchor="middle">1</text>
+<text x="170.0" y="120.5" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="400" fill="#1f2933" text-anchor="middle">월매</text>
+<rect x="210" y="102" width="100" height="28" rx="0" fill="#fde8dd"/>
+<text x="260.0" y="120.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13" font-weight="700" fill="#c05621" text-anchor="middle">NULL</text>
+<rect x="50" y="130" width="260" height="28" rx="0" fill="#f7f9fb"/>
+<text x="90.0" y="148.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13" font-weight="400" fill="#1f2933" text-anchor="middle">2</text>
+<text x="170.0" y="148.5" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="400" fill="#1f2933" text-anchor="middle">방자</text>
+<rect x="210" y="130" width="100" height="28" rx="0" fill="#fde8dd"/>
+<text x="260.0" y="148.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13" font-weight="700" fill="#c05621" text-anchor="middle">1</text>
+<rect x="50" y="158" width="260" height="28" rx="0" fill="#ffffff"/>
+<text x="90.0" y="176.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13" font-weight="400" fill="#1f2933" text-anchor="middle">3</text>
+<text x="170.0" y="176.5" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="400" fill="#1f2933" text-anchor="middle">향단</text>
+<rect x="210" y="158" width="100" height="28" rx="0" fill="#fde8dd"/>
+<text x="260.0" y="176.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13" font-weight="700" fill="#c05621" text-anchor="middle">1</text>
+<rect x="50" y="186" width="260" height="28" rx="0" fill="#f7f9fb"/>
+<text x="90.0" y="204.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13" font-weight="400" fill="#1f2933" text-anchor="middle">4</text>
+<text x="170.0" y="204.5" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="400" fill="#1f2933" text-anchor="middle">변학도</text>
+<rect x="210" y="186" width="100" height="28" rx="0" fill="#fde8dd"/>
+<text x="260.0" y="204.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13" font-weight="700" fill="#c05621" text-anchor="middle">1</text>
+<rect x="50" y="214" width="260" height="28" rx="0" fill="#ffffff"/>
+<text x="90.0" y="232.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13" font-weight="400" fill="#1f2933" text-anchor="middle">5</text>
+<text x="170.0" y="232.5" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="400" fill="#1f2933" text-anchor="middle">장화</text>
+<rect x="210" y="214" width="100" height="28" rx="0" fill="#fde8dd"/>
+<text x="260.0" y="232.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13" font-weight="700" fill="#c05621" text-anchor="middle">2</text>
+<rect x="50" y="242" width="260" height="28" rx="0" fill="#f7f9fb"/>
+<text x="90.0" y="260.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13" font-weight="400" fill="#1f2933" text-anchor="middle">6</text>
+<text x="170.0" y="260.5" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="400" fill="#1f2933" text-anchor="middle">홍련</text>
+<rect x="210" y="242" width="100" height="28" rx="0" fill="#fde8dd"/>
+<text x="260.0" y="260.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13" font-weight="700" fill="#c05621" text-anchor="middle">2</text>
+<rect x="50" y="270" width="260" height="28" rx="0" fill="#ffffff"/>
+<text x="90.0" y="288.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13" font-weight="400" fill="#1f2933" text-anchor="middle">7</text>
+<text x="170.0" y="288.5" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="400" fill="#1f2933" text-anchor="middle">전우치</text>
+<rect x="210" y="270" width="100" height="28" rx="0" fill="#fde8dd"/>
+<text x="260.0" y="288.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13" font-weight="700" fill="#c05621" text-anchor="middle">3</text>
+<rect x="50" y="298" width="260" height="28" rx="0" fill="#f7f9fb"/>
+<text x="90.0" y="316.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13" font-weight="400" fill="#1f2933" text-anchor="middle">8</text>
+<text x="170.0" y="316.5" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="400" fill="#1f2933" text-anchor="middle">옹고집</text>
+<rect x="210" y="298" width="100" height="28" rx="0" fill="#fde8dd"/>
+<text x="260.0" y="316.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13" font-weight="700" fill="#c05621" text-anchor="middle">5</text>
+<rect x="50" y="74" width="260" height="252" rx="0" fill="none" stroke="#9aa5b1" stroke-width="1"/>
+<rect x="560" y="74" width="160" height="28" rx="0" fill="#2f5d8a"/>
+<text x="600.0" y="92.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12.5" font-weight="700" fill="#ffffff" text-anchor="middle">staff_id</text>
+<text x="680.0" y="92.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12.5" font-weight="700" fill="#ffffff" text-anchor="middle">name</text>
+<rect x="560" y="102" width="160" height="28" rx="0" fill="#ffffff"/>
+<rect x="560" y="102" width="80" height="28" rx="0" fill="#fde8dd"/>
+<text x="600.0" y="120.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13" font-weight="700" fill="#c05621" text-anchor="middle">1</text>
+<text x="680.0" y="120.5" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="400" fill="#1f2933" text-anchor="middle">월매</text>
+<rect x="560" y="130" width="160" height="28" rx="0" fill="#f7f9fb"/>
+<rect x="560" y="130" width="80" height="28" rx="0" fill="#fde8dd"/>
+<text x="600.0" y="148.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13" font-weight="700" fill="#c05621" text-anchor="middle">2</text>
+<text x="680.0" y="148.5" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="400" fill="#1f2933" text-anchor="middle">방자</text>
+<rect x="560" y="158" width="160" height="28" rx="0" fill="#ffffff"/>
+<rect x="560" y="158" width="80" height="28" rx="0" fill="#fde8dd"/>
+<text x="600.0" y="176.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13" font-weight="700" fill="#c05621" text-anchor="middle">3</text>
+<text x="680.0" y="176.5" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="400" fill="#1f2933" text-anchor="middle">향단</text>
+<rect x="560" y="186" width="160" height="28" rx="0" fill="#f7f9fb"/>
+<rect x="560" y="186" width="80" height="28" rx="0" fill="#fde8dd"/>
+<text x="600.0" y="204.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13" font-weight="700" fill="#c05621" text-anchor="middle">4</text>
+<text x="680.0" y="204.5" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="400" fill="#1f2933" text-anchor="middle">변학도</text>
+<rect x="560" y="214" width="160" height="28" rx="0" fill="#ffffff"/>
+<rect x="560" y="214" width="80" height="28" rx="0" fill="#fde8dd"/>
+<text x="600.0" y="232.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13" font-weight="700" fill="#c05621" text-anchor="middle">5</text>
+<text x="680.0" y="232.5" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="400" fill="#1f2933" text-anchor="middle">장화</text>
+<rect x="560" y="242" width="160" height="28" rx="0" fill="#f7f9fb"/>
+<rect x="560" y="242" width="80" height="28" rx="0" fill="#fde8dd"/>
+<text x="600.0" y="260.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13" font-weight="700" fill="#c05621" text-anchor="middle">6</text>
+<text x="680.0" y="260.5" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="400" fill="#1f2933" text-anchor="middle">홍련</text>
+<rect x="560" y="270" width="160" height="28" rx="0" fill="#ffffff"/>
+<rect x="560" y="270" width="80" height="28" rx="0" fill="#fde8dd"/>
+<text x="600.0" y="288.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13" font-weight="700" fill="#c05621" text-anchor="middle">7</text>
+<text x="680.0" y="288.5" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="400" fill="#1f2933" text-anchor="middle">전우치</text>
+<rect x="560" y="298" width="160" height="28" rx="0" fill="#f7f9fb"/>
+<rect x="560" y="298" width="80" height="28" rx="0" fill="#fde8dd"/>
+<text x="600.0" y="316.5" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13" font-weight="700" fill="#c05621" text-anchor="middle">8</text>
+<text x="680.0" y="316.5" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="400" fill="#1f2933" text-anchor="middle">옹고집</text>
+<rect x="560" y="74" width="160" height="252" rx="0" fill="none" stroke="#9aa5b1" stroke-width="1"/>
+<text x="318" y="120.5" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12" font-weight="700" fill="#c05621" text-anchor="start">상사 없음</text>
+<text x="410" y="360" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="14" font-weight="700" fill="#2f5d8a" text-anchor="middle">ON e.manager_id = m.staff_id</text>
+<text x="410" y="382" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="400" fill="#616e7c" text-anchor="middle">월매는 manager_id가 NULL이라 짝이 없다. LEFT JOIN이면 상사 열이 NULL로 남는다.</text>
+</svg>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+  <header>
+    <resultCode>00</resultCode>
+    <resultMsg>NORMAL SERVICE.</resultMsg>
+  </header>
+  <body>
+    <items>
+      <item><storeId>S001</storeId><storeNm>가상카페 종로구 1호점</storeNm><sido>서울특별시</sido><gugun>종로구</gugun><addr>서울특별시 종로구 연습로 13</addr><seats>27</seats><driveThru>N</driveThru><openDate>2021-02-04</openDate></item>
+      <item><storeId>S002</storeId><storeNm>가상카페 종로구 2호점</storeNm><sido>서울특별시</sido><gugun>종로구</gugun><addr>서울특별시 종로구 연습로 16</addr><seats>34</seats><driveThru>N</driveThru><openDate>2022-03-07</openDate></item>
+      <item><storeId>S003</storeId><storeNm>가상카페 종로구 3호점</storeNm><sido>서울특별시</sido><gugun>종로구</gugun><addr>서울특별시 종로구 연습로 19</addr><seats>41</seats><driveThru>N</driveThru><openDate>2023-04-10</openDate></item>
+      <item><storeId>S004</storeId><storeNm>가상카페 중구 1호점</storeNm><sido>서울특별시</sido><gugun>중구</gugun><addr>서울특별시 중구 연습로 22</addr><seats>48</seats><driveThru>N</driveThru><openDate>2024-05-13</openDate></item>
+      <item><storeId>S005</storeId><storeNm>가상카페 중구 2호점</storeNm><sido>서울특별시</sido><gugun>중구</gugun><addr>서울특별시 중구 연습로 25</addr><seats>55</seats><driveThru>Y</driveThru><openDate>2025-06-16</openDate></item>
+      <item><storeId>S006</storeId><storeNm>가상카페 용산구 1호점</storeNm><sido>서울특별시</sido><gugun>용산구</gugun><addr>서울특별시 용산구 연습로 28</addr><seats>22</seats><driveThru>N</driveThru><openDate>2020-07-19</openDate></item>
+      <item><storeId>S007</storeId><storeNm>가상카페 용산구 2호점</storeNm><sido>서울특별시</sido><gugun>용산구</gugun><addr>서울특별시 용산구 연습로 31</addr><seats>29</seats><driveThru>N</driveThru><openDate>2021-08-22</openDate></item>
+      <item><storeId>S008</storeId><storeNm>가상카페 용산구 3호점</storeNm><sido>서울특별시</sido><gugun>용산구</gugun><addr>서울특별시 용산구 연습로 34</addr><seats>36</seats><driveThru>N</driveThru><openDate>2022-09-25</openDate></item>
+      <item><storeId>S009</storeId><storeNm>가상카페 용산구 4호점</storeNm><sido>서울특별시</sido><gugun>용산구</gugun><addr>서울특별시 용산구 연습로 37</addr><seats>43</seats><driveThru>N</driveThru><openDate>2023-10-28</openDate></item>
+      <item><storeId>S010</storeId><storeNm>가상카페 강남구 1호점</storeNm><sido>서울특별시</sido><gugun>강남구</gugun><addr>서울특별시 강남구 연습로 40</addr><seats>50</seats><driveThru>Y</driveThru><openDate>2024-11-03</openDate></item>
+    </items>
+    <numOfRows>10</numOfRows>
+    <pageNo>1</pageNo>
+    <totalCount>23</totalCount>
+  </body>
+</response>

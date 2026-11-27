@@ -1,0 +1,11 @@
+body{font-family:'Malgun Gothic',sans-serif;max-width:860px;margin:0 auto;padding:16px;color:#222}
+header{border-bottom:2px solid #2f5d8a;margin-bottom:16px}.logo{color:#2f5d8a;margin:8px 0}
+.menu a{margin-right:12px}.notice{background:#fbefd9;padding:8px;border-radius:6px;font-size:14px}
+.product-list{list-style:none;padding:0;display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+.product{border:1px solid #ccd;border-radius:8px;padding:12px}.product.soldout{opacity:.55}
+.badge{font-size:12px;padding:2px 6px;border-radius:4px;background:#c05621;color:#fff}.badge.soldout{background:#888}
+.name{font-size:16px;margin:8px 0}del{color:#888}.sale{color:#c53030}.pct{color:#c53030;font-weight:bold}
+.paging a{margin:0 4px}.paging .on{font-weight:bold;text-decoration:none;color:#222}
+table{border-collapse:collapse}th,td{border:1px solid #ccd;padding:6px 10px;text-align:left}
+footer{margin-top:24px;color:#888;font-size:13px}
+#review-list{list-style:none;padding:0}.review-item{min-height:110px;border-bottom:1px solid #ccd;padding:10px 0}

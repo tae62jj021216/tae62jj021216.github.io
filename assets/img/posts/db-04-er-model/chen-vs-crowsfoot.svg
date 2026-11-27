@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 340" width="760" height="340" role="img" aria-label="같은 회원 1 대 N 주문 관계를 Chen 표기법과 까마귀발 표기법으로 그린 비교">
+<title>같은 회원 1 대 N 주문 관계를 Chen 표기법과 까마귀발 표기법으로 그린 비교</title>
+<rect width="760" height="340" rx="12" fill="#ffffff"/>
+<text x="24" y="28" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="15" font-weight="700" fill="#1f2933" text-anchor="start">Chen 표기법</text>
+<text x="24" y="186" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="15" font-weight="700" fill="#1f2933" text-anchor="start">까마귀발 표기법</text>
+<line x1="24" y1="158" x2="736" y2="158" stroke="#cbd2d9" stroke-width="1"/>
+<line x1="210" y1="86" x2="325" y2="86" stroke="#52606d" stroke-width="1.5"/>
+<line x1="435" y1="86" x2="550" y2="86" stroke="#52606d" stroke-width="1.5"/>
+<rect x="90.0" y="62.0" width="120" height="48" rx="2" fill="#e8f0f8" stroke="#2f5d8a" stroke-width="1.6"/>
+<text x="150" y="91.5" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="15" font-weight="700" fill="#1f2933" text-anchor="middle">회원</text>
+<polygon points="380,56.0 435.0,86 380,116.0 325.0,86" fill="#fbefd9" stroke="#b7791f" stroke-width="1.6"/>
+<text x="380" y="91" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13.5" font-weight="700" fill="#1f2933" text-anchor="middle">주문함</text>
+<rect x="550.0" y="62.0" width="120" height="48" rx="2" fill="#e8f0f8" stroke="#2f5d8a" stroke-width="1.6"/>
+<text x="610" y="91.5" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="15" font-weight="700" fill="#1f2933" text-anchor="middle">주문</text>
+<text x="226" y="76" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="15" font-weight="700" fill="#c05621" text-anchor="middle">1</text>
+<text x="534" y="76" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="15" font-weight="700" fill="#c05621" text-anchor="middle">N</text>
+<text x="380" y="140" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="400" fill="#616e7c" text-anchor="middle">선 옆의 1, N이 대응 수 · 단일선은 부분 참여</text>
+<line x1="225" y1="250" x2="535" y2="250" stroke="#52606d" stroke-width="1.5"/>
+<rect x="75.0" y="219.0" width="150" height="62" rx="6" fill="#f7f9fb" stroke="#9aa5b1" stroke-width="1"/>
+<path d="M75.0,247.0 v-22 q0,-6 6,-6 h138 q6,0 6,6 v22 z" fill="#2f5d8a"/>
+<text x="150" y="238.5" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">회원</text>
+<text x="87.0" y="269.0" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12.5" font-weight="400" fill="#1f2933" text-anchor="start">member_id</text>
+<text x="215.0" y="269.0" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11.5" font-weight="700" fill="#b7791f" text-anchor="end">PK</text>
+<rect x="535.0" y="219.0" width="150" height="62" rx="6" fill="#f7f9fb" stroke="#9aa5b1" stroke-width="1"/>
+<path d="M535.0,247.0 v-22 q0,-6 6,-6 h138 q6,0 6,6 v22 z" fill="#2f5d8a"/>
+<text x="610" y="238.5" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">주문</text>
+<text x="547.0" y="269.0" font-family="'D2Coding', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12.5" font-weight="400" fill="#1f2933" text-anchor="start">member_id</text>
+<text x="675.0" y="269.0" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="11.5" font-weight="700" fill="#2f5d8a" text-anchor="end">FK</text>
+<line x1="235" y1="257" x2="235" y2="243" stroke="#52606d" stroke-width="1.5"/>
+<circle cx="243" cy="250" r="4.5" fill="#ffffff" stroke="#52606d" stroke-width="1.5"/>
+<line x1="521" y1="250" x2="535" y2="258" stroke="#52606d" stroke-width="1.5"/>
+<line x1="521" y1="250" x2="535" y2="250" stroke="#52606d" stroke-width="1.5"/>
+<line x1="521" y1="250" x2="535" y2="242" stroke="#52606d" stroke-width="1.5"/>
+<circle cx="515" cy="250" r="4.5" fill="#ffffff" stroke="#52606d" stroke-width="1.5"/>
+<text x="232" y="280" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="700" fill="#c05621" text-anchor="start">0 또는 1</text>
+<text x="232" y="298" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12" font-weight="400" fill="#616e7c" text-anchor="start">주문의 회원은</text>
+<text x="232" y="314" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12" font-weight="400" fill="#616e7c" text-anchor="start">없거나 한 명</text>
+<text x="528" y="280" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="13" font-weight="700" fill="#c05621" text-anchor="end">0개 이상</text>
+<text x="528" y="298" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12" font-weight="400" fill="#616e7c" text-anchor="end">회원의 주문은</text>
+<text x="528" y="314" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12" font-weight="400" fill="#616e7c" text-anchor="end">없거나 여러 건</text>
+<text x="736" y="186" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="12.5" font-weight="400" fill="#616e7c" text-anchor="end">선 끝의 원(○) = 최소 0, 막대(│) = 1, 까마귀발 = 여러 개</text>
+</svg>
